@@ -1,0 +1,42 @@
+name: Download Manifest
+
+on:
+  # Run daily
+  schedule:
+    - cron: '30 12 * * *'
+  # Manual run, for debugging purposes.
+  workflow_dispatch:
+    inputs: {}
+
+jobs:
+  Download_Manifest:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        major: [15, 16]
+        type: [release, pre]
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ matrix.type }}-${{ matrix.major }}
+
+      - name: Downloads current latest channels
+        run: |
+          curl -L https://aka.ms/vs/${{ matrix.major }}/${{ matrix.type }}/channel -o raw_channel.json
+          # Make a version that's easy to diff and view.
+          jq . raw_channel.json > channel.json
+
+      - name: Download current latest manifests
+        run: |
+          url=$(jq -r '.channelItems[0].payloads[0].url' raw_channel.json)
+          echo $url
+          curl -L $url -o raw_manifest.json
+          jq . raw_manifest.json > manifest.json
+
+      - name: Run a multi-line script
+        run: |
+          git add .
+          git commit -m "Add latest manifest"
+          git push origin ${{matrix.type}}-${{matrix.major}}
