@@ -1,0 +1,1239 @@
+{
+  "manifestVersion": "1.1",
+  "info": {
+    "id": "VisualStudio.15.Preview.retired/15.9.7-pre.1.0+28307.423",
+    "buildBranch": "d15.9",
+    "buildVersion": "15.9.28307.423",
+    "communityOrLowerFlightId": "c53585d49cc544f",
+    "localBuild": "build-lab",
+    "manifestName": "VisualStudio.15.Preview.retired",
+    "manifestType": "channel",
+    "productDisplayVersion": "15.9.7 Preview 1.0",
+    "productLine": "Dev15",
+    "productLineVersion": "2017",
+    "productMilestone": "Preview",
+    "productMilestoneIsPreRelease": "True",
+    "productName": "Visual Studio",
+    "productPatchVersion": "7",
+    "productPreReleaseMilestoneSuffix": "1.0",
+    "productRelease": "RTW",
+    "productSemanticVersion": "15.9.7-pre.1.0+28307.423",
+    "professionalOrGreaterFlightId": "f254b4590dad4ae",
+    "retired": "true"
+  },
+  "channelItems": [
+    {
+      "id": "Microsoft.VisualStudio.Manifests.VisualStudioPreview",
+      "version": "15.0.28307.423",
+      "type": "Manifest",
+      "payloads": [
+        {
+          "fileName": "VisualStudioPreview.vsman",
+          "sha256": "3bfd66799322c9b58a576f20a428f8660117f9ece0e52eb5a1682f025c520a9b",
+          "size": 14440351,
+          "url": "https://download.visualstudio.microsoft.com/download/pr/9d11ae63-3bf4-4581-b76d-a7d9771b5374/8a1bae2bab4686f5a49f903805eb53a0/visualstudiopreview.vsman"
+        }
+      ]
+    },
+    {
+      "id": "Microsoft.VisualStudio.Product.BuildTools",
+      "version": "15.9.28307.423",
+      "type": "ChannelProduct",
+      "icon": {
+        "mimeType": "image/svg+xml",
+        "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MCA0MCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTQwIDQwSDBWMGg0MHY0MHoiIGlkPSJjYW52YXMiLz4NCiAgPHBhdGggY2xhc3M9ImJyYW5kLXZzaWRlIiBkPSJNMzAuMjIxLS4wMDJMMTMuODg3IDE2LjE2IDQuMDUyIDguNzQ2IDAgMTAuMTAyVjI5LjlsNC4wNTIgMS4zNTYgOS44MzUtNy40MTQgMTYuMzM0IDE2LjE2TDQwIDM1Ljg0MlY0LjE1OGwtOS43NzktNC4xNnpNNC4wNTIgMjUuODlWMTQuMTExTDEwLjAwNCAyMGwtNS45NTIgNS44OXpNMzAgMjguNDcyTDE4Ljk4MyAyMCAzMCAxMS41Mjh2MTYuOTQ0eiIvPg0KPC9zdmc+"
+      },
+      "isHidden": true,
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660693#15.9.7-pre.1.0",
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Visual Studio Build Tools 2017",
+          "description": "The Visual Studio Build Tools allows you to build native and managed MSBuild-based applications without requiring the Visual Studio IDE. There are options to install the Visual C++ compilers and libraries, MFC, ATL, and C++/CLI support.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Visual Studio 15 生成工具 2017",
+          "description": "Visual Studio 生成工具允许生成本机和基于 MSBuild 的托管 .NET 应用程序，而不需要 Visual Studio IDE。还可以选择安装 Visual C++ 编译器和库、MFC、ALT 和 C++/CLI 支持。",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "zh-tw",
+          "title": "Visual Studio Build Tools 2017",
+          "description": "Visual Studio Build Tools 可讓您建置原生及受控 MSBuild 型工具，而不需要 Visual Studio IDE。選項包括安裝 Visual C++ 編譯器與程式庫、MFC、ATL 及 C++/CLI 支援。",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Visual Studio Build Tools 2017",
+          "description": "Nástroje Visual Studio Build Tools umožňují vytváření nativních a spravovaných aplikací na bázi platformy MSBuild, aniž by se vyžadovalo prostředí IDE sady Visual Studio. K dispozici jsou i možnosti pro instalaci nástrojů, jako jsou kompilátory a knihovny nebo podpora Visual C++, MFC, ATL a C++/CLI.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "de-de",
+          "title": "Visual Studio Build Tools 2017",
+          "description": "Die Visual Studio Build Tools ermöglichen Ihnen die Erstellung nativer und verwalteter MSBuild-basierter Anwendungen, ohne dass die Visual Studio-IDE erforderlich ist. Es stehen Optionen zur Installation von Visual C++-Compilern und -Bibliotheken, MFC, ATL sowie C++/CLI-Unterstützung zur Verfügung.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "es-es",
+          "title": "Visual Studio Build Tools 2017",
+          "description": "Visual Studio Build Tools permite compilar aplicaciones nativas y administradas basadas en MSBuild sin el IDE de Visual Studio. Hay opciones para instalar los compiladores y las bibliotecas de Visual C++, MFC, ATL y la compatibilidad con C++/CLI.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Visual Studio Build Tools 2017",
+          "description": "Visual Studio Build Tools vous permet de générer des applications MSBuild natives et managées sans passer par l'IDE Visual Studio. Il existe des options pour installer les compilateurs et bibliothèques Visual C++, ainsi que la prise en charge d'ATL, de MFC et de C++/CLI.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "it-it",
+          "title": "Visual Studio Build Tools 2017",
+          "description": "Visual Studio Build Tools consente di creare applicazioni native e gestite basate su MSBuild senza l'IDE di Visual Studio. Sono disponibili opzioni per installare le librerie e i compilatori Visual C++, MFC, ATL e il supporto C++/CLI.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Visual Studio Build Tools 2017",
+          "description": "Visual Studio Build Tools では、Visual Studio IDE を必要とせずに、MSBuild ベースのネイティブ マネージド アプリケーションをビルドできます。また、Visual C++ のコンパイラやライブラリ、MFC、ATL、および C++/CLI サポートをインストールするオプションも用意されています。",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Visual Studio Build Tools 2017",
+          "description": "Visual Studio Build Tools에서는 Visual Studio IDE 없이 네이티브 및 관리 MSBuild 기반 응용 프로그램을 빌드할 수 있습니다. Visual C++ 컴파일러 및 라이브러리, MFC, ATL, C++/CLI 지원 등과 같은 도구를 설치하는 옵션이 있습니다.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Visual Studio Build Tools 2017",
+          "description": "Narzędzia Visual Studio Build Tools umożliwiają tworzenie natywnych i zarządzanych aplikacji opartych na narzędziu MSBuild bez korzystania ze środowiska IDE programu Visual Studio. Dostępne są opcje instalacji narzędzi, takich jak kompilatory i biblioteki Visual C++, ATL, MFC oraz obsługa C++/CLI.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "pt-br",
+          "title": "Ferramentas de Build do Visual Studio 2017",
+          "description": "As Ferramentas de Build do Visual Studio permitem que você compile aplicativos nativos e gerenciados com base no MSBuild sem precisar do IDE do Visual Studio. Há opções para instalar as bibliotecas e os compiladores do Visual C++, MFC, ATL e suporte C++/CLI.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Visual Studio Build Tools 2017",
+          "description": "Visual Studio Build Tools позволяет осуществлять сборку собственных и управляемых приложений на базе MSBuild без использования среды Visual Studio IDE. Существуют разные варианты установки компиляторов и библиотек Visual C++, ATL, MFC и поддержки C++/CLI.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Visual Studio Derleme Araçları 2017",
+          "description": "Visual Studio Derleme Araçları, MSBuild tabanlı yerel ve yönetilen uygulamaları Visual Studio IDE kullanmanız gerekmeden derlemenizi sağlar. Visual C++ derleyicileri ile kitaplıkları, MFC, ATL ve C++/CLI desteğini yükleyebilirsiniz.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        }
+      ]
+    },
+    {
+      "id": "Microsoft.VisualStudio.Product.Community",
+      "version": "15.9.28307.423",
+      "type": "ChannelProduct",
+      "icon": {
+        "mimeType": "image/svg+xml",
+        "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTI0IDB2MjRIMFYwaDI0eiIgaWQ9ImNhbnZhcyIvPg0KICA8cGF0aCBjbGFzcz0iYnJhbmQtdnNpZGUiIGQ9Ik02LjE4NyAxMS41NDZMMTEuNjk5IDE3bDMuMy0xLjQwNFY0LjkwNGwtMy4zLTEuNDA0LTUuNTEyIDUuNDU0LTMuMzItMi41MDJMMS41IDYuOTF2Ni42ODFsMS4zNjcuNDU4IDMuMzItMi41MDN6bTUuNTEyLTQuMTU1djUuNzE4TDcuOTA2IDEwLjI1bDMuNzkzLTIuODU5em0tOC44MzIuODcybDIuMDA5IDEuOTg3LTIuMDA5IDEuOTg4VjguMjYzem0xMy41MDQgMTIuMDk0bDEuNDU5LjEyNC0xLjg1NSAxLjg1Ni0xLjIxMS0uMzc0IDEuNjA3LTEuNjA2em0tMi43NTUtLjIzOWwxLjQ1NS4xMjUtMS4zODggMS4zOTMtMS4yMTYtLjM3IDEuMTQ5LTEuMTQ4em0tMi43Ni0uMjM0bDEuNDYxLjEyNS0uOTMuOTI1LTEuMjEyLS4zNjguNjgxLS42ODJ6bTEyLjE0Ni0uMTcydjEuMTM0bC0xLjkzOC44MDUgMS45MzgtMS45Mzl6bS0xNC45LS4wNjdsMS40NTYuMTI0LS40NjMuNDYzLTEuMjExLS4zNjkuMjE4LS4yMTh6bTE0LjktMi45Mjd2MS41ODFsLTQuMzU1IDQuMzYtLjY4Ny4yODEtLjkwNS0uMjc1IDUuOTQ3LTUuOTQ3em0wLTIuOTkzdjEuNTgxbC0zLjk5MSAzLjk5MXYtMS41ODFsMy45OTEtMy45OTF6bTAtMi45OTR2MS41ODFsLTMuOTkxIDMuOTkxdi0xLjU4MWwzLjk5MS0zLjk5MXptMC0yLjk5M3YxLjU4MWwtMy45OTEgMy45OTF2LTEuNTgxbDMuOTkxLTMuOTkxem0wLTIuOTk0djEuNTgxbC0zLjk5MSAzLjk5MXYtMS41OGwzLjk5MS0zLjk5MnptLTEuMDI4LTEuOTYzbDEuMDI4LjQzMXYuMTJsLTMuOTkxIDMuOTkxVjUuNzQybDIuOTYzLTIuOTYxem0tMi4xMTYtLjg3OGwxLjExOC40NjItMS45NjUgMS45NjVWMi43NDlsLjg0Ny0uODQ2ek0xOC4wMTMuMDUydjE5LjQ0MmwtLjcxNy0uMDYzLTEuMy0uMTA5LTEuNDYtLjEyNC0xLjMtLjExNC0xLjQ1Ni0uMTI1LTEuMjk5LS4xMDktMS40NjEtLjEzLTEuMjk3LS4xMS0xLjQ1Ni0uMTI1LS41ODctLjA1Mi0uNzEzLS4wNjEtMS40NTktLjEyNS0xLjMtLjEwOS0xLjQ1NS0uMTI1LS43MDEtLjA2M3YuNTYxbC4xNTYuMDQ3IDEuMjExLjM3IDEuMDgxLjMzMyAxLjIxMS4zNjkgMS4wODIuMzMzIDEuMjExLjM2OSAxLjA4LjMzMyAxLjIxMS4zNyAxLjA4Ny4zMjcgMS4yMTEuMzY5IDEuMDguMzMzIDEuMjEyLjM2OSAxLjA4LjMzMyAxLjIxMS4zNyAxLjA4Mi4zMzMgMS4yMTEuMzY4LjU0NC4xNjMgMS4yLS40OTkgMi43MDktMS4xMjhMMjQgMjEuNTExVjIuNTQxbC0uMTQ1LS4wNTctMS4xMTgtLjQ2Ny0uOTk3LS40MTYtMS4xMTgtLjQ2My0uODg5LS4zNjktLjEwOS0uMDQ3LTEuMTE4LS40NjgtLjQ5My0uMjAyeiIgaWQ9Imljb25CZyIvPg0KPC9zdmc+"
+      },
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660693#15.9.7-pre.1.0",
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Visual Studio Community 2017",
+          "description": "Free, fully-featured IDE for students, open-source and individual developers",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Visual Studio Community 2017",
+          "description": "适用于学生、开放源代码和个体开发人员的免费、全功能型 IDE",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "zh-tw",
+          "title": "Visual Studio Community 2017",
+          "description": "功能齊備的 IDE，可供學生、開放原始碼開發人員與個人開發人員免費使用",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Visual Studio Community 2017",
+          "description": "Bezplatné IDE se všemi funkcemi pro studenty, open source a samostatné vývojáře",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "de-de",
+          "title": "Visual Studio Community 2017",
+          "description": "Kostenlose, voll funktionsfähige IDE für Studenten, Open Source- und einzelne Entwickler.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "es-es",
+          "title": "Visual Studio Community 2017",
+          "description": "IDE gratuito y rico en contenido para estudiantes y desarrolladores individuales y de código abierto",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Visual Studio Community 2017",
+          "description": "Interface IDE gratuite et riche en fonctionnalités pour les étudiants et les développeurs open source et individuels",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "it-it",
+          "title": "Visual Studio Community 2017",
+          "description": "IDE completo e gratuito per studenti, sviluppatori singoli e open source",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Visual Studio Community 2017",
+          "description": "学生、オープン ソース、および個々の開発者のための無料で完全な機能を備えた IDE",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Visual Studio Community 2017",
+          "description": "학생, 오픈 소스 및 개인 개발자를 위한 모든 기능을 갖춘 무료 IDE",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Visual Studio Community 2017",
+          "description": "Bezpłatne, w pełni funkcjonalne środowisko IDE dla studentów oraz programistów indywidualnych i tworzących rozwiązania open source",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "pt-br",
+          "title": "Visual Studio Community 2017",
+          "description": "IDE gratuita e completa para estudantes, desenvolvedores individuais e de software livre",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Visual Studio Community 2017",
+          "description": "Бесплатная полнофункциональная интегрированная среда разработки для учащихся, разработчиков решений с открытым кодом и индивидуальных разработчиков",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Visual Studio Community 2017",
+          "description": "Öğrenciler, açık kaynak ve bireysel geliştiriciler için ücretsiz, tam özellikli IDE",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        }
+      ]
+    },
+    {
+      "id": "Microsoft.VisualStudio.Product.Enterprise",
+      "version": "15.9.28307.423",
+      "type": "ChannelProduct",
+      "icon": {
+        "mimeType": "image/svg+xml",
+        "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTI0IDB2MjRIMFYwaDI0eiIgaWQ9ImNhbnZhcyIvPg0KICA8cGF0aCBjbGFzcz0iYnJhbmQtdnNpZGUiIGQ9Ik02LjE4NyAxMS41NDZMMTEuNjk5IDE3bDMuMy0xLjQwNFY0LjkwNGwtMy4zLTEuNDA0LTUuNTEyIDUuNDU0LTMuMzItMi41MDJMMS41IDYuOTF2Ni42ODFsMS4zNjcuNDU4IDMuMzItMi41MDN6bTUuNTEyLTQuMTU1djUuNzE4TDcuOTA2IDEwLjI1bDMuNzkzLTIuODU5em0tOC44MzIuODcybDIuMDA5IDEuOTg3LTIuMDA5IDEuOTg4VjguMjYzem0xMy41MDQgMTIuMDk0bDEuNDU5LjEyNC0xLjg1NSAxLjg1Ni0xLjIxMS0uMzc0IDEuNjA3LTEuNjA2em0tMi43NTUtLjIzOWwxLjQ1NS4xMjUtMS4zODggMS4zOTMtMS4yMTYtLjM3IDEuMTQ5LTEuMTQ4em0tMi43Ni0uMjM0bDEuNDYxLjEyNS0uOTMuOTI1LTEuMjEyLS4zNjguNjgxLS42ODJ6bTEyLjE0Ni0uMTcydjEuMTM0bC0xLjkzOC44MDUgMS45MzgtMS45Mzl6bS0xNC45LS4wNjdsMS40NTYuMTI0LS40NjMuNDYzLTEuMjExLS4zNjkuMjE4LS4yMTh6bTE0LjktMi45Mjd2MS41ODFsLTQuMzU1IDQuMzYtLjY4Ny4yODEtLjkwNS0uMjc1IDUuOTQ3LTUuOTQ3em0wLTIuOTkzdjEuNTgxbC0zLjk5MSAzLjk5MXYtMS41ODFsMy45OTEtMy45OTF6bTAtMi45OTR2MS41ODFsLTMuOTkxIDMuOTkxdi0xLjU4MWwzLjk5MS0zLjk5MXptMC0yLjk5M3YxLjU4MWwtMy45OTEgMy45OTF2LTEuNTgxbDMuOTkxLTMuOTkxem0wLTIuOTk0djEuNTgxbC0zLjk5MSAzLjk5MXYtMS41OGwzLjk5MS0zLjk5MnptLTEuMDI4LTEuOTYzbDEuMDI4LjQzMXYuMTJsLTMuOTkxIDMuOTkxVjUuNzQybDIuOTYzLTIuOTYxem0tMi4xMTYtLjg3OGwxLjExOC40NjItMS45NjUgMS45NjVWMi43NDlsLjg0Ny0uODQ2ek0xOC4wMTMuMDUydjE5LjQ0MmwtLjcxNy0uMDYzLTEuMy0uMTA5LTEuNDYtLjEyNC0xLjMtLjExNC0xLjQ1Ni0uMTI1LTEuMjk5LS4xMDktMS40NjEtLjEzLTEuMjk3LS4xMS0xLjQ1Ni0uMTI1LS41ODctLjA1Mi0uNzEzLS4wNjEtMS40NTktLjEyNS0xLjMtLjEwOS0xLjQ1NS0uMTI1LS43MDEtLjA2M3YuNTYxbC4xNTYuMDQ3IDEuMjExLjM3IDEuMDgxLjMzMyAxLjIxMS4zNjkgMS4wODIuMzMzIDEuMjExLjM2OSAxLjA4LjMzMyAxLjIxMS4zNyAxLjA4Ny4zMjcgMS4yMTEuMzY5IDEuMDguMzMzIDEuMjEyLjM2OSAxLjA4LjMzMyAxLjIxMS4zNyAxLjA4Mi4zMzMgMS4yMTEuMzY4LjU0NC4xNjMgMS4yLS40OTkgMi43MDktMS4xMjhMMjQgMjEuNTExVjIuNTQxbC0uMTQ1LS4wNTctMS4xMTgtLjQ2Ny0uOTk3LS40MTYtMS4xMTgtLjQ2My0uODg5LS4zNjktLjEwOS0uMDQ3LTEuMTE4LS40NjgtLjQ5My0uMjAyeiIgaWQ9Imljb25CZyIvPg0KPC9zdmc+"
+      },
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660693#15.9.7-pre.1.0",
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Visual Studio Enterprise 2017",
+          "description": "Microsoft DevOps solution for productivity and coordination across teams of any size",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Visual Studio Enterprise 2017",
+          "description": "满足任何规模团队的生产效率和协调性需求的 Microsoft DevOps 解决方案",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "zh-tw",
+          "title": "Visual Studio Enterprise 2017",
+          "description": "Microsoft DevOps 解決方案，適用於任何規模小組間的產能及合作",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Visual Studio Enterprise 2017",
+          "description": "Řešení Microsoft DevOps pro dosahování vysoké produktivity a zajištění koordinace napříč týmy libovolné velikosti",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "de-de",
+          "title": "Visual Studio Enterprise 2017",
+          "description": "Microsoft DevOps-Lösung für Produktivität und Koordination von Teams beliebiger Größe",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "es-es",
+          "title": "Visual Studio Enterprise 2017",
+          "description": "Solución DevOps de Microsoft para la productividad y coordinación de equipos de cualquier tamaño",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Visual Studio Enterprise 2017",
+          "description": "Solution Microsoft DevOps axée sur la productivité et la coordination des équipes de toutes tailles",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "it-it",
+          "title": "Visual Studio Enterprise 2017",
+          "description": "Soluzione Microsoft DevOps per la produttività e il coordinamento in team di qualsiasi dimensione",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Visual Studio Enterprise 2017",
+          "description": "生産性向上と、さまざまな規模のチーム間の調整のための Microsoft DevOps ソリューション",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Visual Studio Enterprise 2017",
+          "description": "모든 규모의 팀에 생산성 향상과 조정 기능을 제공하는 Microsoft DevOps 솔루션",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Visual Studio Enterprise 2017",
+          "description": "Rozwiązanie Microsoft DevOps zapewniające wzrost produktywności i koordynacji w zespołach wszystkich rozmiarów",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "pt-br",
+          "title": "Visual Studio Enterprise 2017",
+          "description": "Solução Microsoft DevOps para produtividade e coordenação de equipes de qualquer tamanho",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Visual Studio Enterprise 2017",
+          "description": "Решение DevOps от Майкрософт для координации и обеспечения эффективности команд любого размера",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Visual Studio Enterprise 2017",
+          "description": "Her büyüklükte takımın üretkenliğine ve koordinasyonuna yönelik Microsoft DevOps çözümü",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        }
+      ]
+    },
+    {
+      "id": "Microsoft.VisualStudio.Product.FeedbackClient",
+      "version": "15.9.28307.423",
+      "type": "ChannelProduct",
+      "icon": {
+        "mimeType": "image/svg+xml",
+        "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MCA0MCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTQwIDQwSDBWMGg0MHY0MHoiIGlkPSJjYW52YXMiLz4NCiAgPHBhdGggY2xhc3M9ImJyYW5kLXZzaWRlIiBkPSJNMzAuMjIxLS4wMDJMMTMuODg3IDE2LjE2IDQuMDUyIDguNzQ2IDAgMTAuMTAyVjI5LjlsNC4wNTIgMS4zNTYgOS44MzUtNy40MTQgMTYuMzM0IDE2LjE2TDQwIDM1Ljg0MlY0LjE1OGwtOS43NzktNC4xNnpNNC4wNTIgMjUuODlWMTQuMTExTDEwLjAwNCAyMGwtNS45NTIgNS44OXpNMzAgMjguNDcyTDE4Ljk4MyAyMCAzMCAxMS41Mjh2MTYuOTQ0eiIvPg0KPC9zdmc+"
+      },
+      "isHidden": true,
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660693#15.9.7-pre.1.0",
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Visual Studio Feedback Client 2017",
+          "description": "Visual Studio Feedback Client 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Visual Studio Feedback Client 2017",
+          "description": "Visual Studio Feedback Client 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "zh-tw",
+          "title": "Visual Studio Feedback Client 2017",
+          "description": "Visual Studio Feedback Client 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Visual Studio Feedback Client 2017",
+          "description": "Visual Studio Feedback Client 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "de-de",
+          "title": "Visual Studio Feedback Client 2017",
+          "description": "Visual Studio Feedback Client 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "es-es",
+          "title": "Visual Studio Feedback Client 2017",
+          "description": "Visual Studio Feedback Client 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Visual Studio Feedback Client 2017",
+          "description": "Visual Studio Feedback Client 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "it-it",
+          "title": "Visual Studio Feedback Client 2017",
+          "description": "Visual Studio Feedback Client 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Visual Studio Feedback Client 2017",
+          "description": "Visual Studio Feedback Client 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Visual Studio Feedback Client 2017",
+          "description": "Visual Studio Feedback Client 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Visual Studio Feedback Client 2017",
+          "description": "Visual Studio Feedback Client 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "pt-br",
+          "title": "Visual Studio Feedback Client 2017",
+          "description": "Visual Studio Feedback Client 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Visual Studio Feedback Client 2017",
+          "description": "Visual Studio Feedback Client 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Visual Studio Geri Bildirim İstemcisi 2017",
+          "description": "Visual Studio Geri Bildirim İstemcisi 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        }
+      ]
+    },
+    {
+      "id": "Microsoft.VisualStudio.Product.Professional",
+      "version": "15.9.28307.423",
+      "type": "ChannelProduct",
+      "icon": {
+        "mimeType": "image/svg+xml",
+        "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTI0IDB2MjRIMFYwaDI0eiIgaWQ9ImNhbnZhcyIvPg0KICA8cGF0aCBjbGFzcz0iYnJhbmQtdnNpZGUiIGQ9Ik02LjE4NyAxMS41NDZMMTEuNjk5IDE3bDMuMy0xLjQwNFY0LjkwNGwtMy4zLTEuNDA0LTUuNTEyIDUuNDU0LTMuMzItMi41MDJMMS41IDYuOTF2Ni42ODFsMS4zNjcuNDU4IDMuMzItMi41MDN6bTUuNTEyLTQuMTU1djUuNzE4TDcuOTA2IDEwLjI1bDMuNzkzLTIuODU5em0tOC44MzIuODcybDIuMDA5IDEuOTg3LTIuMDA5IDEuOTg4VjguMjYzem0xMy41MDQgMTIuMDk0bDEuNDU5LjEyNC0xLjg1NSAxLjg1Ni0xLjIxMS0uMzc0IDEuNjA3LTEuNjA2em0tMi43NTUtLjIzOWwxLjQ1NS4xMjUtMS4zODggMS4zOTMtMS4yMTYtLjM3IDEuMTQ5LTEuMTQ4em0tMi43Ni0uMjM0bDEuNDYxLjEyNS0uOTMuOTI1LTEuMjEyLS4zNjguNjgxLS42ODJ6bTEyLjE0Ni0uMTcydjEuMTM0bC0xLjkzOC44MDUgMS45MzgtMS45Mzl6bS0xNC45LS4wNjdsMS40NTYuMTI0LS40NjMuNDYzLTEuMjExLS4zNjkuMjE4LS4yMTh6bTE0LjktMi45Mjd2MS41ODFsLTQuMzU1IDQuMzYtLjY4Ny4yODEtLjkwNS0uMjc1IDUuOTQ3LTUuOTQ3em0wLTIuOTkzdjEuNTgxbC0zLjk5MSAzLjk5MXYtMS41ODFsMy45OTEtMy45OTF6bTAtMi45OTR2MS41ODFsLTMuOTkxIDMuOTkxdi0xLjU4MWwzLjk5MS0zLjk5MXptMC0yLjk5M3YxLjU4MWwtMy45OTEgMy45OTF2LTEuNTgxbDMuOTkxLTMuOTkxem0wLTIuOTk0djEuNTgxbC0zLjk5MSAzLjk5MXYtMS41OGwzLjk5MS0zLjk5MnptLTEuMDI4LTEuOTYzbDEuMDI4LjQzMXYuMTJsLTMuOTkxIDMuOTkxVjUuNzQybDIuOTYzLTIuOTYxem0tMi4xMTYtLjg3OGwxLjExOC40NjItMS45NjUgMS45NjVWMi43NDlsLjg0Ny0uODQ2ek0xOC4wMTMuMDUydjE5LjQ0MmwtLjcxNy0uMDYzLTEuMy0uMTA5LTEuNDYtLjEyNC0xLjMtLjExNC0xLjQ1Ni0uMTI1LTEuMjk5LS4xMDktMS40NjEtLjEzLTEuMjk3LS4xMS0xLjQ1Ni0uMTI1LS41ODctLjA1Mi0uNzEzLS4wNjEtMS40NTktLjEyNS0xLjMtLjEwOS0xLjQ1NS0uMTI1LS43MDEtLjA2M3YuNTYxbC4xNTYuMDQ3IDEuMjExLjM3IDEuMDgxLjMzMyAxLjIxMS4zNjkgMS4wODIuMzMzIDEuMjExLjM2OSAxLjA4LjMzMyAxLjIxMS4zNyAxLjA4Ny4zMjcgMS4yMTEuMzY5IDEuMDguMzMzIDEuMjEyLjM2OSAxLjA4LjMzMyAxLjIxMS4zNyAxLjA4Mi4zMzMgMS4yMTEuMzY4LjU0NC4xNjMgMS4yLS40OTkgMi43MDktMS4xMjhMMjQgMjEuNTExVjIuNTQxbC0uMTQ1LS4wNTctMS4xMTgtLjQ2Ny0uOTk3LS40MTYtMS4xMTgtLjQ2My0uODg5LS4zNjktLjEwOS0uMDQ3LTEuMTE4LS40NjgtLjQ5My0uMjAyeiIgaWQ9Imljb25CZyIvPg0KPC9zdmc+"
+      },
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660693#15.9.7-pre.1.0",
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Visual Studio Professional 2017",
+          "description": "Professional developer tools and services for small teams",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Visual Studio Professional 2017",
+          "description": "适用于小型团队的专业开发人员工具和服务",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "zh-tw",
+          "title": "Visual Studio Professional 2017",
+          "description": "適合小型團隊使用的專業開發人員工具與服務",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Visual Studio Professional 2017",
+          "description": "Profesionální vývojářské nástroje a služby pro malé týmy",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "de-de",
+          "title": "Visual Studio Professional 2017",
+          "description": "Professionelle Entwicklertools und -dienste für kleine Teams",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "es-es",
+          "title": "Visual Studio Professional 2017",
+          "description": "Herramientas y servicios de desarrollador profesional para equipos pequeños",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Visual Studio Professional 2017",
+          "description": "Outils et services de développement professionnels pour les équipes de petite taille",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "it-it",
+          "title": "Visual Studio Professional 2017",
+          "description": "Servizi e strumenti di sviluppo professionali per team di piccole dimensioni",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Visual Studio Professional 2017",
+          "description": "小規模なチーム向けのプロフェッショナルな開発者向けツールおよびサービス",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Visual Studio Professional 2017",
+          "description": "소규모 팀을 위한 전문 개발자 도구 및 서비스",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Visual Studio Professional 2017",
+          "description": "Profesjonalne narzędzia programistyczne i usługi dla małych zespołów",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "pt-br",
+          "title": "Visual Studio Professional 2017",
+          "description": "Ferramentas para desenvolvedores profissionais e serviços para equipes pequenas",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Visual Studio Professional 2017",
+          "description": "Профессиональные средства и службы разработки для небольших команд",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Visual Studio Professional 2017",
+          "description": "Küçük takımlar için profesyonel geliştirici araçları ve hizmetleri",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        }
+      ]
+    },
+    {
+      "id": "Microsoft.VisualStudio.Product.SQL",
+      "version": "15.9.28307.423",
+      "type": "ChannelProduct",
+      "icon": {
+        "mimeType": "image/svg+xml",
+        "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTI0IDB2MjRIMFYwaDI0eiIgaWQ9ImNhbnZhcyIvPg0KICA8cGF0aCBjbGFzcz0iYnJhbmQtdnNpZGUiIGQ9Ik02LjE4NyAxMS41NDZMMTEuNjk5IDE3bDMuMy0xLjQwNFY0LjkwNGwtMy4zLTEuNDA0LTUuNTEyIDUuNDU0LTMuMzItMi41MDJMMS41IDYuOTF2Ni42ODFsMS4zNjcuNDU4IDMuMzItMi41MDN6bTUuNTEyLTQuMTU1djUuNzE4TDcuOTA2IDEwLjI1bDMuNzkzLTIuODU5em0tOC44MzIuODcybDIuMDA5IDEuOTg3LTIuMDA5IDEuOTg4VjguMjYzem0xMy41MDQgMTIuMDk0bDEuNDU5LjEyNC0xLjg1NSAxLjg1Ni0xLjIxMS0uMzc0IDEuNjA3LTEuNjA2em0tMi43NTUtLjIzOWwxLjQ1NS4xMjUtMS4zODggMS4zOTMtMS4yMTYtLjM3IDEuMTQ5LTEuMTQ4em0tMi43Ni0uMjM0bDEuNDYxLjEyNS0uOTMuOTI1LTEuMjEyLS4zNjguNjgxLS42ODJ6bTEyLjE0Ni0uMTcydjEuMTM0bC0xLjkzOC44MDUgMS45MzgtMS45Mzl6bS0xNC45LS4wNjdsMS40NTYuMTI0LS40NjMuNDYzLTEuMjExLS4zNjkuMjE4LS4yMTh6bTE0LjktMi45Mjd2MS41ODFsLTQuMzU1IDQuMzYtLjY4Ny4yODEtLjkwNS0uMjc1IDUuOTQ3LTUuOTQ3em0wLTIuOTkzdjEuNTgxbC0zLjk5MSAzLjk5MXYtMS41ODFsMy45OTEtMy45OTF6bTAtMi45OTR2MS41ODFsLTMuOTkxIDMuOTkxdi0xLjU4MWwzLjk5MS0zLjk5MXptMC0yLjk5M3YxLjU4MWwtMy45OTEgMy45OTF2LTEuNTgxbDMuOTkxLTMuOTkxem0wLTIuOTk0djEuNTgxbC0zLjk5MSAzLjk5MXYtMS41OGwzLjk5MS0zLjk5MnptLTEuMDI4LTEuOTYzbDEuMDI4LjQzMXYuMTJsLTMuOTkxIDMuOTkxVjUuNzQybDIuOTYzLTIuOTYxem0tMi4xMTYtLjg3OGwxLjExOC40NjItMS45NjUgMS45NjVWMi43NDlsLjg0Ny0uODQ2ek0xOC4wMTMuMDUydjE5LjQ0MmwtLjcxNy0uMDYzLTEuMy0uMTA5LTEuNDYtLjEyNC0xLjMtLjExNC0xLjQ1Ni0uMTI1LTEuMjk5LS4xMDktMS40NjEtLjEzLTEuMjk3LS4xMS0xLjQ1Ni0uMTI1LS41ODctLjA1Mi0uNzEzLS4wNjEtMS40NTktLjEyNS0xLjMtLjEwOS0xLjQ1NS0uMTI1LS43MDEtLjA2M3YuNTYxbC4xNTYuMDQ3IDEuMjExLjM3IDEuMDgxLjMzMyAxLjIxMS4zNjkgMS4wODIuMzMzIDEuMjExLjM2OSAxLjA4LjMzMyAxLjIxMS4zNyAxLjA4Ny4zMjcgMS4yMTEuMzY5IDEuMDguMzMzIDEuMjEyLjM2OSAxLjA4LjMzMyAxLjIxMS4zNyAxLjA4Mi4zMzMgMS4yMTEuMzY4LjU0NC4xNjMgMS4yLS40OTkgMi43MDktMS4xMjhMMjQgMjEuNTExVjIuNTQxbC0uMTQ1LS4wNTctMS4xMTgtLjQ2Ny0uOTk3LS40MTYtMS4xMTgtLjQ2My0uODg5LS4zNjktLjEwOS0uMDQ3LTEuMTE4LS40NjgtLjQ5My0uMjAyeiIgaWQ9Imljb25CZyIvPg0KPC9zdmc+"
+      },
+      "isHidden": true,
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660693#15.9.7-pre.1.0",
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Microsoft SQL Server Data Tools for Visual Studio 2017",
+          "description": "Microsoft SQL Server Data Tools for Visual Studio 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=850815"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Microsoft SQL Server Data Tools for Visual Studio 2017",
+          "description": "Microsoft SQL Server Data Tools for Visual Studio 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=850815"
+        },
+        {
+          "language": "zh-tw",
+          "title": "適用於 Visual Studio 2017 的 Microsoft SQL Server Data Tools",
+          "description": "適用於 Visual Studio 2017 的 Microsoft SQL Server Data Tools",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=850815"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Microsoft SQL Server Data Tools for Visual Studio 2017",
+          "description": "Microsoft SQL Server Data Tools for Visual Studio 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=850815"
+        },
+        {
+          "language": "de-de",
+          "title": "Microsoft SQL Server Data Tools für Visual Studio 2017",
+          "description": "Microsoft SQL Server Data Tools für Visual Studio 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=850815"
+        },
+        {
+          "language": "es-es",
+          "title": "Microsoft SQL Server Data Tools para Visual Studio 2017",
+          "description": "Microsoft SQL Server Data Tools para Visual Studio 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=850815"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Microsoft SQL Server Data Tools pour Visual Studio 2017",
+          "description": "Microsoft SQL Server Data Tools pour Visual Studio 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=850815"
+        },
+        {
+          "language": "it-it",
+          "title": "Microsoft SQL Server Data Tools per Visual Studio 2017",
+          "description": "Microsoft SQL Server Data Tools per Visual Studio 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=850815"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Microsoft SQL Server Data Tools for Visual Studio 2017",
+          "description": "Microsoft SQL Server Data Tools for Visual Studio 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=850815"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Microsoft SQL Server Data Tools for Visual Studio 2017",
+          "description": "Microsoft SQL Server Data Tools for Visual Studio 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=850815"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Microsoft SQL Server Data Tools for Visual Studio 2017",
+          "description": "Microsoft SQL Server Data Tools for Visual Studio 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=850815"
+        },
+        {
+          "language": "pt-br",
+          "title": "Microsoft SQL Server Data Tools para Visual Studio 2017",
+          "description": "Microsoft SQL Server Data Tools para Visual Studio 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=850815"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Microsoft SQL Server Data Tools для Visual Studio 2017",
+          "description": "Microsoft SQL Server Data Tools для Visual Studio 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=850815"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Visual Studio 2017 için Microsoft SQL Server Veri Araçları",
+          "description": "Visual Studio 2017 için Microsoft SQL Server Veri Araçları",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=850815"
+        }
+      ]
+    },
+    {
+      "id": "Microsoft.VisualStudio.Product.TeamExplorer",
+      "version": "15.9.28307.423",
+      "type": "ChannelProduct",
+      "icon": {
+        "mimeType": "image/svg+xml",
+        "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTI0IDB2MjRIMFYwaDI0eiIgaWQ9ImNhbnZhcyIvPg0KICA8cGF0aCBjbGFzcz0iYnJhbmQtdnNpZGUiIGQ9Ik02LjE4NyAxMS41NDZMMTEuNjk5IDE3bDMuMy0xLjQwNFY0LjkwNGwtMy4zLTEuNDA0LTUuNTEyIDUuNDU0LTMuMzItMi41MDJMMS41IDYuOTF2Ni42ODFsMS4zNjcuNDU4IDMuMzItMi41MDN6bTUuNTEyLTQuMTU1djUuNzE4TDcuOTA2IDEwLjI1bDMuNzkzLTIuODU5em0tOC44MzIuODcybDIuMDA5IDEuOTg3LTIuMDA5IDEuOTg4VjguMjYzem0xMy41MDQgMTIuMDk0bDEuNDU5LjEyNC0xLjg1NSAxLjg1Ni0xLjIxMS0uMzc0IDEuNjA3LTEuNjA2em0tMi43NTUtLjIzOWwxLjQ1NS4xMjUtMS4zODggMS4zOTMtMS4yMTYtLjM3IDEuMTQ5LTEuMTQ4em0tMi43Ni0uMjM0bDEuNDYxLjEyNS0uOTMuOTI1LTEuMjEyLS4zNjguNjgxLS42ODJ6bTEyLjE0Ni0uMTcydjEuMTM0bC0xLjkzOC44MDUgMS45MzgtMS45Mzl6bS0xNC45LS4wNjdsMS40NTYuMTI0LS40NjMuNDYzLTEuMjExLS4zNjkuMjE4LS4yMTh6bTE0LjktMi45Mjd2MS41ODFsLTQuMzU1IDQuMzYtLjY4Ny4yODEtLjkwNS0uMjc1IDUuOTQ3LTUuOTQ3em0wLTIuOTkzdjEuNTgxbC0zLjk5MSAzLjk5MXYtMS41ODFsMy45OTEtMy45OTF6bTAtMi45OTR2MS41ODFsLTMuOTkxIDMuOTkxdi0xLjU4MWwzLjk5MS0zLjk5MXptMC0yLjk5M3YxLjU4MWwtMy45OTEgMy45OTF2LTEuNTgxbDMuOTkxLTMuOTkxem0wLTIuOTk0djEuNTgxbC0zLjk5MSAzLjk5MXYtMS41OGwzLjk5MS0zLjk5MnptLTEuMDI4LTEuOTYzbDEuMDI4LjQzMXYuMTJsLTMuOTkxIDMuOTkxVjUuNzQybDIuOTYzLTIuOTYxem0tMi4xMTYtLjg3OGwxLjExOC40NjItMS45NjUgMS45NjVWMi43NDlsLjg0Ny0uODQ2ek0xOC4wMTMuMDUydjE5LjQ0MmwtLjcxNy0uMDYzLTEuMy0uMTA5LTEuNDYtLjEyNC0xLjMtLjExNC0xLjQ1Ni0uMTI1LTEuMjk5LS4xMDktMS40NjEtLjEzLTEuMjk3LS4xMS0xLjQ1Ni0uMTI1LS41ODctLjA1Mi0uNzEzLS4wNjEtMS40NTktLjEyNS0xLjMtLjEwOS0xLjQ1NS0uMTI1LS43MDEtLjA2M3YuNTYxbC4xNTYuMDQ3IDEuMjExLjM3IDEuMDgxLjMzMyAxLjIxMS4zNjkgMS4wODIuMzMzIDEuMjExLjM2OSAxLjA4LjMzMyAxLjIxMS4zNyAxLjA4Ny4zMjcgMS4yMTEuMzY5IDEuMDguMzMzIDEuMjEyLjM2OSAxLjA4LjMzMyAxLjIxMS4zNyAxLjA4Mi4zMzMgMS4yMTEuMzY4LjU0NC4xNjMgMS4yLS40OTkgMi43MDktMS4xMjhMMjQgMjEuNTExVjIuNTQxbC0uMTQ1LS4wNTctMS4xMTgtLjQ2Ny0uOTk3LS40MTYtMS4xMTgtLjQ2My0uODg5LS4zNjktLjEwOS0uMDQ3LTEuMTE4LS40NjgtLjQ5My0uMjAyeiIgaWQ9Imljb25CZyIvPg0KPC9zdmc+"
+      },
+      "isHidden": true,
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660693#15.9.7-pre.1.0",
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Visual Studio Team Explorer 2017",
+          "description": "Interact with Team Foundation Server and Visual Studio Team Services without a Visual Studio developer toolset",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Visual Studio 团队资源管理器 2017",
+          "description": "无需 Visual Studio 开发人员工具集，即可与 Team Foundation Server 和 Visual Studio Team Services 进行交互",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "zh-tw",
+          "title": "Visual Studio Team Explorer 2017",
+          "description": "與 Team Foundation Server 和 Visual Studio Team Services 互動而不使用 Visual Studio 開發人員工具",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Visual Studio Team Explorer 2017",
+          "description": "Interakce s Team Foundation Serverem a službou Visual Studio Team Services bez sady vývojářských nástrojů, které nabízí Visual Studio",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "de-de",
+          "title": "Visual Studio Team Explorer 2017",
+          "description": "Interagieren Sie mit Team Foundation Server und Visual Studio Team Services ohne eine Visual Studio-Entwicklertoolset.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "es-es",
+          "title": "Visual Studio Team Explorer 2017",
+          "description": "Interactúe con Team Foundation Server y Visual Studio Team Services sin un conjunto de herramientas de desarrollador de Visual Studio",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Visual Studio Team Explorer 2017",
+          "description": "Interagissez avec Team Foundation Server et Visual Studio Team Services sans l'ensemble d'outils de développement Visual Studio",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "it-it",
+          "title": "Visual Studio Team Explorer 2017",
+          "description": "Consente di interagire con Team Foundation Server e Visual Studio Team Services senza usare un set di strumenti di sviluppo di Visual Studio",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Visual Studio Team Explorer 2017",
+          "description": "Visual Studio 開発者ツールセットを使用せずに Team Foundation Server および Visual Studio Team Services と対話します",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Visual Studio Team Explorer 2017",
+          "description": "Visual Studio 개발자 도구 집합 없이 Team Foundation Server 및 Visual Studio Team Services 조작",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Visual Studio Team Explorer 2017",
+          "description": "Interakcja z serwerem Team Foundation Server i usługami Visual Studio Team Services bez korzystania z zestawu narzędzi dewelopera programu Visual Studio",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "pt-br",
+          "title": "Team Explorer para Visual Studio 2017",
+          "description": "Interaja com o Team Foundation Server e o Visual Studio Team Services sem um conjunto de ferramentas de desenvolvedor do Visual Studio",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Visual Studio Team Explorer 2017",
+          "description": "Взаимодействие с Team Foundation Server и Visual Studio Team Services без набора инструментов разработчика Visual Studio",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Visual Studio Takım Gezgini 2017",
+          "description": "Visual Studio geliştirici araç seti olmadan Team Foundation Server ve Visual Studio Team Services ile etkileşim kurun",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        }
+      ]
+    },
+    {
+      "id": "Microsoft.VisualStudio.Product.TestAgent",
+      "version": "15.9.28307.423",
+      "type": "ChannelProduct",
+      "icon": {
+        "mimeType": "image/svg+xml",
+        "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MCA0MCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTQwIDQwSDBWMGg0MHY0MHoiIGlkPSJjYW52YXMiLz4NCiAgPHBhdGggY2xhc3M9ImJyYW5kLXZzaWRlIiBkPSJNMzAuMjIxLS4wMDJMMTMuODg3IDE2LjE2IDQuMDUyIDguNzQ2IDAgMTAuMTAyVjI5LjlsNC4wNTIgMS4zNTYgOS44MzUtNy40MTQgMTYuMzM0IDE2LjE2TDQwIDM1Ljg0MlY0LjE1OGwtOS43NzktNC4xNnpNNC4wNTIgMjUuODlWMTQuMTExTDEwLjAwNCAyMGwtNS45NTIgNS44OXpNMzAgMjguNDcyTDE4Ljk4MyAyMCAzMCAxMS41Mjh2MTYuOTQ0eiIvPg0KPC9zdmc+"
+      },
+      "isHidden": true,
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660693#15.9.7-pre.1.0",
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Visual Studio Test Agent 2017",
+          "description": "Supports running automated tests and load tests remotely",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Visual Studio Test Agent 2017",
+          "description": "支持运行自动测试和远程下载测试",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "zh-tw",
+          "title": "Visual Studio Test Agent 2017",
+          "description": "支援在遠端執行自動化的測試與負載測試",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Visual Studio Test Agent 2017",
+          "description": "Podporuje vzdálené spouštění automatizovaných a zátěžových testů.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "de-de",
+          "title": "Visual Studio Test Agent 2017",
+          "description": "Unterstützt die Remoteausführung von automatisierten Tests und Auslastungstests.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "es-es",
+          "title": "Visual Studio Test Agent 2017",
+          "description": "Admite la ejecución de pruebas automatizadas y pruebas de carga de forma remota.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Visual Studio Test Agent 2017",
+          "description": "Prend en charge l'exécution de tests automatisés et de tests de charge à distance",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "it-it",
+          "title": "Visual Studio Test Agent 2017",
+          "description": "Supporta l'esecuzione di test automatizzati e test di carico in remoto",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Visual Studio Test Agent 2017",
+          "description": "自動テストとロード テストのリモートでの実行をサポートする",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Visual Studio Test Agent 2017",
+          "description": "자동화된 테스트 및 부하 테스트 원격 실행을 지원합니다.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Agent testowy programu Visual Studio 2017",
+          "description": "Obsługuje zdalne uruchamianie zautomatyzowanych testów i testów obciążeniowych",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "pt-br",
+          "title": "Visual Studio Test Agent 2017",
+          "description": "Dá suporte à execução de testes automatizados e carrega testes remotamente",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Агент тестирования Visual Studio 2017",
+          "description": "Поддерживает удаленное выполнение автоматических тестов и нагрузочных тестов",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Visual Studio Test Aracısı 2017",
+          "description": "Otomatik testler çalıştırmayı ve testleri uzaktan yüklemeyi destekler",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        }
+      ]
+    },
+    {
+      "id": "Microsoft.VisualStudio.Product.TestController",
+      "version": "15.9.28307.423",
+      "type": "ChannelProduct",
+      "icon": {
+        "mimeType": "image/svg+xml",
+        "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MCA0MCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTQwIDQwSDBWMGg0MHY0MHoiIGlkPSJjYW52YXMiLz4NCiAgPHBhdGggY2xhc3M9ImJyYW5kLXZzaWRlIiBkPSJNMzAuMjIxLS4wMDJMMTMuODg3IDE2LjE2IDQuMDUyIDguNzQ2IDAgMTAuMTAyVjI5LjlsNC4wNTIgMS4zNTYgOS44MzUtNy40MTQgMTYuMzM0IDE2LjE2TDQwIDM1Ljg0MlY0LjE1OGwtOS43NzktNC4xNnpNNC4wNTIgMjUuODlWMTQuMTExTDEwLjAwNCAyMGwtNS45NTIgNS44OXpNMzAgMjguNDcyTDE4Ljk4MyAyMCAzMCAxMS41Mjh2MTYuOTQ0eiIvPg0KPC9zdmc+"
+      },
+      "isHidden": true,
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660693#15.9.7-pre.1.0",
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Visual Studio Test Controller 2017",
+          "description": "Distribute automated tests to multiple machines",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Visual Studio Test Controller 2017",
+          "description": "将自动测试分发到多台计算机",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "zh-tw",
+          "title": "Visual Studio Test Controller 2017",
+          "description": "將自動化的測試散發至多部電腦",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Visual Studio Test Controller 2017",
+          "description": "Distribuce automatizovaných testů na více počítačů",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "de-de",
+          "title": "Visual Studio Test Controller 2017",
+          "description": "Verteilt automatisierte Tests auf mehrere Computer.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "es-es",
+          "title": "Visual Studio Test Controller 2017",
+          "description": "Distribuye pruebas automatizadas a varias máquinas.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Visual Studio Test Controller 2017",
+          "description": "Distribuer des tests automatisés à plusieurs machines",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "it-it",
+          "title": "Visual Studio Test Controller 2017",
+          "description": "Consente di distribuire i test automatizzati in più computer",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Visual Studio Test Controller 2017",
+          "description": "自動テストを複数のマシンに配布する",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Visual Studio Test Controller 2017",
+          "description": "자동화된 테스트를 여러 컴퓨터에 배포합니다.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Visual Studio Test Controller 2017",
+          "description": "Dystrybuuj zautomatyzowane testy na wielu maszynach",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "pt-br",
+          "title": "Visual Studio Test Controller 2017",
+          "description": "Distribuir testes automatizados para vários computadores",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Visual Studio Test Controller 2017",
+          "description": "Распределение автоматических тестов на несколько компьютеров",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Visual Studio Test Denetleyicisi 2017",
+          "description": "Otomatik testleri birden fazla makineye dağıt",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        }
+      ]
+    },
+    {
+      "id": "Microsoft.VisualStudio.Product.TestProfessional",
+      "version": "15.9.28307.423",
+      "type": "ChannelProduct",
+      "icon": {
+        "mimeType": "image/svg+xml",
+        "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MCA0MCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTQwIDQwSDBWMGg0MHY0MHoiIGlkPSJjYW52YXMiLz4NCiAgPHBhdGggY2xhc3M9ImJyYW5kLXZzaWRlIiBkPSJNMzAuMjIxLS4wMDJMMTMuODg3IDE2LjE2IDQuMDUyIDguNzQ2IDAgMTAuMTAyVjI5LjlsNC4wNTIgMS4zNTYgOS44MzUtNy40MTQgMTYuMzM0IDE2LjE2TDQwIDM1Ljg0MlY0LjE1OGwtOS43NzktNC4xNnpNNC4wNTIgMjUuODlWMTQuMTExTDEwLjAwNCAyMGwtNS45NTIgNS44OXpNMzAgMjguNDcyTDE4Ljk4MyAyMCAzMCAxMS41Mjh2MTYuOTQ0eiIvPg0KPC9zdmc+"
+      },
+      "isHidden": true,
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660693#15.9.7-pre.1.0",
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Visual Studio Test Professional 2017",
+          "description": "Visual Studio Test Professional 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Visual Studio Test Professional 2017",
+          "description": "Visual Studio Test Professional 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "zh-tw",
+          "title": "Visual Studio Test Professional 2017",
+          "description": "Visual Studio Test Professional 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Visual Studio Test Professional 2017",
+          "description": "Visual Studio Test Professional 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "de-de",
+          "title": "Visual Studio Test Professional 2017",
+          "description": "Visual Studio Test Professional 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "es-es",
+          "title": "Visual Studio Test Professional 2017",
+          "description": "Visual Studio Test Professional 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Visual Studio Test Professional 2017",
+          "description": "Visual Studio Test Professional 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "it-it",
+          "title": "Visual Studio Test Professional 2017",
+          "description": "Visual Studio Test Professional 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Visual Studio Test Professional 2017",
+          "description": "Visual Studio Test Professional 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Visual Studio Test Professional 2017",
+          "description": "Visual Studio Test Professional 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Visual Studio Test Professional 2017",
+          "description": "Visual Studio Test Professional 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "pt-br",
+          "title": "Visual Studio Test Professional 2017",
+          "description": "Visual Studio Test Professional 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Visual Studio Test Professional 2017",
+          "description": "Visual Studio Test Professional 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Visual Studio Test Professional 2017",
+          "description": "Visual Studio Test Professional 2017",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=733796"
+        }
+      ]
+    },
+    {
+      "id": "Microsoft.VisualStudio.Product.WDExpress",
+      "version": "15.9.28307.423",
+      "type": "ChannelProduct",
+      "icon": {
+        "mimeType": "image/svg+xml",
+        "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTI0IDB2MjRIMFYwaDI0eiIgaWQ9ImNhbnZhcyIvPg0KICA8cGF0aCBjbGFzcz0iYnJhbmQtdnNpZGUiIGQ9Ik02LjE4NyAxMS41NDZMMTEuNjk5IDE3bDMuMy0xLjQwNFY0LjkwNGwtMy4zLTEuNDA0LTUuNTEyIDUuNDU0LTMuMzItMi41MDJMMS41IDYuOTF2Ni42ODFsMS4zNjcuNDU4IDMuMzItMi41MDN6bTUuNTEyLTQuMTU1djUuNzE4TDcuOTA2IDEwLjI1bDMuNzkzLTIuODU5em0tOC44MzIuODcybDIuMDA5IDEuOTg3LTIuMDA5IDEuOTg4VjguMjYzem0xMy41MDQgMTIuMDk0bDEuNDU5LjEyNC0xLjg1NSAxLjg1Ni0xLjIxMS0uMzc0IDEuNjA3LTEuNjA2em0tMi43NTUtLjIzOWwxLjQ1NS4xMjUtMS4zODggMS4zOTMtMS4yMTYtLjM3IDEuMTQ5LTEuMTQ4em0tMi43Ni0uMjM0bDEuNDYxLjEyNS0uOTMuOTI1LTEuMjEyLS4zNjguNjgxLS42ODJ6bTEyLjE0Ni0uMTcydjEuMTM0bC0xLjkzOC44MDUgMS45MzgtMS45Mzl6bS0xNC45LS4wNjdsMS40NTYuMTI0LS40NjMuNDYzLTEuMjExLS4zNjkuMjE4LS4yMTh6bTE0LjktMi45Mjd2MS41ODFsLTQuMzU1IDQuMzYtLjY4Ny4yODEtLjkwNS0uMjc1IDUuOTQ3LTUuOTQ3em0wLTIuOTkzdjEuNTgxbC0zLjk5MSAzLjk5MXYtMS41ODFsMy45OTEtMy45OTF6bTAtMi45OTR2MS41ODFsLTMuOTkxIDMuOTkxdi0xLjU4MWwzLjk5MS0zLjk5MXptMC0yLjk5M3YxLjU4MWwtMy45OTEgMy45OTF2LTEuNTgxbDMuOTkxLTMuOTkxem0wLTIuOTk0djEuNTgxbC0zLjk5MSAzLjk5MXYtMS41OGwzLjk5MS0zLjk5MnptLTEuMDI4LTEuOTYzbDEuMDI4LjQzMXYuMTJsLTMuOTkxIDMuOTkxVjUuNzQybDIuOTYzLTIuOTYxem0tMi4xMTYtLjg3OGwxLjExOC40NjItMS45NjUgMS45NjVWMi43NDlsLjg0Ny0uODQ2ek0xOC4wMTMuMDUydjE5LjQ0MmwtLjcxNy0uMDYzLTEuMy0uMTA5LTEuNDYtLjEyNC0xLjMtLjExNC0xLjQ1Ni0uMTI1LTEuMjk5LS4xMDktMS40NjEtLjEzLTEuMjk3LS4xMS0xLjQ1Ni0uMTI1LS41ODctLjA1Mi0uNzEzLS4wNjEtMS40NTktLjEyNS0xLjMtLjEwOS0xLjQ1NS0uMTI1LS43MDEtLjA2M3YuNTYxbC4xNTYuMDQ3IDEuMjExLjM3IDEuMDgxLjMzMyAxLjIxMS4zNjkgMS4wODIuMzMzIDEuMjExLjM2OSAxLjA4LjMzMyAxLjIxMS4zNyAxLjA4Ny4zMjcgMS4yMTEuMzY5IDEuMDguMzMzIDEuMjEyLjM2OSAxLjA4LjMzMyAxLjIxMS4zNyAxLjA4Mi4zMzMgMS4yMTEuMzY4LjU0NC4xNjMgMS4yLS40OTkgMi43MDktMS4xMjhMMjQgMjEuNTExVjIuNTQxbC0uMTQ1LS4wNTctMS4xMTgtLjQ2Ny0uOTk3LS40MTYtMS4xMTgtLjQ2My0uODg5LS4zNjktLjEwOS0uMDQ3LTEuMTE4LS40NjgtLjQ5My0uMjAyeiIgaWQ9Imljb25CZyIvPg0KPC9zdmc+"
+      },
+      "isHidden": true,
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660693#15.9.7-pre.1.0",
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Visual Studio 2017 Desktop Express",
+          "description": "An IDE that enables desktop application development. For a free, full-featured and extensible alternative, try Visual Studio Community.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=660875"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Visual Studio 2017 Desktop Express",
+          "description": "支持桌面应用程序开发的 IDE。若要获取功能完善且可扩展的免费替代方案，请访问 Visual Studio 社区。",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=660875"
+        },
+        {
+          "language": "zh-tw",
+          "title": "Visual Studio 2017 Desktop Express",
+          "description": "可進行傳統型應用程式開發的 IDE。如需免費、功能完整且可延伸的替代選項，請嘗試 Visual Studio Community。",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=660875"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Visual Studio 2017 Desktop Express",
+          "description": "Rozhraní IDE, které umožňuje vývoj desktopových aplikací. Pokud chcete bezplatnou rozšiřitelnou alternativu se všemi funkcemi, zkuste Visual Studio Community.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=660875"
+        },
+        {
+          "language": "de-de",
+          "title": "Visual Studio 2017 für Desktop Express",
+          "description": "Eine IDE, die die Entwicklung von Desktopanwendungen ermöglicht. Testen Sie Visual Studio Community als erweiterbare Alternative mit vollständigem Funktionsumfang.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=660875"
+        },
+        {
+          "language": "es-es",
+          "title": "Visual Studio 2017 Express para escritorio",
+          "description": "Un IDE que permite el desarrollo de aplicaciones de escritorio. Para obtener una alternativa extensible gratuita y repleta de características, pruebe Visual Studio Community.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=660875"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Visual Studio 2017 Desktop Express",
+          "description": "IDE qui permet le développement d'applications de bureau. Pour une alternative gratuite, complète et extensible, essayez Visual Studio Community.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=660875"
+        },
+        {
+          "language": "it-it",
+          "title": "Visual Studio 2017 Desktop Express",
+          "description": "IDE che consente lo sviluppo di applicazioni desktop. per un'alternativa gratuita, completa ed estendibile è possibile provare Visual Studio Community.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=660875"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Visual Studio 2017 Desktop Express",
+          "description": "デスクトップ アプリケーション開発を可能にする IDE。無料でフル機能を備えた拡張可能な代替策として、Visual Studio Community をお試しください。",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=660875"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Visual Studio 2017 Desktop Express",
+          "description": "데스크톱 응용 프로그램 개발을 가능하게 하는 IDE입니다. 전체 기능을 갖춘 확장 가능한 대체 무료 IDE인 Visual Studio Community를 사용해 보세요.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=660875"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Visual Studio Express 2017 for Windows Desktop",
+          "description": "Środowisko IDE umożliwiające opracowywanie aplikacji klasycznych. Bezpłatna, w pełni funkcjonalna i rozszerzalna alternatywa to program Visual Studio Community.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=660875"
+        },
+        {
+          "language": "pt-br",
+          "title": "Visual Studio 2017 Desktop Express",
+          "description": "Um IDE que permite desenvolvimento de aplicativo para área de trabalho. Para obter uma alternativa extensível, completa e gratuita, experimente o Visual Studio Community.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=660875"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Visual Studio 2017 Express для Desktop",
+          "description": "Интегрированная среда разработки для создания классических приложений. Если вам требуется бесплатная, полнофункциональная и расширяемая альтернатива, попробуйте Visual Studio Community.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=660875"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Visual Studio 2017 Desktop Express",
+          "description": "Masaüstü uygulaması geliştirmeyi sağlayan bir IDE. Ücretsiz, tam özellikli ve genişletilebilir bir alternatif için Visual Studio Community'yi deneyin.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=660875"
+        }
+      ]
+    },
+    {
+      "id": "VisualStudio.15.Preview",
+      "version": "15.0.28307.423",
+      "type": "Channel",
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Preview",
+          "description": "Preview",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Preview",
+          "description": "Preview",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "zh-tw",
+          "title": "Preview",
+          "description": "Preview",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Preview",
+          "description": "Preview",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "de-de",
+          "title": "Preview",
+          "description": "Preview",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "es-es",
+          "title": "Preview",
+          "description": "Preview",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Preview",
+          "description": "Preview",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "it-it",
+          "title": "Preview",
+          "description": "Preview",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Preview",
+          "description": "Preview",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Preview",
+          "description": "Preview",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Preview",
+          "description": "Preview",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "pt-br",
+          "title": "Preview",
+          "description": "Preview",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Preview",
+          "description": "Preview",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Preview",
+          "description": "Preview",
+          "channelSuffix": "Preview"
+        }
+      ]
+    },
+    {
+      "id": "VisualStudio.15.Preview.Bootstrappers.retired.Setup",
+      "version": "1.18.1096.130",
+      "type": "Bootstrapper",
+      "payloads": [
+        {
+          "fileName": "vs_Setup.exe",
+          "sha256": "93694abab6ecf32cfe9009e3c9b3b74926a312ea3e61372a8648d56f8e674a53",
+          "size": 1285792,
+          "url": "https://download.visualstudio.microsoft.com/download/pr/9005d36b-e534-465a-b790-7a7df51a29ac/3bfa5d1796288c2590317829fc72c41e/vs_setup.exe"
+        }
+      ]
+    }
+  ],
+  "signature": {
+    "signInfo": {
+      "signatureMethod": "sha256RSA_cng",
+      "digestMethod": "sha1",
+      "digestValue": "44RJYRtx776q045IgES3Y9r3s9I=",
+      "canonicalization": ""
+    },
+    "signatureValue": "j+NYV716PhrjvXXrE1IKystdWoyOgTeQIrJyLGDFxx/eE9ALKnHtbBzpOMfE8h2TnCnxdzrH+dMkvcbrQbinZHFVXUp3n0OayBrrrccv0X062Yt9DXlu2HU8290cQmvXM77+lPlAF/EHcB7vJQtE9FrrbOURw1njL8jKFSeM9trXVjr0FxZyDuckgpdm8FOVJgHcFXa9MBRqyePFUSZzPiKgnP7xXvXMbT1x8qMSb1qn3NWJKGnHNiOODZA9bXvi24hV91yOhwJIScT9f/8JZejw8nI3BefSUm3eg+dD/jP0SEAugdDBlK0iEcjc/ilF5Clt5bt0toOw642NEfR+nQ==",
+    "keyInfo": {
+      "keyValue": {
+        "rsaKeyValue": {
+          "modulus": "0ZR2NuaGqzb+aflGfIuIUMuQcH+wVakkHX455wWfD6x7l7LOcwr71JskXBa1Od0bfjNsEfw7JvOYql1Ta6rD7BO40u/PV3/MZcuvTS4ysVYrTjQHif5pIb0+RPveEp2Fv3x2hn1ysXabYeaKZExGzrbVOox3k3dnIZy2WgZeR4b1PNEJyg09zbLpoVB40YSI4gE8IvyvlgjMXZnA7eulWpiS9chATmpzr97jdHrTX0aXvOJnKHeZrMEOMRaPAA8B/kteVA/KxGU/CuOjRtv2LAM6Gb5oBRac5n80v6eHjWU5Jslj1O/F3b0l/v0o9DSGeawq1V8wkTvkFGrrscoEIw==",
+          "exponent": "AQAB"
+        }
+      },
+      "x509Data": [
+        "MIIF/zCCA+egAwIBAgITMwAAAQNeJRyZH6MeuAAAAAABAzANBgkqhkiG9w0BAQsFADB+MQswCQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEQMA4GA1UEBxMHUmVkbW9uZDEeMBwGA1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMSgwJgYDVQQDEx9NaWNyb3NvZnQgQ29kZSBTaWduaW5nIFBDQSAyMDExMB4XDTE4MDcxMjIwMDg0OFoXDTE5MDcyNjIwMDg0OFowdDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEeMBwGA1UEAxMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0ZR2NuaGqzb+aflGfIuIUMuQcH+wVakkHX455wWfD6x7l7LOcwr71JskXBa1Od0bfjNsEfw7JvOYql1Ta6rD7BO40u/PV3/MZcuvTS4ysVYrTjQHif5pIb0+RPveEp2Fv3x2hn1ysXabYeaKZExGzrbVOox3k3dnIZy2WgZeR4b1PNEJyg09zbLpoVB40YSI4gE8IvyvlgjMXZnA7eulWpiS9chATmpzr97jdHrTX0aXvOJnKHeZrMEOMRaPAA8B/kteVA/KxGU/CuOjRtv2LAM6Gb5oBRac5n80v6eHjWU5Jslj1O/F3b0l/v0o9DSGeawq1V8wkTvkFGrrscoEIwIDAQABo4IBfjCCAXowHwYDVR0lBBgwFgYKKwYBBAGCN0wIAQYIKwYBBQUHAwMwHQYDVR0OBBYEFEe+wMvhpj/9ZdY48gNdt69390D/MFAGA1UdEQRJMEekRTBDMSkwJwYDVQQLEyBNaWNyb3NvZnQgT3BlcmF0aW9ucyBQdWVydG8gUmljbzEWMBQGA1UEBRMNMjMwMDEyKzQzNzk2NTAfBgNVHSMEGDAWgBRIbmTlUAXTgqoXNzcitW2oynUClTBUBgNVHR8ETTBLMEmgR6BFhkNodHRwOi8vd3d3Lm1pY3Jvc29mdC5jb20vcGtpb3BzL2NybC9NaWNDb2RTaWdQQ0EyMDExXzIwMTEtMDctMDguY3JsMGEGCCsGAQUFBwEBBFUwUzBRBggrBgEFBQcwAoZFaHR0cDovL3d3dy5taWNyb3NvZnQuY29tL3BraW9wcy9jZXJ0cy9NaWNDb2RTaWdQQ0EyMDExXzIwMTEtMDctMDguY3J0MAwGA1UdEwEB/wQCMAAwDQYJKoZIhvcNAQELBQADggIBAJ/1yVMNPw0m7KJE2A3Rn2OWBks/HlzFM6Okw2yvH8ABuutl7J4zEA+nrFvUvZBhF+cx58MmtKz1J9NIk4aI/hI1kWQi0WstO6gsFZQp0jeW5jX/DM7IBhYWniSx4jn5bg542AwbtilgJ3Y0JJvduZd1ywE7rYISFiKAiRWEu5hQILAXJoZJr859RRVDNJbPgVwYLNST8mer4nPIPaPN/DIeYBzpsBsw+yy7By6WhJNFKFRczZb9oNuB2LYwykOx80jAskYcXV52Klif1O7y9PpITLVhi7CMQemquJ2Q9P9qQg+5PukO7JT8jYC7eOMjp3hbsm0f+VnBfbbROcl54IMcYAraPbDR7Ta/RQfpGzZu5T07BQOn1KclEo/mdqMTs0VaQzGC2tiErrmwH3X19h19URE3J+i1NYRx91eqrvqJccmY0p5aZHa+jMN9FWqR8RT08tk1Mbjbcvq0dciIm2q/mEXHZrLX/86SkHXk6+aG0sgb2yfAW5VvSW9YXWkq3lNL+OjKe/ZsFfkDGQ8RhapPmr+qV91gxvVxIPRRqJrK6dHrNEc9dfoi7FU/ahk5axDpWj+O9CN4MLLypjjLNY2qmFkkQLg6Z6QHX6D+2DtJE/sM4e0LbYNQzvB/PuDZCOiMIUpBwt7rjlvuA8Mdbm7mVDVmZ3J8GupS9iLEcj+u",
+        "MIIHejCCBWKgAwIBAgIKYQ6Q0gAAAAAAAzANBgkqhkiG9w0BAQsFADCBiDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEyMDAGA1UEAxMpTWljcm9zb2Z0IFJvb3QgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IDIwMTEwHhcNMTEwNzA4MjA1OTA5WhcNMjYwNzA4MjEwOTA5WjB+MQswCQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEQMA4GA1UEBxMHUmVkbW9uZDEeMBwGA1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMSgwJgYDVQQDEx9NaWNyb3NvZnQgQ29kZSBTaWduaW5nIFBDQSAyMDExMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAq/D6chAcLq3YbqqCEE00uvK2WCGfQhsqa+laUKq4BjgaBEm6f8MMHt03a8YS2AvwOMKZBrDIOdUBFDFC04kNeWSHfpRgJGyvnkmc6Whe0t+bU7IKLMOv2akrrnoJr9eWWcpgGgXpZnboMlImEi/nqwhQz7NEt13YxC4Ddato88tt8zpcoRb0RrrgOGSsbmQ1eKagYw8t00CT+OPeBw3VXHmlSSnnDb6gE3e+lD3v++MrWhAfTVYoonpy4BI6t0le2O3tQ5GD2Xuye4Yb2T6xjF3oiU+EGvKhL1nkkDstrjNYxbc+/jLTswM9sbKvkjh+0p2ALPVOVpEhNSXDOW5kf1O6nA+tGSOEy/S6A4aN91/w0FK/jJSHvMAhdCVfGCi2zCcoOCWYOUo2z3yxkq4cI6epZuxhH2rhKEmdX4jiJV3TIUs+UsS1Vz8kA/DRelsv1SPjcF0PUUZ3s/gA4bysAoJf28AVs70b1FVL5zmhD+kjSbwYuER8ReTBw3J64HLnJN+/RpnF78IcV9uDjexNSTCnq47f7Fufr/zdsGbiwZeBe+3W7UvnSSmnEyimp31ngOaKYnhfsi+E11ecXL93KCjx7W3DKI8sj0A3T8HhhUSJxAlMxdSlQy90lfdu+HggWCwTXWCVmj5PM4TasIgX3p5O9JawvEagbJjS4NaIjAsCAwEAAaOCAe0wggHpMBAGCSsGAQQBgjcVAQQDAgEAMB0GA1UdDgQWBBRIbmTlUAXTgqoXNzcitW2oynUClTAZBgkrBgEEAYI3FAIEDB4KAFMAdQBiAEMAQTALBgNVHQ8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAfBgNVHSMEGDAWgBRyLToCMZBDuRQFTuHqp8cx0SOJNDBaBgNVHR8EUzBRME+gTaBLhklodHRwOi8vY3JsLm1pY3Jvc29mdC5jb20vcGtpL2NybC9wcm9kdWN0cy9NaWNSb29DZXJBdXQyMDExXzIwMTFfMDNfMjIuY3JsMF4GCCsGAQUFBwEBBFIwUDBOBggrBgEFBQcwAoZCaHR0cDovL3d3dy5taWNyb3NvZnQuY29tL3BraS9jZXJ0cy9NaWNSb29DZXJBdXQyMDExXzIwMTFfMDNfMjIuY3J0MIGfBgNVHSAEgZcwgZQwgZEGCSsGAQQBgjcuAzCBgzA/BggrBgEFBQcCARYzaHR0cDovL3d3dy5taWNyb3NvZnQuY29tL3BraW9wcy9kb2NzL3ByaW1hcnljcHMuaHRtMEAGCCsGAQUFBwICMDQeMiAdAEwAZQBnAGEAbABfAHAAbwBsAGkAYwB5AF8AcwB0AGEAdABlAG0AZQBuAHQALiAdMA0GCSqGSIb3DQEBCwUAA4ICAQBn8oalmOBUeRou09h0ZyKbC5YR4WOSmUKWfdJ5DJDBZV8uLD74w3LRbYP+vj/oCso7v0epo/Np22O/IjWll11lhJB9i0ZQVdgMknzSGksc8zxCi1LQsP1r4z4HLimb5j0bpdS1HXeUOeLpZMlEPXh6I/MTfaaQdION9MsmAkYqwooQu6SpBQyb7Wj6aC6VoCo/KmtYSWMfCWluWpiW5IP0wI/zRive/DvQvTXvbiWu5a8n7dDd8w6vmSiXmE0OPQvyCInWH8MyGOLwxS3OW560STkKxgrCxq2u5bLZ2xWIUUVYODJxJxp/sfQn+N4sOiBpmLJZiWhub6e3dMNABQamASooPoI/E01mC8CzTfXhj38cbxV9Rad25UAqZaPDXVJihsMdYzaXht/a8/jyFqGaJ+HNpZfQ7l1jQeNbB5yHPgZ3BtEGsXUfFL5hYbXw3MYbBL7fQccOKO7eZS/sl/ahXJbYANahRr1Z85elCUtIEJmAH9AAKcWxm6U/RXceNcbSoqKfenoi+kiVH6v7RyOA9Z74v2u3S5fi63V4GuzqN5l5GEv/1rMjaHXmr/r8i+sLgOppO6/8MO0ETI7f33VtY5E90Z1WTk+/gFcioXgRMiF670EKsT/7qMykXcGhiJtXcVZOSEXAQsmbdlsKgEhr/Xmfwb1tbWrJUnMTDXpQzQ==",
+        "MIIF7TCCA9WgAwIBAgIQP4vItfyfspZDtWnWbELhRDANBgkqhkiG9w0BAQsFADCBiDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEyMDAGA1UEAxMpTWljcm9zb2Z0IFJvb3QgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IDIwMTEwHhcNMTEwMzIyMjIwNTI4WhcNMzYwMzIyMjIxMzA0WjCBiDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEyMDAGA1UEAxMpTWljcm9zb2Z0IFJvb3QgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IDIwMTEwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCygEGqNThNE3IyaCJNuLLx/9VSvGzH9dJKjDbu0cJcfoyKrq8TKG/Ac+M6ztAlqFo6be+ouFmrEyNozQwph9FvgFyPRH9dkAFSWKxRxV8qh9zc2AodwQO5e7BW6KPeZGHCnvjzfLnsDbVU/ky2ZU+I8JxImQxCCwl8MVkXeQZ4KI2JOkwDJb5xalwL54RgpJki49KvhKSn+9GY7Qyp3pSJ4Q6g3MDOmT3qCFK7VnnkH4S6Hri0xElcTzFLh93dBWcmmYDgcRGjuKVB4qRTufcyKYMME782XgSzS0NHL2vikR7TmE/dQgfI6B0S/Jmpaz6SfsjWaTr8ZL22CZ3K/QwLopt3YEsDlKQwaRLWQi3BQUzK3Kr9j1uDRprZ/LHR47PJf0h6zSTwQY9cdNCssBAgBkm3xy0hyFfj0IbzA2j70M5xwYmZSmQBbP3sMJHPQTySx+W6hh1hhMdfgzlirrSSL0fzC/hV66AfWdC7dJse0Hbm8ukG1xDo+mTeacY1logC8Ea4PyeZb8txiSk190gWAjWP1Xl8TQLPX+uKg09FcYj5qQ1OcunCnAfPSRtOBA5jUYxe2ADBVSy2xuDCZU7JNDn1nLPEfuhhbhNfFcRf2X7tHc7uROzLLoax7Dj2cO2rXBPB2Q8Nx4CyVe0096yb5MPa50c8prWPMd/FS6/r8QIDAQABo1EwTzALBgNVHQ8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUci06AjGQQ7kUBU7h6qfHMdEjiTQwEAYJKwYBBAGCNxUBBAMCAQAwDQYJKoZIhvcNAQELBQADggIBAH9yzw+3xRXbm8BJyiZb/p4T5tPw0tuXX/JLP02zrhmu7deXoKzvqTqjwkGw5biRnhOBJAPmCf0/V0A5ISRW0RAvS0CpNoZLtFNXmvvxfomPEf4YbFGq6O0JlbXlccmh6Yd1phV/yX43VF50k8XDZ8wNT2uoFwxtCJJ+i92Bqi1wIcM9BhS7vyRep4TXPw8hIr1LAAbblxzYXtTFC1yHblCk6MM4pPvLLMWSZpuFXst6bJN8gClYW1e1QGm6CHmmZGIVnYeWRbVmIyADixxzoNOieTPgUFmG2y/lAiXqcyqfABTINseSO+lOAOzYVgm5M0kS0lQLAausR7aRKX1MtHWAUgHoyoL2n8ysnI8X6i8msKtyrAv+nlEex0NVZ09Rs1fWtuzuUrc66U7h14GIvE+OdbtLqPA1qibUZ2dJsnBMO5PcHd94kIZysjik0dySTclY6ysSXNQ7roxrsIPlAT/4CTL2kzU0Iq/dNw13CYArzUgA8YyZGUcFAenRv9FO0OYoQzeZpApKCNmacXPSqs0xE2N2oTdvkjgefRI8ZjLny23h/FKJ3crWZgWalmG+oijHHKOnNlA8OqTfSm7mhzvO6/DggTedEzxSjr25HTTGHdUKaj2YKXCMiSrRq4IQSB/c9O+lxbtVGjhjhE63bK2VVOxlIhBJF7jAHscPrFRH"
+      ]
+    },
+    "counterSign": {
+      "x509Data": [
+        "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"
+      ],
+      "timestamp": "2019-03-01-10:32:30",
+      "counterSignatureMethod": "timeStamp",
+      "counterSignature": "MIITpQYJKoZIhvcNAQcCoIITljCCE5ICAQMxDzANBglghkgBZQMEAgEFADCCAVsGCyqGSIb3DQEJEAEEoIIBSgSCAUYwggFCAgEBBgorBgEEAYRZCgMBMDEwDQYJYIZIAWUDBAIBBQAEIC+N/uZ70tDBQ+4DtzO/ffdvscT6XM+j0nuKeB8LzKSJAgZcdu7B3aEYEzIwMTkwMzAxMTgzMjI5LjY5NVowBwIBAYACAfQCAZmggdSkgdEwgc4xCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpXYXNoaW5ndG9uMRAwDgYDVQQHEwdSZWRtb25kMR4wHAYDVQQKExVNaWNyb3NvZnQgQ29ycG9yYXRpb24xKTAnBgNVBAsTIE1pY3Jvc29mdCBPcGVyYXRpb25zIFB1ZXJ0byBSaWNvMSYwJAYDVQQLEx1UaGFsZXMgVFNTIEVTTjpGNTI4LTM3NzctOEE3NjElMCMGA1UEAxMcTWljcm9zb2Z0IFRpbWUtU3RhbXAgU2VydmljZaCCDyIwggT1MIID3aADAgECAhMzAAAA0ZjP5DyZJWSEAAAAAADRMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpXYXNoaW5ndG9uMRAwDgYDVQQHEwdSZWRtb25kMR4wHAYDVQQKExVNaWNyb3NvZnQgQ29ycG9yYXRpb24xJjAkBgNVBAMTHU1pY3Jvc29mdCBUaW1lLVN0YW1wIFBDQSAyMDEwMB4XDTE4MDgyMzIwMjYzM1oXDTE5MTEyMzIwMjYzM1owgc4xCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpXYXNoaW5ndG9uMRAwDgYDVQQHEwdSZWRtb25kMR4wHAYDVQQKExVNaWNyb3NvZnQgQ29ycG9yYXRpb24xKTAnBgNVBAsTIE1pY3Jvc29mdCBPcGVyYXRpb25zIFB1ZXJ0byBSaWNvMSYwJAYDVQQLEx1UaGFsZXMgVFNTIEVTTjpGNTI4LTM3NzctOEE3NjElMCMGA1UEAxMcTWljcm9zb2Z0IFRpbWUtU3RhbXAgU2VydmljZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAO8AzsRMhqn2kikKhD3zCu0CrZNR/rI/5Mk55+pELW4spLVAS2J5i9pImF9/L+hCWB1+VABr1O6Z7JLscLyNQH9h+425uDw/j9NivZcdYhQHS5aXUGrlg+hBI04qTdVXVFiLz7QnOdOCQWWT34xuwiDFSTU3pND3zBTUzgtHG2DHuZ9KYCBBQI5h+DppSTrIl2hrNoi2h048t68+kzCzZbxtcDB5JdvnPklmJW0eiaBUNLDQBJ+qisRoEe5KXXUJbvcFSh40S1PHF5hKSSMa2dzsK+7U7N9SXMla5WYOGshZSD9OKiNzR24i6gNYxHx2qrkexW6j2M/OCj8zcpMqx/8CAwEAAaOCARswggEXMB0GA1UdDgQWBBSD+xJFcDb/Z4m6UIvdycY9VPNqDDAfBgNVHSMEGDAWgBTVYzpcijGQ80N7fEYbxTNoWoVtVTBWBgNVHR8ETzBNMEugSaBHhkVodHRwOi8vY3JsLm1pY3Jvc29mdC5jb20vcGtpL2NybC9wcm9kdWN0cy9NaWNUaW1TdGFQQ0FfMjAxMC0wNy0wMS5jcmwwWgYIKwYBBQUHAQEETjBMMEoGCCsGAQUFBzAChj5odHRwOi8vd3d3Lm1pY3Jvc29mdC5jb20vcGtpL2NlcnRzL01pY1RpbVN0YVBDQV8yMDEwLTA3LTAxLmNydDAMBgNVHRMBAf8EAjAAMBMGA1UdJQQMMAoGCCsGAQUFBwMIMA0GCSqGSIb3DQEBCwUAA4IBAQA64DLn2qQE9IkemBnRJXoNPZ8i2UamL9Syzn2kERwVuBZ4lrlNjXcdzGEFwKpnxtw4nHbwdyaUxDf26Nu0fcGA0+8YJqinxW5Ru8r0uLbbn/5DCEhnoC/eGEtQkgQVC2ppiula+Uk5RSTq/A90xnT74jnIgGQuC9tptzLmy3LHYBGObaMCPxFaVkea9BL87pxnk8pGFF/069NFIZGb5OjMCJgkqyycHEb+Kk+H/JT0fuqydkn8CXk8lrV/Mehla+jEcGLW2DSBdM9Epq84Zn4ywzU9s2Ri63KfeNARfvkLNTWiDRwPhogV7O6O6Y171+1bOo4RggWFdfAX/JWlmsooMIIGcTCCBFmgAwIBAgIKYQmBKgAAAAAAAjANBgkqhkiG9w0BAQsFADCBiDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEyMDAGA1UEAxMpTWljcm9zb2Z0IFJvb3QgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IDIwMTAwHhcNMTAwNzAxMjEzNjU1WhcNMjUwNzAxMjE0NjU1WjB8MQswCQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEQMA4GA1UEBxMHUmVkbW9uZDEeMBwGA1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMSYwJAYDVQQDEx1NaWNyb3NvZnQgVGltZS1TdGFtcCBQQ0EgMjAxMDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKkdDbx3EYo6IOz8E5f1+n9plGt0VBDVpQoAgoX77XxoSyxfxcPlYcJ2tz5mK1vwFVMnBDEfQRsalR3OCROOfGEwWbEwRA/xYIiEVEMM1024OAizQt2TrNZzMFcmgqNFDdDq9UeBzb8kYDJYYEbyWEeGMoQedGFnkV+BVLHPk0ySwcSmXdFhE24oxhr5hoC732H8RsEnHSRnEnIaIYqvS2SJUGKxXf13Hz3wV3WsvYpCTUBR0Q+cBj5nf/VmwAOWRH7v0Ev9buWayrGo8noqCjHw2k4GkbaICDXoeByw6ZnNPOcvRLqn9NxkvaQBwSAJk3jN/LzAyURdXhacAQVPIk0CAwEAAaOCAeYwggHiMBAGCSsGAQQBgjcVAQQDAgEAMB0GA1UdDgQWBBTVYzpcijGQ80N7fEYbxTNoWoVtVTAZBgkrBgEEAYI3FAIEDB4KAFMAdQBiAEMAQTALBgNVHQ8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAfBgNVHSMEGDAWgBTV9lbLj+iiXGJo0T2UkFvXzpoYxDBWBgNVHR8ETzBNMEugSaBHhkVodHRwOi8vY3JsLm1pY3Jvc29mdC5jb20vcGtpL2NybC9wcm9kdWN0cy9NaWNSb29DZXJBdXRfMjAxMC0wNi0yMy5jcmwwWgYIKwYBBQUHAQEETjBMMEoGCCsGAQUFBzAChj5odHRwOi8vd3d3Lm1pY3Jvc29mdC5jb20vcGtpL2NlcnRzL01pY1Jvb0NlckF1dF8yMDEwLTA2LTIzLmNydDCBoAYDVR0gAQH/BIGVMIGSMIGPBgkrBgEEAYI3LgMwgYEwPQYIKwYBBQUHAgEWMWh0dHA6Ly93d3cubWljcm9zb2Z0LmNvbS9QS0kvZG9jcy9DUFMvZGVmYXVsdC5odG0wQAYIKwYBBQUHAgIwNB4yIB0ATABlAGcAYQBsAF8AUABvAGwAaQBjAHkAXwBTAHQAYQB0AGUAbQBlAG4AdAAuIB0wDQYJKoZIhvcNAQELBQADggIBAAfmiFEN4sbgmD+BcQM9naOhIW+z66bM9TG+zwXiqf76V20ZMLPCxWbJat/15/B4vceoniXj+bzta1RXCCtRgkQS+7lTjMz0YBKKdsxAQEGb3FwX/1z5Xhc1mCRWS3TvQhDIr79/xn/yN31aPxzymXlKkVIArzgPF/UveYFl2am1a+THzvbKegBvSzBEJCI8z+0DpZaPWSm8tv0E4XCfMkon/VWvL/625Y4zu2JfmttXQOnxzplmkIz/amJ/3cVKC5Em4jnsGUpxY517IW3DnKOiPPp/fZZqkHimbdLhnPkd/DjYlPTGpQqWhqS9nhquBEKDuLWAmyI4ILUl5WTs9/S/fmNZJQ96LjlXdqJxqgaKD4kWumGnEcua2A5HmoDF0M2n0O99g/DhO3EJ3110mCIIYdqwUB5vvfHhAN/nMQekkzr3ZUd46PioSKv33nJ+YWtvd6mBy6cJrDm77MbL2IK0cs0d9LiFAR6A+xuJKlQ5slvayA1VmXqHczsI5pgt6o3gMy4SKfXAL1QnIffIrE7aKLixqduWsqdCosnPGUFN4Ib5KpqjEWYw07t0MkvfY3v1mYovG8chr1m1rtxEPJdQcdeh0sVV42neV8HR3jDA/czmTfsNv11P6Z0eGTgvvM9YBS7vDaBQNdrvCScc1bN+NR4Iuto229Nfj950iEkSoYIDsDCCApgCAQEwgf6hgdSkgdEwgc4xCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpXYXNoaW5ndG9uMRAwDgYDVQQHEwdSZWRtb25kMR4wHAYDVQQKExVNaWNyb3NvZnQgQ29ycG9yYXRpb24xKTAnBgNVBAsTIE1pY3Jvc29mdCBPcGVyYXRpb25zIFB1ZXJ0byBSaWNvMSYwJAYDVQQLEx1UaGFsZXMgVFNTIEVTTjpGNTI4LTM3NzctOEE3NjElMCMGA1UEAxMcTWljcm9zb2Z0IFRpbWUtU3RhbXAgU2VydmljZaIlCgEBMAkGBSsOAwIaBQADFQBKXMzSTq/paxECeoaXXVG5drZU8aCB3jCB26SB2DCB1TELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEpMCcGA1UECxMgTWljcm9zb2Z0IE9wZXJhdGlvbnMgUHVlcnRvIFJpY28xJzAlBgNVBAsTHm5DaXBoZXIgTlRTIEVTTjo0REU5LTBDNUUtM0UwOTErMCkGA1UEAxMiTWljcm9zb2Z0IFRpbWUgU291cmNlIE1hc3RlciBDbG9jazANBgkqhkiG9w0BAQUFAAIFAOAjzNowIhgPMjAxOTAzMDEyMzIzMDZaGA8yMDE5MDMwMjIzMjMwNlowdzA9BgorBgEEAYRZCgQBMS8wLTAKAgUA4CPM2gIBADAKAgEAAgIZ7AIB/zAHAgEAAgIapDAKAgUA4CUeWgIBADA2BgorBgEEAYRZCgQCMSgwJjAMBgorBgEEAYRZCgMBoAowCAIBAAIDFuNgoQowCAIBAAIDB6EgMA0GCSqGSIb3DQEBBQUAA4IBAQCkYI61Sqb6PCKunA6zYuT16ykQZxOvhePz8cYC4FiOuECAT+hCTkQFaiFDUefh2psIoBMoTTOv/uNlpgnXs1oGweKTwVEmKnrfaNAniJFc5h767/6i1W9zGmN42aZutf55eeHxIWxjDTRqQ8rO4krXHJ3GaBsSXFeE2k6xQapyaOW9PsXliQto8/mT33iI/UmA8EoOmDz1ceiEk7tMXWNrh14sZN7bbS+ctlNK4m8Z/fniW97bIwQl0POF/pLtHBS2NohbEOVwqD/B8OuucDJEuk+54a8qm9SkK99am6ERd2CuOI/hB9zr8NpYoYUwvsrmTe44Kllx/k75trcGTgvfMYIC9TCCAvECAQEwgZMwfDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEmMCQGA1UEAxMdTWljcm9zb2Z0IFRpbWUtU3RhbXAgUENBIDIwMTACEzMAAADRmM/kPJklZIQAAAAAANEwDQYJYIZIAWUDBAIBBQCgggEyMBoGCSqGSIb3DQEJAzENBgsqhkiG9w0BCRABBDAvBgkqhkiG9w0BCQQxIgQgQWD61HbVS5XZFbXnuJGjq0ZJSzSSlWea/rVubtC23VUwgeIGCyqGSIb3DQEJEAIMMYHSMIHPMIHMMIGxBBRKXMzSTq/paxECeoaXXVG5drZU8TCBmDCBgKR+MHwxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpXYXNoaW5ndG9uMRAwDgYDVQQHEwdSZWRtb25kMR4wHAYDVQQKExVNaWNyb3NvZnQgQ29ycG9yYXRpb24xJjAkBgNVBAMTHU1pY3Jvc29mdCBUaW1lLVN0YW1wIFBDQSAyMDEwAhMzAAAA0ZjP5DyZJWSEAAAAAADRMBYEFLHjCfqc5VTOVlTUG36Js/ztHM0NMA0GCSqGSIb3DQEBCwUABIIBAIn3s/hJcCOeEP2WVcsadHVC052nU35DVKcUPPYgXpqtic6e8HU5hRPZ2iY/s/tfzyzs7miBd15RxgsElmFYV1i7LjvbaqdvnT5eG7+OWA8UgS7N75TSazR6ZUFVnPhmVNDCrEJDcf/biJgnvJplpaKacThzZ0y1KkjGvDlVATO288S77KTx/Vk1yPIrfJJXT0x+czNHykN2j6CDGFtcjzAWschjFqHV7DkXS8DBPE8s6xG+q7PGBWzkLOj92GEAT57owJwrYQGCCuVg1EBvcZgqe4vQKcDhkdta5AKx1JXRH+K/8ICJCBP1hjHxM0jToyxT3zUdfAN81ZjaWOLmPv4A"
+    }
+  }
+}
