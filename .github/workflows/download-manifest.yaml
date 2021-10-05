@@ -16,6 +16,10 @@ jobs:
       matrix:
         major: [15, 16]
         type: [release, pre]
+        include:
+        -
+          major: 17
+          type: pre
 
     steps:
       - uses: actions/checkout@v2
