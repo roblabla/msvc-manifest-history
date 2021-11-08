@@ -1,0 +1,926 @@
+{
+  "manifestVersion": "1.1",
+  "info": {
+    "id": "VisualStudio.17.Release/17.0.0+31903.59",
+    "buildBranch": "d17.0",
+    "buildVersion": "17.0.31903.59",
+    "commitId": "e48dd7667008d3e07429119cc1e2a76266de942e",
+    "communityOrLowerFlightId": "bf4c8ef6a99c42f",
+    "localBuild": "build-lab",
+    "manifestName": "VisualStudio.17.Release",
+    "manifestType": "channel",
+    "productDisplayVersion": "17.0.0",
+    "productLine": "Dev17",
+    "productLineVersion": "2022",
+    "productMilestone": "RTW",
+    "productMilestoneIsPreRelease": "False",
+    "productName": "Visual Studio",
+    "productPatchVersion": "0",
+    "productPreReleaseMilestoneSuffix": "8.0",
+    "productSemanticVersion": "17.0.0+31903.59",
+    "professionalOrGreaterFlightId": "1d038061b8914ef",
+    "qBuildSessionId": "199fb4f3-f4d3-6176-b468-de87c1d30cdf"
+  },
+  "channelItems": [
+    {
+      "id": "Microsoft.VisualStudio.Manifests.VisualStudio",
+      "version": "17.0.31903.59",
+      "type": "Manifest",
+      "payloads": [
+        {
+          "fileName": "VisualStudio.vsman",
+          "sha256": "6a7baa54d8758a4ae95028b3addb78cce39534cbfb49a23aee4c25766ff0c154",
+          "size": 13908298,
+          "url": "https://download.visualstudio.microsoft.com/download/pr/7aa16be3-9952-4bd2-8ecf-eae91faa0a06/6a7baa54d8758a4ae95028b3addb78cce39534cbfb49a23aee4c25766ff0c154/VisualStudio.vsman"
+        }
+      ]
+    },
+    {
+      "id": "Microsoft.VisualStudio.Product.BuildTools",
+      "version": "17.0.31903.59",
+      "type": "ChannelProduct",
+      "icon": {
+        "mimeType": "image/svg+xml",
+        "base64": "PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMjQgMjQiPg0KICA8ZGVmcz4NCiAgICA8c3R5bGU+LmNscy0xe2ZpbGw6IzVlNDM4Zjt9LmNscy0ye29wYWNpdHk6MC4xO2lzb2xhdGlvbjppc29sYXRlO30uY2xzLTN7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudCk7fS5jbHMtNHtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTIpO30uY2xzLTV7ZmlsbDojYzE4ZWYxO308L3N0eWxlPg0KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iMy42MTIiIHkxPSItMTUuMzUyIiB4Mj0iMTkuNTc1IiB5Mj0iMS4zNjkiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSwgMCwgMCwgLTEsIDAsIDQpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+DQogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM3MjUyYWEiLz4NCiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzcyNTJhYSIvPg0KICAgIDwvbGluZWFyR3JhZGllbnQ+DQogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtMiIgeDE9IjguODQ0IiB5MT0iMzguNjc5IiB4Mj0iMTMuODcxIiB5Mj0iMzMuMjE2IiBncmFkaWVudFRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTIyKSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPg0KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjYWU3ZmUyIi8+DQogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM5YTcwZDQiLz4NCiAgICA8L2xpbmVhckdyYWRpZW50Pg0KICA8L2RlZnM+DQogIDxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQuNCwyMC4zbC00LTNhLjkxMS45MTEsMCwwLDEtLjQtLjh2LTlhLjkxMS45MTEsMCwwLDEsLjQtLjhsNC0zYS45MTEuOTExLDAsMCwwLS40Ljh2MTVBLjkxMS45MTEsMCwwLDAsNC40LDIwLjNaIi8+DQogIDxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTEuMSwxNy4yYS41MTcuNTE3LDAsMCwxLS40LjIuMzY2LjM2NiwwLDAsMS0uMy0uMWgwbDQsM2EuOTExLjkxMSwwLDAsMS0uNC0uOFYxMy44WiIvPg0KICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0uNCw2LjdoMGEuNS41LDAsMCwxLC42OTMuMDlMMS4xLDYuOCw0LDEwLjJWNC41YS45MTEuOTExLDAsMCwxLC40LS44WiIvPg0KICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0yMy42LDQuMkExLjQyMywxLjQyMywwLDAsMCwyMyw0YS45MDguOTA4LDAsMCwwLS43LjNsLS4xLjFMMTgsOC40LDE0LjMsMTIsOS45LDE2LjIsNS44LDIwLjFsLS4xLjFhLjkwOC45MDgsMCwwLDEtLjcuMywxLjQyMywxLjQyMywwLDAsMS0uNi0uMmwtNC0zYTEuMDcxLDEuMDcxLDAsMCwwLDEuNC0uMUw0LDE0LjYsNi4yLDEyLDkuOCw3LjgsMTYuMi40QS45MTEuOTExLDAsMCwxLDE3LDBhMS40MjMsMS40MjMsMCwwLDEsLjYuMloiLz4NCiAgPHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjEwLjIgNy40IDkuOCA3LjggNi4yIDEyIDUuOSAxMi40IDkuNSAxNi42IDkuNSAxNi42IDkuOCAxNi4yIDE0LjMgMTIgMTQuNiAxMS43IDEwLjIgNy40Ii8+DQogIDxwYXRoIGNsYXNzPSJjbHMtNCIgZD0iTTIzLjYsMTkuOGwtNiw0Yy0uMSwwLS4yLjEtLjMuMWgwYS45LjksMCwwLDEtMS0uM0w5LjksMTYuMiw2LjIsMTIsNCw5LjQsMS44LDYuOEExLjIwOCwxLjIwOCwwLDAsMCwuNCw2LjdsNC0zQTEuNDIzLDEuNDIzLDAsMCwxLDUsMy41YS45MDguOTA4LDAsMCwxLC43LjNsLjEuMUw5LjksNy44LDE0LjMsMTJsMy4yLDMuMS41LjUsNC4yLDQuMS4xLjFhLjkwOC45MDgsMCwwLDAsLjcuM1oiLz4NCiAgPHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMjMuNiwxOS44bC02LDRjLS4xLDAtLjIuMS0uMy4xYS43NjIuNzYyLDAsMCwwLC4yLS40VjE1LjFsLjUuNSw0LjIsNC4xLjEuMWEuOTA4LjkwOCwwLDAsMCwuNy4zWiIvPg0KICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xNy41LjJhLjM2Ni4zNjYsMCwwLDAtLjMtLjEuNTE3LjUxNywwLDAsMSwuMi40VjguOWwuNi0uNSw0LjItNC4xLjEtLjFBMS40NDgsMS40NDgsMCwwLDEsMjMsNGExLjQyMywxLjQyMywwLDAsMSwuNi4yWiIvPg0KICA8cGF0aCBjbGFzcz0iY2xzLTUiIGQ9Ik0yNCw1VjE5YTEsMSwwLDAsMS0uNDQ1LjgzNWwtNiw0QTEsMSwwLDAsMCwxOCwyM1YxYTEuMDEsMS4wMSwwLDAsMC0uNDYtLjgzNWw2LjAxNSw0QTEuMDA5LDEuMDA5LDAsMCwxLDI0LDVaIi8+DQo8L3N2Zz4="
+      },
+      "isHidden": true,
+      "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.0#17.0.0",
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Visual Studio Build Tools 2022",
+          "description": "The Visual Studio Build Tools allows you to build native and managed MSBuild-based applications without requiring the Visual Studio IDE. There are options to install the Visual C++ compilers and libraries, MFC, ATL, and C++/CLI support.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179911"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Visual Studio 生成工具 2022",
+          "description": "Visual Studio 生成工具允许生成本机和基于 MSBuild 的托管 .NET 应用程序，而不需要 Visual Studio IDE。还可以选择安装 Visual C++ 编译器和库、MFC、ALT 和 C++/CLI 支持。",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179911"
+        },
+        {
+          "language": "zh-tw",
+          "title": "Visual Studio Build Tools 2022",
+          "description": "Visual Studio Build Tools 可讓您建置原生及受控 MSBuild 型工具，而不需要 Visual Studio IDE。選項包括安裝 Visual C++ 編譯器與程式庫、MFC、ATL 及 C++/CLI 支援。",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179911"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Visual Studio Build Tools 2022",
+          "description": "Nástroje Visual Studio Build Tools umožňují vytváření nativních a spravovaných aplikací na bázi platformy MSBuild, aniž by se vyžadovalo prostředí IDE sady Visual Studio. K dispozici jsou i možnosti pro instalaci nástrojů, jako jsou kompilátory a knihovny nebo podpora Visual C++, MFC, ATL a C++/CLI.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179911"
+        },
+        {
+          "language": "de-de",
+          "title": "Visual Studio Build Tools 2022",
+          "description": "Die Visual Studio Build Tools ermöglichen Ihnen die Erstellung nativer und verwalteter MSBuild-basierter Anwendungen, ohne dass die Visual Studio-IDE erforderlich ist. Es stehen Optionen zur Installation von Visual C++-Compilern und -Bibliotheken, MFC, ATL sowie C++/CLI-Unterstützung zur Verfügung.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179911"
+        },
+        {
+          "language": "es-es",
+          "title": "Visual Studio Build Tools 2022",
+          "description": "Visual Studio Build Tools permite compilar aplicaciones nativas y administradas basadas en MSBuild sin el IDE de Visual Studio. Hay opciones para instalar los compiladores y las bibliotecas de Visual C++, MFC, ATL y la compatibilidad con C++/CLI.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179911"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Visual Studio Build Tools 2022",
+          "description": "Visual Studio Build Tools vous permet de générer des applications MSBuild natives et managées sans passer par l'IDE Visual Studio. Il existe des options pour installer les compilateurs et bibliothèques Visual C++, ainsi que la prise en charge d'ATL, de MFC et de C++/CLI.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179911"
+        },
+        {
+          "language": "it-it",
+          "title": "Visual Studio Build Tools 2022",
+          "description": "Visual Studio Build Tools consente di creare applicazioni native e gestite basate su MSBuild senza l'IDE di Visual Studio. Sono disponibili opzioni per installare le librerie e i compilatori Visual C++, MFC, ATL e il supporto C++/CLI.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179911"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Visual Studio Build Tools 2022",
+          "description": "Visual Studio Build Tools では、Visual Studio IDE を必要とせずに、MSBuild ベースのネイティブ マネージド アプリケーションをビルドできます。また、Visual C++ のコンパイラやライブラリ、MFC、ATL、および C++/CLI サポートをインストールするオプションも用意されています。",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179911"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Visual Studio Build Tools 2022",
+          "description": "Visual Studio Build Tools에서는 Visual Studio IDE 없이 네이티브 및 관리 MSBuild 기반 애플리케이션을 빌드할 수 있습니다. Visual C++ 컴파일러 및 라이브러리, MFC, ATL, C++/CLI 지원 등과 같은 도구를 설치하는 옵션이 있습니다.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179911"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Visual Studio Build Tools 2022",
+          "description": "Narzędzia Visual Studio Build Tools umożliwiają tworzenie natywnych i zarządzanych aplikacji opartych na narzędziu MSBuild bez korzystania ze środowiska IDE programu Visual Studio. Dostępne są opcje instalacji narzędzi, takich jak kompilatory i biblioteki Visual C++, ATL, MFC oraz obsługa C++/CLI.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179911"
+        },
+        {
+          "language": "pt-br",
+          "title": "Ferramentas de Build do Visual Studio 2022",
+          "description": "As Ferramentas de Build do Visual Studio permitem que você compile aplicativos nativos e gerenciados com base no MSBuild sem precisar do IDE do Visual Studio. Há opções para instalar as bibliotecas e os compiladores do Visual C++, MFC, ATL e suporte C++/CLI.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179911"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Visual Studio Build Tools 2022",
+          "description": "Visual Studio Build Tools позволяет осуществлять сборку собственных и управляемых приложений на базе MSBuild без использования среды Visual Studio IDE. Существуют разные варианты установки компиляторов и библиотек Visual C++, ATL, MFC и поддержки C++/CLI.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179911"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Visual Studio Derleme Araçları 2022",
+          "description": "Visual Studio Derleme Araçları, MSBuild tabanlı yerel ve yönetilen uygulamaları Visual Studio IDE kullanmanız gerekmeden derlemenizi sağlar. Visual C++ derleyicileri ile kitaplıkları, MFC, ATL ve C++/CLI desteğini yükleyebilirsiniz.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179911"
+        }
+      ]
+    },
+    {
+      "id": "Microsoft.VisualStudio.Product.Community",
+      "version": "17.0.31903.59",
+      "type": "ChannelProduct",
+      "chip": "x64",
+      "icon": {
+        "mimeType": "image/svg+xml",
+        "base64": "PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMjQgMjQiPg0KICA8ZGVmcz4NCiAgICA8c3R5bGU+LmNscy0xe2ZpbGw6IzVlNDM4Zjt9LmNscy0ye29wYWNpdHk6MC4xO2lzb2xhdGlvbjppc29sYXRlO30uY2xzLTN7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudCk7fS5jbHMtNHtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTIpO30uY2xzLTV7ZmlsbDojYzE4ZWYxO308L3N0eWxlPg0KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iMy42MTIiIHkxPSItMTUuMzUyIiB4Mj0iMTkuNTc1IiB5Mj0iMS4zNjkiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSwgMCwgMCwgLTEsIDAsIDQpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+DQogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM3MjUyYWEiLz4NCiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzcyNTJhYSIvPg0KICAgIDwvbGluZWFyR3JhZGllbnQ+DQogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtMiIgeDE9IjguODQ0IiB5MT0iMzguNjc5IiB4Mj0iMTMuODcxIiB5Mj0iMzMuMjE2IiBncmFkaWVudFRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTIyKSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPg0KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjYWU3ZmUyIi8+DQogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM5YTcwZDQiLz4NCiAgICA8L2xpbmVhckdyYWRpZW50Pg0KICA8L2RlZnM+DQogIDxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQuNCwyMC4zbC00LTNhLjkxMS45MTEsMCwwLDEtLjQtLjh2LTlhLjkxMS45MTEsMCwwLDEsLjQtLjhsNC0zYS45MTEuOTExLDAsMCwwLS40Ljh2MTVBLjkxMS45MTEsMCwwLDAsNC40LDIwLjNaIi8+DQogIDxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTEuMSwxNy4yYS41MTcuNTE3LDAsMCwxLS40LjIuMzY2LjM2NiwwLDAsMS0uMy0uMWgwbDQsM2EuOTExLjkxMSwwLDAsMS0uNC0uOFYxMy44WiIvPg0KICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0uNCw2LjdoMGEuNS41LDAsMCwxLC42OTMuMDlMMS4xLDYuOCw0LDEwLjJWNC41YS45MTEuOTExLDAsMCwxLC40LS44WiIvPg0KICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0yMy42LDQuMkExLjQyMywxLjQyMywwLDAsMCwyMyw0YS45MDguOTA4LDAsMCwwLS43LjNsLS4xLjFMMTgsOC40LDE0LjMsMTIsOS45LDE2LjIsNS44LDIwLjFsLS4xLjFhLjkwOC45MDgsMCwwLDEtLjcuMywxLjQyMywxLjQyMywwLDAsMS0uNi0uMmwtNC0zYTEuMDcxLDEuMDcxLDAsMCwwLDEuNC0uMUw0LDE0LjYsNi4yLDEyLDkuOCw3LjgsMTYuMi40QS45MTEuOTExLDAsMCwxLDE3LDBhMS40MjMsMS40MjMsMCwwLDEsLjYuMloiLz4NCiAgPHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjEwLjIgNy40IDkuOCA3LjggNi4yIDEyIDUuOSAxMi40IDkuNSAxNi42IDkuNSAxNi42IDkuOCAxNi4yIDE0LjMgMTIgMTQuNiAxMS43IDEwLjIgNy40Ii8+DQogIDxwYXRoIGNsYXNzPSJjbHMtNCIgZD0iTTIzLjYsMTkuOGwtNiw0Yy0uMSwwLS4yLjEtLjMuMWgwYS45LjksMCwwLDEtMS0uM0w5LjksMTYuMiw2LjIsMTIsNCw5LjQsMS44LDYuOEExLjIwOCwxLjIwOCwwLDAsMCwuNCw2LjdsNC0zQTEuNDIzLDEuNDIzLDAsMCwxLDUsMy41YS45MDguOTA4LDAsMCwxLC43LjNsLjEuMUw5LjksNy44LDE0LjMsMTJsMy4yLDMuMS41LjUsNC4yLDQuMS4xLjFhLjkwOC45MDgsMCwwLDAsLjcuM1oiLz4NCiAgPHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMjMuNiwxOS44bC02LDRjLS4xLDAtLjIuMS0uMy4xYS43NjIuNzYyLDAsMCwwLC4yLS40VjE1LjFsLjUuNSw0LjIsNC4xLjEuMWEuOTA4LjkwOCwwLDAsMCwuNy4zWiIvPg0KICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xNy41LjJhLjM2Ni4zNjYsMCwwLDAtLjMtLjEuNTE3LjUxNywwLDAsMSwuMi40VjguOWwuNi0uNSw0LjItNC4xLjEtLjFBMS40NDgsMS40NDgsMCwwLDEsMjMsNGExLjQyMywxLjQyMywwLDAsMSwuNi4yWiIvPg0KICA8cGF0aCBjbGFzcz0iY2xzLTUiIGQ9Ik0yNCw1VjE5YTEsMSwwLDAsMS0uNDQ1LjgzNWwtNiw0QTEsMSwwLDAsMCwxOCwyM1YxYTEuMDEsMS4wMSwwLDAsMC0uNDYtLjgzNWw2LjAxNSw0QTEuMDA5LDEuMDA5LDAsMCwxLDI0LDVaIi8+DQo8L3N2Zz4="
+      },
+      "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.0#17.0.0",
+      "supportsDownloadThenUpdate": true,
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Visual Studio Community 2022",
+          "description": "Powerful IDE, free for students, open-source contributors, and individuals",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179811"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Visual Studio Community 2022",
+          "description": "功能强大的 IDE，供学生、开放源代码参与者和个人免费使用",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179811"
+        },
+        {
+          "language": "zh-tw",
+          "title": "Visual Studio Community 2022",
+          "description": "功能強大的 IDE、免費供學生、開放原始碼參與者及個人使用",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179811"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Visual Studio Community 2022",
+          "description": "Výkonné integrované vývojové prostředí (IDE), zdarma pro studenty, open source přispěvatele a jednotlivce",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179811"
+        },
+        {
+          "language": "de-de",
+          "title": "Visual Studio Community 2022",
+          "description": "Leistungsstarke IDE, kostenlos für Studenten, Open-Source-Mitwirkende und Einzelpersonen",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179811"
+        },
+        {
+          "language": "es-es",
+          "title": "Visual Studio Community 2022",
+          "description": "IDE con un gran potencial, gratis para estudiantes, colaboradores de código abierto y personas",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179811"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Visual Studio Community 2022",
+          "description": "IDE puissant, gratuit pour les étudiants, les contributeurs open source et les particuliers",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179811"
+        },
+        {
+          "language": "it-it",
+          "title": "Visual Studio Community 2022",
+          "description": "Potente IDE gratuito per studenti, collaboratori open-source e singoli utenti",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179811"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Visual Studio Community 2022",
+          "description": "学生、オープンソースの共同作成者、個人用の無料で強力な IDE",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179811"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Visual Studio Community 2022",
+          "description": "강력한 IDE, 학생, 오픈 소스 제공자 및 개인을 위해 무료로 제공",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179811"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Visual Studio Community 2022",
+          "description": "Zaawansowane środowisko IDE — bezpłatne dla uczniów i studentów, współautorów oprogramowania open source oraz indywidualnych osób",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179811"
+        },
+        {
+          "language": "pt-br",
+          "title": "Visual Studio Community 2022",
+          "description": "IDE avançado, gratuito para estudantes, colaboradores de software livre e indivíduos",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179811"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Visual Studio Community 2022",
+          "description": "Мощная интегрированная среда разработки, бесплатная для студентов, участников проектов с открытым кодом и отдельных пользователей.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179811"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Visual Studio Community 2022",
+          "description": "Güçlü IDE, öğrenciler için ücretsiz, açık kaynak katkıda bulunanları ve bireyler",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179811"
+        }
+      ],
+      "requirements": {
+        "supportedOS": "6.1.1",
+        "functors": {
+          "architecture": "x64"
+        },
+        "conditions": {
+          "expression": "not Win10ThresholdBuildNumber",
+          "conditions": [
+            {
+              "registryKey": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion",
+              "id": "Win10ThresholdBuildNumber",
+              "registryValue": "CurrentBuildNumber",
+              "registryData": "[10240.0,14393.0)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "Microsoft.VisualStudio.Product.Enterprise",
+      "version": "17.0.31903.59",
+      "type": "ChannelProduct",
+      "chip": "x64",
+      "icon": {
+        "mimeType": "image/svg+xml",
+        "base64": "PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMjQgMjQiPg0KICA8ZGVmcz4NCiAgICA8c3R5bGU+LmNscy0xe2ZpbGw6IzVlNDM4Zjt9LmNscy0ye29wYWNpdHk6MC4xO2lzb2xhdGlvbjppc29sYXRlO30uY2xzLTN7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudCk7fS5jbHMtNHtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTIpO30uY2xzLTV7ZmlsbDojYzE4ZWYxO308L3N0eWxlPg0KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iMy42MTIiIHkxPSItMTUuMzUyIiB4Mj0iMTkuNTc1IiB5Mj0iMS4zNjkiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSwgMCwgMCwgLTEsIDAsIDQpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+DQogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM3MjUyYWEiLz4NCiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzcyNTJhYSIvPg0KICAgIDwvbGluZWFyR3JhZGllbnQ+DQogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtMiIgeDE9IjguODQ0IiB5MT0iMzguNjc5IiB4Mj0iMTMuODcxIiB5Mj0iMzMuMjE2IiBncmFkaWVudFRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTIyKSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPg0KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjYWU3ZmUyIi8+DQogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM5YTcwZDQiLz4NCiAgICA8L2xpbmVhckdyYWRpZW50Pg0KICA8L2RlZnM+DQogIDxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQuNCwyMC4zbC00LTNhLjkxMS45MTEsMCwwLDEtLjQtLjh2LTlhLjkxMS45MTEsMCwwLDEsLjQtLjhsNC0zYS45MTEuOTExLDAsMCwwLS40Ljh2MTVBLjkxMS45MTEsMCwwLDAsNC40LDIwLjNaIi8+DQogIDxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTEuMSwxNy4yYS41MTcuNTE3LDAsMCwxLS40LjIuMzY2LjM2NiwwLDAsMS0uMy0uMWgwbDQsM2EuOTExLjkxMSwwLDAsMS0uNC0uOFYxMy44WiIvPg0KICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0uNCw2LjdoMGEuNS41LDAsMCwxLC42OTMuMDlMMS4xLDYuOCw0LDEwLjJWNC41YS45MTEuOTExLDAsMCwxLC40LS44WiIvPg0KICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0yMy42LDQuMkExLjQyMywxLjQyMywwLDAsMCwyMyw0YS45MDguOTA4LDAsMCwwLS43LjNsLS4xLjFMMTgsOC40LDE0LjMsMTIsOS45LDE2LjIsNS44LDIwLjFsLS4xLjFhLjkwOC45MDgsMCwwLDEtLjcuMywxLjQyMywxLjQyMywwLDAsMS0uNi0uMmwtNC0zYTEuMDcxLDEuMDcxLDAsMCwwLDEuNC0uMUw0LDE0LjYsNi4yLDEyLDkuOCw3LjgsMTYuMi40QS45MTEuOTExLDAsMCwxLDE3LDBhMS40MjMsMS40MjMsMCwwLDEsLjYuMloiLz4NCiAgPHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjEwLjIgNy40IDkuOCA3LjggNi4yIDEyIDUuOSAxMi40IDkuNSAxNi42IDkuNSAxNi42IDkuOCAxNi4yIDE0LjMgMTIgMTQuNiAxMS43IDEwLjIgNy40Ii8+DQogIDxwYXRoIGNsYXNzPSJjbHMtNCIgZD0iTTIzLjYsMTkuOGwtNiw0Yy0uMSwwLS4yLjEtLjMuMWgwYS45LjksMCwwLDEtMS0uM0w5LjksMTYuMiw2LjIsMTIsNCw5LjQsMS44LDYuOEExLjIwOCwxLjIwOCwwLDAsMCwuNCw2LjdsNC0zQTEuNDIzLDEuNDIzLDAsMCwxLDUsMy41YS45MDguOTA4LDAsMCwxLC43LjNsLjEuMUw5LjksNy44LDE0LjMsMTJsMy4yLDMuMS41LjUsNC4yLDQuMS4xLjFhLjkwOC45MDgsMCwwLDAsLjcuM1oiLz4NCiAgPHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMjMuNiwxOS44bC02LDRjLS4xLDAtLjIuMS0uMy4xYS43NjIuNzYyLDAsMCwwLC4yLS40VjE1LjFsLjUuNSw0LjIsNC4xLjEuMWEuOTA4LjkwOCwwLDAsMCwuNy4zWiIvPg0KICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xNy41LjJhLjM2Ni4zNjYsMCwwLDAtLjMtLjEuNTE3LjUxNywwLDAsMSwuMi40VjguOWwuNi0uNSw0LjItNC4xLjEtLjFBMS40NDgsMS40NDgsMCwwLDEsMjMsNGExLjQyMywxLjQyMywwLDAsMSwuNi4yWiIvPg0KICA8cGF0aCBjbGFzcz0iY2xzLTUiIGQ9Ik0yNCw1VjE5YTEsMSwwLDAsMS0uNDQ1LjgzNWwtNiw0QTEsMSwwLDAsMCwxOCwyM1YxYTEuMDEsMS4wMSwwLDAsMC0uNDYtLjgzNWw2LjAxNSw0QTEuMDA5LDEuMDA5LDAsMCwxLDI0LDVaIi8+DQo8L3N2Zz4="
+      },
+      "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.0#17.0.0",
+      "supportsDownloadThenUpdate": true,
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Visual Studio Enterprise 2022",
+          "description": "Scalable, end-to-end solution for teams of any size",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Visual Studio Enterprise 2022",
+          "description": "面向任何规模团队提供的可缩放、端到端解决方案",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "zh-tw",
+          "title": "Visual Studio Enterprise 2022",
+          "description": "可擴展，且適用於任何規模小組的全方位解決方案",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Visual Studio Enterprise 2022",
+          "description": "Škálovatelné a kompletní řešení pro týmy libovolné velikosti",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "de-de",
+          "title": "Visual Studio Enterprise 2022",
+          "description": "Skalierbare End-to-End-Lösung für Teams jeder Größe",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "es-es",
+          "title": "Visual Studio Enterprise 2022",
+          "description": "Solución integral escalable para equipos de cualquier tamaño",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Visual Studio Enterprise 2022",
+          "description": "Solution scalable de bout en bout pour les équipes de toutes tailles",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "it-it",
+          "title": "Visual Studio Enterprise 2022",
+          "description": "Soluzione end-to-end scalabile per team di qualsiasi dimensione",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Visual Studio Enterprise 2022",
+          "description": "あらゆる規模のチーム向けのスケーラブルなエンドツーエンド ソリューション",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Visual Studio Enterprise 2022",
+          "description": "모든 규모의 팀에 사용할 수 있는 확장 가능한 엔드투엔드 솔루션",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Visual Studio Enterprise 2022",
+          "description": "Skalowalne, kompleksowe rozwiązanie dla zespołów dowolnej wielkości",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "pt-br",
+          "title": "Visual Studio Enterprise 2022",
+          "description": "Solução escalonável e de ponta a ponta para equipes de qualquer tamanho",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Visual Studio Enterprise 2022",
+          "description": "Комплексное масштабируемое решение для команд любого размера.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Visual Studio Enterprise 2022",
+          "description": "Her boyuttaki takımlar için ölçeklenebilir, uçtan uca çözüm",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        }
+      ],
+      "requirements": {
+        "supportedOS": "6.1.1",
+        "functors": {
+          "architecture": "x64"
+        },
+        "conditions": {
+          "expression": "not Win10ThresholdBuildNumber",
+          "conditions": [
+            {
+              "registryKey": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion",
+              "id": "Win10ThresholdBuildNumber",
+              "registryValue": "CurrentBuildNumber",
+              "registryData": "[10240.0,14393.0)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "Microsoft.VisualStudio.Product.Professional",
+      "version": "17.0.31903.59",
+      "type": "ChannelProduct",
+      "chip": "x64",
+      "icon": {
+        "mimeType": "image/svg+xml",
+        "base64": "PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMjQgMjQiPg0KICA8ZGVmcz4NCiAgICA8c3R5bGU+LmNscy0xe2ZpbGw6IzVlNDM4Zjt9LmNscy0ye29wYWNpdHk6MC4xO2lzb2xhdGlvbjppc29sYXRlO30uY2xzLTN7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudCk7fS5jbHMtNHtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTIpO30uY2xzLTV7ZmlsbDojYzE4ZWYxO308L3N0eWxlPg0KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iMy42MTIiIHkxPSItMTUuMzUyIiB4Mj0iMTkuNTc1IiB5Mj0iMS4zNjkiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSwgMCwgMCwgLTEsIDAsIDQpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+DQogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM3MjUyYWEiLz4NCiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzcyNTJhYSIvPg0KICAgIDwvbGluZWFyR3JhZGllbnQ+DQogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtMiIgeDE9IjguODQ0IiB5MT0iMzguNjc5IiB4Mj0iMTMuODcxIiB5Mj0iMzMuMjE2IiBncmFkaWVudFRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTIyKSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPg0KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjYWU3ZmUyIi8+DQogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM5YTcwZDQiLz4NCiAgICA8L2xpbmVhckdyYWRpZW50Pg0KICA8L2RlZnM+DQogIDxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQuNCwyMC4zbC00LTNhLjkxMS45MTEsMCwwLDEtLjQtLjh2LTlhLjkxMS45MTEsMCwwLDEsLjQtLjhsNC0zYS45MTEuOTExLDAsMCwwLS40Ljh2MTVBLjkxMS45MTEsMCwwLDAsNC40LDIwLjNaIi8+DQogIDxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTEuMSwxNy4yYS41MTcuNTE3LDAsMCwxLS40LjIuMzY2LjM2NiwwLDAsMS0uMy0uMWgwbDQsM2EuOTExLjkxMSwwLDAsMS0uNC0uOFYxMy44WiIvPg0KICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0uNCw2LjdoMGEuNS41LDAsMCwxLC42OTMuMDlMMS4xLDYuOCw0LDEwLjJWNC41YS45MTEuOTExLDAsMCwxLC40LS44WiIvPg0KICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0yMy42LDQuMkExLjQyMywxLjQyMywwLDAsMCwyMyw0YS45MDguOTA4LDAsMCwwLS43LjNsLS4xLjFMMTgsOC40LDE0LjMsMTIsOS45LDE2LjIsNS44LDIwLjFsLS4xLjFhLjkwOC45MDgsMCwwLDEtLjcuMywxLjQyMywxLjQyMywwLDAsMS0uNi0uMmwtNC0zYTEuMDcxLDEuMDcxLDAsMCwwLDEuNC0uMUw0LDE0LjYsNi4yLDEyLDkuOCw3LjgsMTYuMi40QS45MTEuOTExLDAsMCwxLDE3LDBhMS40MjMsMS40MjMsMCwwLDEsLjYuMloiLz4NCiAgPHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjEwLjIgNy40IDkuOCA3LjggNi4yIDEyIDUuOSAxMi40IDkuNSAxNi42IDkuNSAxNi42IDkuOCAxNi4yIDE0LjMgMTIgMTQuNiAxMS43IDEwLjIgNy40Ii8+DQogIDxwYXRoIGNsYXNzPSJjbHMtNCIgZD0iTTIzLjYsMTkuOGwtNiw0Yy0uMSwwLS4yLjEtLjMuMWgwYS45LjksMCwwLDEtMS0uM0w5LjksMTYuMiw2LjIsMTIsNCw5LjQsMS44LDYuOEExLjIwOCwxLjIwOCwwLDAsMCwuNCw2LjdsNC0zQTEuNDIzLDEuNDIzLDAsMCwxLDUsMy41YS45MDguOTA4LDAsMCwxLC43LjNsLjEuMUw5LjksNy44LDE0LjMsMTJsMy4yLDMuMS41LjUsNC4yLDQuMS4xLjFhLjkwOC45MDgsMCwwLDAsLjcuM1oiLz4NCiAgPHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMjMuNiwxOS44bC02LDRjLS4xLDAtLjIuMS0uMy4xYS43NjIuNzYyLDAsMCwwLC4yLS40VjE1LjFsLjUuNSw0LjIsNC4xLjEuMWEuOTA4LjkwOCwwLDAsMCwuNy4zWiIvPg0KICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xNy41LjJhLjM2Ni4zNjYsMCwwLDAtLjMtLjEuNTE3LjUxNywwLDAsMSwuMi40VjguOWwuNi0uNSw0LjItNC4xLjEtLjFBMS40NDgsMS40NDgsMCwwLDEsMjMsNGExLjQyMywxLjQyMywwLDAsMSwuNi4yWiIvPg0KICA8cGF0aCBjbGFzcz0iY2xzLTUiIGQ9Ik0yNCw1VjE5YTEsMSwwLDAsMS0uNDQ1LjgzNWwtNiw0QTEsMSwwLDAsMCwxOCwyM1YxYTEuMDEsMS4wMSwwLDAsMC0uNDYtLjgzNWw2LjAxNSw0QTEuMDA5LDEuMDA5LDAsMCwxLDI0LDVaIi8+DQo8L3N2Zz4="
+      },
+      "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.0#17.0.0",
+      "supportsDownloadThenUpdate": true,
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Visual Studio Professional 2022",
+          "description": "Professional IDE best suited to small teams",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Visual Studio Professional 2022",
+          "description": "为小型团队量身定制的专业 IDE",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "zh-tw",
+          "title": "Visual Studio Professional 2022",
+          "description": "最適合小型小組的專業 IDE",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Visual Studio Professional 2022",
+          "description": "Profesionální integrované vývojové prostředí (IDE), které nejlépe vyhovuje malým týmům",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "de-de",
+          "title": "Visual Studio Professional 2022",
+          "description": "Professionelle IDE, optimal für kleine Teams",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "es-es",
+          "title": "Visual Studio Professional 2022",
+          "description": "IDE profesional ideal para equipos pequeños",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Visual Studio Professional 2022",
+          "description": "IDE professionnel, mieux adapté aux petites équipes",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "it-it",
+          "title": "Visual Studio Professional 2022",
+          "description": "IDE professionale ideale per piccoli team",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Visual Studio Professional 2022",
+          "description": "小規模チームに最適なプロフェッショナルな IDE",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Visual Studio Professional 2022",
+          "description": "소규모 팀에 가장 적합한 전문 IDE",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Visual Studio Professional 2022",
+          "description": "Profesjonalne środowisko IDE najlepiej dopasowane do małych zespołów",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "pt-br",
+          "title": "Visual Studio Professional 2022",
+          "description": "IDE profissional mais adequado para equipes pequenas",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Visual Studio Professional 2022",
+          "description": "Профессиональная интегрированная среда разработки, оптимально подходящая для небольших команд.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Visual Studio Professional 2022",
+          "description": "Küçük takımlar için en uygun profesyonel IDE",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        }
+      ],
+      "requirements": {
+        "supportedOS": "6.1.1",
+        "functors": {
+          "architecture": "x64"
+        },
+        "conditions": {
+          "expression": "not Win10ThresholdBuildNumber",
+          "conditions": [
+            {
+              "registryKey": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion",
+              "id": "Win10ThresholdBuildNumber",
+              "registryValue": "CurrentBuildNumber",
+              "registryData": "[10240.0,14393.0)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "Microsoft.VisualStudio.Product.TeamExplorer",
+      "version": "17.0.31903.59",
+      "type": "ChannelProduct",
+      "chip": "x64",
+      "icon": {
+        "mimeType": "image/svg+xml",
+        "base64": "PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMjQgMjQiPg0KICA8ZGVmcz4NCiAgICA8c3R5bGU+LmNscy0xe2ZpbGw6IzVlNDM4Zjt9LmNscy0ye29wYWNpdHk6MC4xO2lzb2xhdGlvbjppc29sYXRlO30uY2xzLTN7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudCk7fS5jbHMtNHtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTIpO30uY2xzLTV7ZmlsbDojYzE4ZWYxO308L3N0eWxlPg0KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iMy42MTIiIHkxPSItMTUuMzUyIiB4Mj0iMTkuNTc1IiB5Mj0iMS4zNjkiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSwgMCwgMCwgLTEsIDAsIDQpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+DQogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM3MjUyYWEiLz4NCiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzcyNTJhYSIvPg0KICAgIDwvbGluZWFyR3JhZGllbnQ+DQogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtMiIgeDE9IjguODQ0IiB5MT0iMzguNjc5IiB4Mj0iMTMuODcxIiB5Mj0iMzMuMjE2IiBncmFkaWVudFRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTIyKSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPg0KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjYWU3ZmUyIi8+DQogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiM5YTcwZDQiLz4NCiAgICA8L2xpbmVhckdyYWRpZW50Pg0KICA8L2RlZnM+DQogIDxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQuNCwyMC4zbC00LTNhLjkxMS45MTEsMCwwLDEtLjQtLjh2LTlhLjkxMS45MTEsMCwwLDEsLjQtLjhsNC0zYS45MTEuOTExLDAsMCwwLS40Ljh2MTVBLjkxMS45MTEsMCwwLDAsNC40LDIwLjNaIi8+DQogIDxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTEuMSwxNy4yYS41MTcuNTE3LDAsMCwxLS40LjIuMzY2LjM2NiwwLDAsMS0uMy0uMWgwbDQsM2EuOTExLjkxMSwwLDAsMS0uNC0uOFYxMy44WiIvPg0KICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0uNCw2LjdoMGEuNS41LDAsMCwxLC42OTMuMDlMMS4xLDYuOCw0LDEwLjJWNC41YS45MTEuOTExLDAsMCwxLC40LS44WiIvPg0KICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0yMy42LDQuMkExLjQyMywxLjQyMywwLDAsMCwyMyw0YS45MDguOTA4LDAsMCwwLS43LjNsLS4xLjFMMTgsOC40LDE0LjMsMTIsOS45LDE2LjIsNS44LDIwLjFsLS4xLjFhLjkwOC45MDgsMCwwLDEtLjcuMywxLjQyMywxLjQyMywwLDAsMS0uNi0uMmwtNC0zYTEuMDcxLDEuMDcxLDAsMCwwLDEuNC0uMUw0LDE0LjYsNi4yLDEyLDkuOCw3LjgsMTYuMi40QS45MTEuOTExLDAsMCwxLDE3LDBhMS40MjMsMS40MjMsMCwwLDEsLjYuMloiLz4NCiAgPHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjEwLjIgNy40IDkuOCA3LjggNi4yIDEyIDUuOSAxMi40IDkuNSAxNi42IDkuNSAxNi42IDkuOCAxNi4yIDE0LjMgMTIgMTQuNiAxMS43IDEwLjIgNy40Ii8+DQogIDxwYXRoIGNsYXNzPSJjbHMtNCIgZD0iTTIzLjYsMTkuOGwtNiw0Yy0uMSwwLS4yLjEtLjMuMWgwYS45LjksMCwwLDEtMS0uM0w5LjksMTYuMiw2LjIsMTIsNCw5LjQsMS44LDYuOEExLjIwOCwxLjIwOCwwLDAsMCwuNCw2LjdsNC0zQTEuNDIzLDEuNDIzLDAsMCwxLDUsMy41YS45MDguOTA4LDAsMCwxLC43LjNsLjEuMUw5LjksNy44LDE0LjMsMTJsMy4yLDMuMS41LjUsNC4yLDQuMS4xLjFhLjkwOC45MDgsMCwwLDAsLjcuM1oiLz4NCiAgPHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMjMuNiwxOS44bC02LDRjLS4xLDAtLjIuMS0uMy4xYS43NjIuNzYyLDAsMCwwLC4yLS40VjE1LjFsLjUuNSw0LjIsNC4xLjEuMWEuOTA4LjkwOCwwLDAsMCwuNy4zWiIvPg0KICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0xNy41LjJhLjM2Ni4zNjYsMCwwLDAtLjMtLjEuNTE3LjUxNywwLDAsMSwuMi40VjguOWwuNi0uNSw0LjItNC4xLjEtLjFBMS40NDgsMS40NDgsMCwwLDEsMjMsNGExLjQyMywxLjQyMywwLDAsMSwuNi4yWiIvPg0KICA8cGF0aCBjbGFzcz0iY2xzLTUiIGQ9Ik0yNCw1VjE5YTEsMSwwLDAsMS0uNDQ1LjgzNWwtNiw0QTEsMSwwLDAsMCwxOCwyM1YxYTEuMDEsMS4wMSwwLDAsMC0uNDYtLjgzNWw2LjAxNSw0QTEuMDA5LDEuMDA5LDAsMCwxLDI0LDVaIi8+DQo8L3N2Zz4="
+      },
+      "isHidden": true,
+      "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.0#17.0.0",
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Visual Studio Team Explorer 2022",
+          "description": "Interact with Team Foundation Server and Visual Studio Team Services without a Visual Studio developer toolset",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Visual Studio 团队资源管理器 2022",
+          "description": "无需 Visual Studio 开发人员工具集，即可与 Team Foundation Server 和 Visual Studio Team Services 进行交互",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "zh-tw",
+          "title": "Visual Studio Team Explorer 2022",
+          "description": "與 Team Foundation Server 和 Visual Studio Team Services 互動而不使用 Visual Studio 開發人員工具",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Visual Studio Team Explorer 2022",
+          "description": "Interakce s Team Foundation Serverem a službou Visual Studio Team Services bez sady vývojářských nástrojů, které nabízí Visual Studio",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "de-de",
+          "title": "Visual Studio Team Explorer 2022",
+          "description": "Interagieren Sie mit Team Foundation Server und Visual Studio Team Services ohne eine Visual Studio-Entwicklertoolset.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "es-es",
+          "title": "Visual Studio Team Explorer 2022",
+          "description": "Interactúe con Team Foundation Server y Visual Studio Team Services sin un conjunto de herramientas de desarrollador de Visual Studio",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Visual Studio Team Explorer 2022",
+          "description": "Interagissez avec Team Foundation Server et Visual Studio Team Services sans l'ensemble d'outils de développement Visual Studio",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "it-it",
+          "title": "Visual Studio Team Explorer 2022",
+          "description": "Consente di interagire con Team Foundation Server e Visual Studio Team Services senza usare un set di strumenti di sviluppo di Visual Studio",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Visual Studio Team Explorer 2022",
+          "description": "Visual Studio 開発者ツールセットを使用せずに Team Foundation Server および Visual Studio Team Services と対話します",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Visual Studio 팀 탐색기 2022",
+          "description": "Visual Studio 개발자 도구 집합 없이 Team Foundation Server 및 Visual Studio Team Services 조작",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Visual Studio Team Explorer 2022",
+          "description": "Interakcja z serwerem Team Foundation Server i usługami Visual Studio Team Services bez korzystania z zestawu narzędzi dewelopera programu Visual Studio",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "pt-br",
+          "title": "Visual Studio Team Explorer 2022",
+          "description": "Interaja com o Team Foundation Server e o Visual Studio Team Services sem um conjunto de ferramentas de desenvolvedor do Visual Studio",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Visual Studio Team Explorer 2022",
+          "description": "Взаимодействие с Team Foundation Server и Visual Studio Team Services без набора инструментов разработчика Visual Studio",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Visual Studio Takım Gezgini 2022",
+          "description": "Visual Studio geliştirici araç seti olmadan Team Foundation Server ve Visual Studio Team Services ile etkileşim kurun",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        }
+      ],
+      "requirements": {
+        "supportedOS": "6.1.1",
+        "functors": {
+          "architecture": "x64"
+        },
+        "conditions": {
+          "expression": "not Win10ThresholdBuildNumber",
+          "conditions": [
+            {
+              "registryKey": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion",
+              "id": "Win10ThresholdBuildNumber",
+              "registryValue": "CurrentBuildNumber",
+              "registryData": "[10240.0,14393.0)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "Microsoft.VisualStudio.Product.TestAgent",
+      "version": "17.0.31903.59",
+      "type": "ChannelProduct",
+      "icon": {
+        "mimeType": "image/svg+xml",
+        "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MCA0MCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTQwIDQwSDBWMGg0MHY0MHoiIGlkPSJjYW52YXMiLz4NCiAgPHBhdGggY2xhc3M9ImJyYW5kLXZzaWRlIiBkPSJNMzAuMjIxLS4wMDJMMTMuODg3IDE2LjE2IDQuMDUyIDguNzQ2IDAgMTAuMTAyVjI5LjlsNC4wNTIgMS4zNTYgOS44MzUtNy40MTQgMTYuMzM0IDE2LjE2TDQwIDM1Ljg0MlY0LjE1OGwtOS43NzktNC4xNnpNNC4wNTIgMjUuODlWMTQuMTExTDEwLjAwNCAyMGwtNS45NTIgNS44OXpNMzAgMjguNDcyTDE4Ljk4MyAyMCAzMCAxMS41Mjh2MTYuOTQ0eiIvPg0KPC9zdmc+"
+      },
+      "isHidden": true,
+      "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.0#17.0.0",
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Visual Studio Test Agent 2022",
+          "description": "Supports running automated tests and load tests remotely",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Visual Studio 测试代理 2022",
+          "description": "支持运行自动测试和远程下载测试",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "zh-tw",
+          "title": "Visual Studio Test Agent 2022",
+          "description": "支援在遠端執行自動化的測試與負載測試",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Visual Studio Test Agent 2022",
+          "description": "Podporuje vzdálené spouštění automatizovaných a zátěžových testů.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "de-de",
+          "title": "Visual Studio-Test-Agent 2022",
+          "description": "Unterstützt die Remoteausführung von automatisierten Tests und Auslastungstests.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "es-es",
+          "title": "Visual Studio Test Agent 2022",
+          "description": "Admite la ejecución de pruebas automatizadas y pruebas de carga de forma remota.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Agent de test Visual Studio 2022",
+          "description": "Prend en charge l'exécution de tests automatisés et de tests de charge à distance",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "it-it",
+          "title": "Visual Studio agente di test 2022",
+          "description": "Supporta l'esecuzione di test automatizzati e test di carico in remoto",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Visual Studio Test Agent 2022",
+          "description": "自動テストとロード テストのリモートでの実行をサポートする",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Visual Studio 테스트 에이전트 2022",
+          "description": "자동화된 테스트 및 부하 테스트 원격 실행을 지원합니다.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Visual Studio Test Agent 2022",
+          "description": "Obsługuje zdalne uruchamianie zautomatyzowanych testów i testów obciążeniowych",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "pt-br",
+          "title": "Agente de Teste do Visual Studio 2022",
+          "description": "Dá suporte à execução de testes automatizados e carrega testes remotamente",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Агент тестирования Visual Studio 2022",
+          "description": "Поддерживает удаленное выполнение автоматических тестов и нагрузочных тестов",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Visual Studio Test Aracısı 2022",
+          "description": "Otomatik testler çalıştırmayı ve testleri uzaktan yüklemeyi destekler",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        }
+      ]
+    },
+    {
+      "id": "Microsoft.VisualStudio.Product.TestController",
+      "version": "17.0.31903.59",
+      "type": "ChannelProduct",
+      "icon": {
+        "mimeType": "image/svg+xml",
+        "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MCA0MCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTQwIDQwSDBWMGg0MHY0MHoiIGlkPSJjYW52YXMiLz4NCiAgPHBhdGggY2xhc3M9ImJyYW5kLXZzaWRlIiBkPSJNMzAuMjIxLS4wMDJMMTMuODg3IDE2LjE2IDQuMDUyIDguNzQ2IDAgMTAuMTAyVjI5LjlsNC4wNTIgMS4zNTYgOS44MzUtNy40MTQgMTYuMzM0IDE2LjE2TDQwIDM1Ljg0MlY0LjE1OGwtOS43NzktNC4xNnpNNC4wNTIgMjUuODlWMTQuMTExTDEwLjAwNCAyMGwtNS45NTIgNS44OXpNMzAgMjguNDcyTDE4Ljk4MyAyMCAzMCAxMS41Mjh2MTYuOTQ0eiIvPg0KPC9zdmc+"
+      },
+      "isHidden": true,
+      "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.0#17.0.0",
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Visual Studio Load Test Controller 2022",
+          "description": "Distribute automated tests to multiple machines",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Visual Studio Load Test Controller 2022",
+          "description": "将自动测试分发到多台计算机",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "zh-tw",
+          "title": "Visual Studio Load Test Controller 2022",
+          "description": "將自動化的測試散發至多部電腦",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Visual Studio Load Test Controller 2022",
+          "description": "Distribuce automatizovaných testů na více počítačů",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "de-de",
+          "title": "Visual Studio Load Test Controller 2022",
+          "description": "Verteilt automatisierte Tests auf mehrere Computer.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "es-es",
+          "title": "Microsoft Test Controller para Visual Studio 2022",
+          "description": "Distribuye pruebas automatizadas a varias máquinas.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Visual Studio Load Test Controller 2022",
+          "description": "Distribuer des tests automatisés à plusieurs machines",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "it-it",
+          "title": "Visual Studio Load Test Controller 2022",
+          "description": "Consente di distribuire i test automatizzati in più computer",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Visual Studio Load Test Controller 2022",
+          "description": "自動テストを複数のマシンに配布する",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Visual Studio Load Test Controller 2022",
+          "description": "자동화된 테스트를 여러 컴퓨터에 배포합니다.",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Visual Studio Load Test Controller 2022",
+          "description": "Dystrybuuj zautomatyzowane testy na wielu maszynach",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "pt-br",
+          "title": "Visual Studio Load Test Controller 2022",
+          "description": "Distribuir testes automatizados para vários computadores",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Visual Studio Load Test Controller 2022",
+          "description": "Распределение автоматических тестов на несколько компьютеров",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Visual Studio Yük Testi Denetleyicisi 2022",
+          "description": "Otomatik testleri birden fazla makineye dağıt",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117"
+        }
+      ]
+    },
+    {
+      "id": "VisualStudio.17.Release",
+      "version": "17.0.31903.59",
+      "type": "Channel",
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Current",
+          "description": "The Current channel includes the latest features and fixes that are ready for production use.",
+          "channelSuffix": "Current"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Current",
+          "description": "当前频道包括已可供生产使用的最新功能和修补程序。",
+          "channelSuffix": "Current"
+        },
+        {
+          "language": "zh-tw",
+          "title": "Current",
+          "description": "目前通道包含可供生產環境使用的最新功能和修正程式。",
+          "channelSuffix": "Current"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Current",
+          "description": "Aktuální kanál zahrnuje nejnovější funkce a opravy, které jsou připravené k použití v produkčním prostředí.",
+          "channelSuffix": "Current"
+        },
+        {
+          "language": "de-de",
+          "title": "Current",
+          "description": "Der aktuelle Kanal enthält die neuesten Features und Fixes, die für die Produktion bereit sind.",
+          "channelSuffix": "Current"
+        },
+        {
+          "language": "es-es",
+          "title": "Current",
+          "description": "El canal actual incluye las características y correcciones más recientes que están listas para el uso de producción.",
+          "channelSuffix": "Current"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Current",
+          "description": "Le canal actuel inclut les dernières fonctionnalités et correctifs prêts pour une utilisation en production.",
+          "channelSuffix": "Current"
+        },
+        {
+          "language": "it-it",
+          "title": "Current",
+          "description": "Il Canale corrente include le funzionalità e le correzioni più recenti pronte per l'uso in produzione.",
+          "channelSuffix": "Current"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Current",
+          "description": "現在のチャネルには、運用環境で使用する準備が整っている最新の機能と修正が含まれています。",
+          "channelSuffix": "Current"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Current",
+          "description": "현재 채널에는 프로덕션용으로 사용할 준비가 된 최신 기능과 수정 사항이 포함되어 있습니다.",
+          "channelSuffix": "Current"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Current",
+          "description": "Bieżący kanał obejmuje najnowsze funkcje i poprawki, które są gotowe do użycia w środowisku produkcyjnym.",
+          "channelSuffix": "Current"
+        },
+        {
+          "language": "pt-br",
+          "title": "Current",
+          "description": "O canal Atual inclui os recursos e correções mais recentes que estão prontos para uso de produção.",
+          "channelSuffix": "Current"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Current",
+          "description": "Актуальный канал включает последние функции и исправления, готовые к использованию в рабочей среде.",
+          "channelSuffix": "Current"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Current",
+          "description": "Geçerli kanal, üretim kullanımı için hazır olan en son özellikleri ve düzeltmeleri içerir.",
+          "channelSuffix": "Current"
+        }
+      ]
+    },
+    {
+      "id": "VisualStudio.17.Release.Bootstrappers.Setup",
+      "version": "3.0.4492.23473",
+      "type": "Bootstrapper",
+      "payloads": [
+        {
+          "fileName": "vs_Setup.exe",
+          "sha256": "a40cd9071924d0f6e040d51af090569a56d0c9e9d42128475379198f1ae6cd93",
+          "size": 1647720,
+          "url": "https://download.visualstudio.microsoft.com/download/pr/7aa16be3-9952-4bd2-8ecf-eae91faa0a06/a40cd9071924d0f6e040d51af090569a56d0c9e9d42128475379198f1ae6cd93/vs_Setup.exe"
+        }
+      ]
+    }
+  ],
+  "signature": {
+    "signInfo": {
+      "signatureMethod": "sha256RSA_cng",
+      "digestMethod": "sha1",
+      "digestValue": "SGJwcGOK2kKktmLp1b2Eqw9gCcE=",
+      "canonicalization": ""
+    },
+    "signatureValue": "lHYwzM0pp5SXMLDFdeV9+fMO2q57XcPigNUgrETvkfhan/u4zFTIORPYb4FuVC8SxqtOOQKxTjvWXi8XjxIIbNP174gm9d9MS3jG9M8thfDpXoMf3tYE4B7eU3uwUE0P51VrsUVp3sZ1ITfio7Op7HEhKIg1Db3tOgD0arejwO1Y4gPyMUxYL14+zsQx3ijg8kk4Ff4YozGCcjZFq9LkbxVrlsNTtARawg7v4BGn2gHBrFm5RZrlf9AXzZjDY5fPschlwk4mSQ1VZ/tcQ1oNo9raQPiElGCjZQUbxOgYnHC+i/R/Kg0cbfkf9sqpc3I05YEyDiYy/exReBDgK5IuSA==",
+    "keyInfo": {
+      "keyValue": {
+        "rsaKeyValue": {
+          "modulus": "trsZWRAAo6nx5LhcqAsHy9uaHyPQ2VireMBI9yQUOPBj7dVLA7/N+AnKFFDzJ7P+grT6GkOE4cv5GzjoP8yQJ6yXojEKkXti7HW/zUiNoF11/ZWndf8j1Azl6OBjcD416tSWYvh2VfdW1K+mY83j49YPm3qbKnfxwtV0nI9H092gMS0cpCUsxMRAZlPXksrjsFLqvgq4rnULVhjHSVOudL/yps3zOOmOpaPzAp56b898xC+zzHVHcKo/52IRht1FSC8V+7QHTG8+yzfuljiKU9QONa8GqDlZ7/vFGveB8IY2ZrtUu98nle0WWTcaIRHoCYvWGLLF2u1GVFJAggPipw==",
+          "exponent": "AQAB"
+        }
+      },
+      "x509Data": [
+        "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"
+      ]
+    },
+    "counterSign": {
+      "x509Data": [
+        "MIIE8TCCA9mgAwIBAgITMwAAAUqk9zHE/yKiSQAAAAABSjANBgkqhkiG9w0BAQsFADB8MQswCQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEQMA4GA1UEBxMHUmVkbW9uZDEeMBwGA1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMSYwJAYDVQQDEx1NaWNyb3NvZnQgVGltZS1TdGFtcCBQQ0EgMjAxMDAeFw0yMDExMTIxODI1NThaFw0yMjAyMTExODI1NThaMIHKMQswCQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEQMA4GA1UEBxMHUmVkbW9uZDEeMBwGA1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMSUwIwYDVQQLExxNaWNyb3NvZnQgQW1lcmljYSBPcGVyYXRpb25zMSYwJAYDVQQLEx1UaGFsZXMgVFNTIEVTTjoyMjY0LUUzM0UtNzgwQzElMCMGA1UEAxMcTWljcm9zb2Z0IFRpbWUtU3RhbXAgU2VydmljZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN7KKGZkolgsvVEaNKMTVZZgEl8ohsLgHR4gUFWLZvWzLbegDoRItpfFd+9maW2hPFlgT+wv7lxf6OB4HFYZgHfIpcZhGU6/ebsymXYAmAKzKph71pxJU5F228YTSTLcoSAIUNBZVdTEIZILEPT5gI77Ysu7YKMufSmiZPzqYlkEX2/dHhOcoo90zgIJRTG1u2kF7w6a7D50yHKE46eGEwqwjExERCCNtFBDQrTfYID/Icj0zKikYjiJRaaPNjnvBaRJ/eFkGz8gD2XyYXjlsNjDGPaGPQTt/Rm3nrxcyXGyCIIhWdBMXMTLl7BMDKKeLBQ0d6pFfS1LRJo+paKKBiUCAwEAAaOCARswggEXMB0GA1UdDgQWBBRxjGEYMfrAhjWKk/99frgmKqk/4TAfBgNVHSMEGDAWgBTVYzpcijGQ80N7fEYbxTNoWoVtVTBWBgNVHR8ETzBNMEugSaBHhkVodHRwOi8vY3JsLm1pY3Jvc29mdC5jb20vcGtpL2NybC9wcm9kdWN0cy9NaWNUaW1TdGFQQ0FfMjAxMC0wNy0wMS5jcmwwWgYIKwYBBQUHAQEETjBMMEoGCCsGAQUFBzAChj5odHRwOi8vd3d3Lm1pY3Jvc29mdC5jb20vcGtpL2NlcnRzL01pY1RpbVN0YVBDQV8yMDEwLTA3LTAxLmNydDAMBgNVHRMBAf8EAjAAMBMGA1UdJQQMMAoGCCsGAQUFBwMIMA0GCSqGSIb3DQEBCwUAA4IBAQBRC67dRjgFFS9kv72Vfe8gQ+Hg3FpX2TYyOq4nrtPq9D36Udydr2ibZy5n7LphXvW20bDTugUHiwuyfWnmyc2oEevo+SrNCzxXcj59Wv9lQpBgtL6OM56x+v1zbNzp/moMwk3UvysE5af5rktfFtPx6apqcjU1IDt09hX80ZAzqPflPPyC5Cj3J8DQilQz2/TzSZvcbgCM9vuwLu9p9bZhJemNP++3LrHkdycfHZf3jv7QBAigEvyVb2mrnlomFIKCyJW1cOrBjIqyntQt5PK8zKxX/yZlyiRbr8c0DQw8tYpXeyorgoVet9sAF+t3g/cYzVogW4qwhuyZmEmTlTSK",
+        "MIIGcTCCBFmgAwIBAgIKYQmBKgAAAAAAAjANBgkqhkiG9w0BAQsFADCBiDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEyMDAGA1UEAxMpTWljcm9zb2Z0IFJvb3QgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IDIwMTAwHhcNMTAwNzAxMjEzNjU1WhcNMjUwNzAxMjE0NjU1WjB8MQswCQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEQMA4GA1UEBxMHUmVkbW9uZDEeMBwGA1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMSYwJAYDVQQDEx1NaWNyb3NvZnQgVGltZS1TdGFtcCBQQ0EgMjAxMDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKkdDbx3EYo6IOz8E5f1+n9plGt0VBDVpQoAgoX77XxoSyxfxcPlYcJ2tz5mK1vwFVMnBDEfQRsalR3OCROOfGEwWbEwRA/xYIiEVEMM1024OAizQt2TrNZzMFcmgqNFDdDq9UeBzb8kYDJYYEbyWEeGMoQedGFnkV+BVLHPk0ySwcSmXdFhE24oxhr5hoC732H8RsEnHSRnEnIaIYqvS2SJUGKxXf13Hz3wV3WsvYpCTUBR0Q+cBj5nf/VmwAOWRH7v0Ev9buWayrGo8noqCjHw2k4GkbaICDXoeByw6ZnNPOcvRLqn9NxkvaQBwSAJk3jN/LzAyURdXhacAQVPIk0CAwEAAaOCAeYwggHiMBAGCSsGAQQBgjcVAQQDAgEAMB0GA1UdDgQWBBTVYzpcijGQ80N7fEYbxTNoWoVtVTAZBgkrBgEEAYI3FAIEDB4KAFMAdQBiAEMAQTALBgNVHQ8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAfBgNVHSMEGDAWgBTV9lbLj+iiXGJo0T2UkFvXzpoYxDBWBgNVHR8ETzBNMEugSaBHhkVodHRwOi8vY3JsLm1pY3Jvc29mdC5jb20vcGtpL2NybC9wcm9kdWN0cy9NaWNSb29DZXJBdXRfMjAxMC0wNi0yMy5jcmwwWgYIKwYBBQUHAQEETjBMMEoGCCsGAQUFBzAChj5odHRwOi8vd3d3Lm1pY3Jvc29mdC5jb20vcGtpL2NlcnRzL01pY1Jvb0NlckF1dF8yMDEwLTA2LTIzLmNydDCBoAYDVR0gAQH/BIGVMIGSMIGPBgkrBgEEAYI3LgMwgYEwPQYIKwYBBQUHAgEWMWh0dHA6Ly93d3cubWljcm9zb2Z0LmNvbS9QS0kvZG9jcy9DUFMvZGVmYXVsdC5odG0wQAYIKwYBBQUHAgIwNB4yIB0ATABlAGcAYQBsAF8AUABvAGwAaQBjAHkAXwBTAHQAYQB0AGUAbQBlAG4AdAAuIB0wDQYJKoZIhvcNAQELBQADggIBAAfmiFEN4sbgmD+BcQM9naOhIW+z66bM9TG+zwXiqf76V20ZMLPCxWbJat/15/B4vceoniXj+bzta1RXCCtRgkQS+7lTjMz0YBKKdsxAQEGb3FwX/1z5Xhc1mCRWS3TvQhDIr79/xn/yN31aPxzymXlKkVIArzgPF/UveYFl2am1a+THzvbKegBvSzBEJCI8z+0DpZaPWSm8tv0E4XCfMkon/VWvL/625Y4zu2JfmttXQOnxzplmkIz/amJ/3cVKC5Em4jnsGUpxY517IW3DnKOiPPp/fZZqkHimbdLhnPkd/DjYlPTGpQqWhqS9nhquBEKDuLWAmyI4ILUl5WTs9/S/fmNZJQ96LjlXdqJxqgaKD4kWumGnEcua2A5HmoDF0M2n0O99g/DhO3EJ3110mCIIYdqwUB5vvfHhAN/nMQekkzr3ZUd46PioSKv33nJ+YWtvd6mBy6cJrDm77MbL2IK0cs0d9LiFAR6A+xuJKlQ5slvayA1VmXqHczsI5pgt6o3gMy4SKfXAL1QnIffIrE7aKLixqduWsqdCosnPGUFN4Ib5KpqjEWYw07t0MkvfY3v1mYovG8chr1m1rtxEPJdQcdeh0sVV42neV8HR3jDA/czmTfsNv11P6Z0eGTgvvM9YBS7vDaBQNdrvCScc1bN+NR4Iuto229Nfj950iEkS",
+        "MIIF7TCCA9WgAwIBAgIQKMw6Jb+6RKxEmptYa0M5qjANBgkqhkiG9w0BAQsFADCBiDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEyMDAGA1UEAxMpTWljcm9zb2Z0IFJvb3QgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IDIwMTAwHhcNMTAwNjIzMjE1NzI0WhcNMzUwNjIzMjIwNDAxWjCBiDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEyMDAGA1UEAxMpTWljcm9zb2Z0IFJvb3QgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IDIwMTAwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQC5CJ4o5OTsBk5QaLNBxXvrrraOr4G6IkQfZTRpTL5wQBfyFnvief2G7Q059BuorZKQHss9do9a2bWREC48BY2KbSRU5x/tVq2DtFCcFaUXdIhZIPwIxYR202jUbyh4zly481CQRP/jY1++oZoslhUE1gf+HoQh4EIxEcQoNpTPUKRinsnWq3EAslsM5pbUCiSW9f/G1bcb18u3IWKvEtyhXTfjGvsaRpjAm8DnYx8qCJMCfh5qjvKfGInkIoWisYRXQP/1DthvnO3iRTEBzRfpf7CBReOqIUAmoXKqp088AQV+7oNYsV4GY5likXiCtw2TDCRqtBvbJ+xflQQ/k0ow9ZcYs6f5GaeTMx0ByNsiUlzXJclG+aL7h1lDvptisY0thkQaRqx4YX4wCfquicRBKiJmA5E5RZzHiwyoyg0v+1LqDPdjMyOd/rAfrWfWp1ADxgRwY7UssYZaQ7f7rvluKW4hIUEmBozJw+6wwoWTobmF2eYybEtMP9Zdo+W1nXfDnMBVt3QA47g4q4OXUOGaQiQdxsCjMNEaWshSNPdz8ccYHzOteuzLQWDzI5QgwkhFrFxRxi6AwuJ3Fb2Fh+02nZaR7gC1o3Dsn+ONgGiDdrqvXXBSIhbiZvu6s8XC9z4vd6bK3sGmxkhMwzdRI9Mn17hOcJbwoUR2r3jPmuFmEwIDAQABo1EwTzALBgNVHQ8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQU1fZWy4/oolxiaNE9lJBb186aGMQwEAYJKwYBBAGCNxUBBAMCAQAwDQYJKoZIhvcNAQELBQADggIBAKylloy/u66m9tdxh0MxVoj9HDJxWzW31PCR8q834hTx8wImBT4WFH8UurhP+4mysufUCcxtuVs7ZGVwZrfysVrfGgLz9VG4Z215879We+SEuSsem0CcJjT5RxiYadgc17bRv49hwmfEte9gQ44QGzZJ5CDKrafBsSdlCfjN9Vsq0IQz8+8f8vWcC1iTN6B1oN5y3mx1KmYi9YwGMFafQLkwqkB3FYLXi+zA07K9g8V3DB6urxlToE15cZ8PrzDOZ/nWLMwiQXoH8pdCGM5ZeRBV3m8Q5Ljag2ZAFgloI1uXLiaaArtXjMW4umliMoCJnqH9wJJ8eyszGYQqY8UAaGL6n0eNmXpFOqfp7e5pQrXzgZtHVhB7/HA2hBhz6u/5l02eMyPdJgu6Krc/RNyDJ/+9YVkrEbfKT9vFiwwcMa4y+Pi5Qvd/3GGadrFaBOERPWZFtxhxvskkhdbz1LpBNF0SLSW5jaYTSG1LsAd9mZMJYYF0VyaKq2nj5NnHiMwk2OxSJFwevJEU4pbe6wrant1fs1vb1ILsxiBQhyVAOvvH7s3+M+Vuw4QJVQMlOcDpNV1lMaj2v6AJzSnHszYyLtyV84PBWs+LjfbqsyH4pO0eMQ62TBGrYAukEiMiF6M2ZIKRBBLgq28ey1AFYbRA/1mGcdHVM2l8qXOKONdkDPFp"
+      ],
+      "timestamp": "2021-11-03-11:38:57",
+      "counterSignatureMethod": "timeStamp",
+      "counterSignature": "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"
+    }
+  }
+}
