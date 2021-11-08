@@ -14,12 +14,8 @@ jobs:
 
     strategy:
       matrix:
-        major: [15, 16]
+        major: [15, 16, 17]
         type: [release, pre]
-        include:
-        -
-          major: 17
-          type: pre
 
     steps:
       - uses: actions/checkout@v2
