@@ -40,7 +40,7 @@ jobs:
             echo "INTERNAL_URL=true" >> $GITHUB_OUTPUT
           fi
       - name: Download current latest manifests
-        if: steps.chek-internal-domain.outputs.INTERNAL_URL == 'false'
+        if: steps.chek-internal-domain.outputs.INTERNAL_URL != 'true'
         run: |
           url=$(jq -r '.channelItems[0].payloads[0].url' raw_channel.json)
           echo $url
