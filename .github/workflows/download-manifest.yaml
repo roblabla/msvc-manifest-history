@@ -36,11 +36,12 @@ jobs:
         id: check-internal-domain
         run: |
           url=$(jq -r '.channelItems[0].payloads[0].url' raw_channel.json)
+          echo "URL is '${url}'"
           if [[ "$url" == *"vsdrop.corp.microsoft.com"* ]]; then
             echo "INTERNAL_URL=true" >> $GITHUB_OUTPUT
           fi
       - name: Download current latest manifests
-        if: steps.chek-internal-domain.outputs.INTERNAL_URL != 'true'
+        if: steps.check-internal-domain.outputs.INTERNAL_URL != 'true'
         run: |
           url=$(jq -r '.channelItems[0].payloads[0].url' raw_channel.json)
           echo $url
