@@ -23,13 +23,24 @@ jobs:
         with:
           ref: ${{ matrix.type }}-${{ matrix.major }}
 
+      - name: Remove old channels and manifests
+        run: rm -f raw_channel.json channel.json raw_manifest.json manifest.json
+
       - name: Downloads current latest channels
         run: |
           curl -L https://aka.ms/vs/${{ matrix.major }}/${{ matrix.type }}/channel -o raw_channel.json
           # Make a version that's easy to diff and view.
           jq . raw_channel.json > channel.json
 
+      - name: Check if build is internal MS-only
+        id: check-internal-domain
+        run: |
+          url=$(jq -r '.channelItems[0].payloads[0].url' raw_channel.json)
+          if [[ "$url" == *"vsdrop.corp.microsoft.com"* ]]; then
+            echo "INTERNAL_URL=true" >> $GITHUB_OUTPUT
+          fi
       - name: Download current latest manifests
+        if: jobs.chek-internal-domain.outputs.INTERNAL_URL == 'false'
         run: |
           url=$(jq -r '.channelItems[0].payloads[0].url' raw_channel.json)
           echo $url
