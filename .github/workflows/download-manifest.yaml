@@ -35,7 +35,7 @@ jobs:
       - name: Check if build is internal MS-only
         id: check-internal-domain
         run: |
-          url=$(jq -r '.channelItems[0].payloads[0].url' raw_channel.json)
+          url=$(jq -r '.channelItems | map(select(.type == "Manifest")) | .[0].payloads[0].url' raw_channel.json)
           echo "URL is '${url}'"
           if [[ "$url" == *"vsdrop.corp.microsoft.com"* ]]; then
             echo "INTERNAL_URL=true" >> $GITHUB_OUTPUT
@@ -43,7 +43,7 @@ jobs:
       - name: Download current latest manifests
         if: steps.check-internal-domain.outputs.INTERNAL_URL != 'true'
         run: |
-          url=$(jq -r '.channelItems[0].payloads[0].url' raw_channel.json)
+          url=$(jq -r '.channelItems | map(select(.type == "Manifest")) | .[0].payloads[0].url' raw_channel.json)
           echo $url
           curl -L $url -o raw_manifest.json
           jq . raw_manifest.json > manifest.json
