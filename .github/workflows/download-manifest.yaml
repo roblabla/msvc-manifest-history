@@ -19,7 +19,7 @@ jobs:
         type: [release, pre]
         include:
           - major: 18
-            type: insiders
+            type: pre
     steps:
       - id: checkout
         uses: actions/checkout@v2
@@ -38,7 +38,13 @@ jobs:
 
       - name: Downloads current latest channels
         run: |
-          curl -L https://aka.ms/vs/${{ matrix.major }}/${{ matrix.type }}/channel -o raw_channel.json
+          TYPE='${{ matrix.type }}'
+          if [[ '${{ matrix.major }}' -ge 18 && '${{ matrix.type }}' == 'pre' ]]; then
+            # For whatever reason, on 18+, the name of the channel for
+            # pre-release became "insiders", and they also changed the URL...
+            TYPE=insiders
+          fi
+          curl -L https://aka.ms/vs/${{ matrix.major }}/$TYPE/channel -o raw_channel.json
           # Make a version that's easy to diff and view.
           jq . raw_channel.json > channel.json
 
