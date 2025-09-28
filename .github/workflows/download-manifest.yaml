@@ -17,7 +17,9 @@ jobs:
       matrix:
         major: [15, 16, 17]
         type: [release, pre]
-
+        include:
+          - major: 18
+            type: insiders
     steps:
       - uses: actions/checkout@v2
         with:
