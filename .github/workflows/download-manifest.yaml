@@ -21,9 +21,17 @@ jobs:
           - major: 18
             type: insiders
     steps:
-      - uses: actions/checkout@v2
+      - id: checkout
+        uses: actions/checkout@v2
+        continue-on-error: true
         with:
           ref: ${{ matrix.type }}-${{ matrix.major }}
+      - uses: actions/checkout@v2
+        if: steps.checkout.conclusion == 'failure'
+        with:
+          ref: master
+      - if: steps.checkout.conclusion == 'failure'
+        run: git switch --orphan "${{ matrix.type }}-${{ matrix.major }}"
 
       - name: Remove old channels and manifests
         run: rm -f raw_channel.json channel.json raw_manifest.json manifest.json
@@ -50,10 +58,9 @@ jobs:
           curl -L $url -o raw_manifest.json
           jq . raw_manifest.json > manifest.json
 
-      - uses: EndBug/add-and-commit@v7
+      - uses: EndBug/add-and-commit@v9
         with:
-          branch: ${{ matrix.type }}-${{ matrix.major }}
           default_author: github_actions
           message: Update manifest
-          pull_strategy: 'NO-PULL'
           push: true
+          new_branch: ${{ matrix.type }}-${{ matrix.major }}
