@@ -6,6 +6,8 @@ versions of the Windows SDK for diffing purposes.
 
 This repository has one branch per MSVC version:
 
+- [release-18](https://github.com/roblabla/msvc-manifest-history/tree/release-18)
+  tracks Visual Studio 2026.
 - [pre-18](https://github.com/roblabla/msvc-manifest-history/tree/pre-18)
   tracks Visual Studio 2026 Insiders.
 - [release-17](https://github.com/roblabla/msvc-manifest-history/tree/release-17)

@@ -15,11 +15,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        major: [15, 16, 17]
+        major: [15, 16, 17, 18]
         type: [release, pre]
-        include:
-          - major: 18
-            type: pre
     steps:
       - id: checkout
         uses: actions/checkout@v2
@@ -39,10 +36,13 @@ jobs:
       - name: Downloads current latest channels
         run: |
           TYPE='${{ matrix.type }}'
+          # For whatever reason, on 18+, the name of the channel for
+          # pre became "insiders", and release became "stable". They also
+          # changed the URL...
           if [[ '${{ matrix.major }}' -ge 18 && '${{ matrix.type }}' == 'pre' ]]; then
-            # For whatever reason, on 18+, the name of the channel for
-            # pre-release became "insiders", and they also changed the URL...
             TYPE=insiders
+          elif [[ '${{ matrix.major }}' -ge 18 && '${{ matrix.type }}' == 'release' ]]; then
+            TYPE=stable
           fi
           curl -L https://aka.ms/vs/${{ matrix.major }}/$TYPE/channel -o raw_channel.json
           # Make a version that's easy to diff and view.
