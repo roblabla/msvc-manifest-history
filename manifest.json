@@ -2,22 +2,22 @@
   "manifestVersion": "1.1",
   "engineVersion": "1.18.1063.29791",
   "info": {
-    "id": "VisualStudio/15.9.79+37202.19",
+    "id": "VisualStudio/15.9.80+37327.18",
     "buildBranch": "d15.9",
-    "buildVersion": "15.9.37202.19",
+    "buildVersion": "15.9.37327.18",
     "localBuild": "build-lab",
     "manifestName": "VisualStudio",
     "manifestType": "installer",
-    "productDisplayVersion": "15.9.79",
+    "productDisplayVersion": "15.9.80",
     "productLine": "Dev15",
     "productLineVersion": "2017",
     "productMilestone": "RTW",
     "productMilestoneIsPreRelease": "False",
     "productName": "Visual Studio",
-    "productPatchVersion": "79",
+    "productPatchVersion": "80",
     "productPreReleaseMilestoneSuffix": "1.0",
     "productRelease": "RTW",
-    "productSemanticVersion": "15.9.79+37202.19"
+    "productSemanticVersion": "15.9.80+37327.18"
   },
   "signers": [
     {
@@ -311,7 +311,7 @@
           "fileName": "AndroidSDKInstall.ps1",
           "sha256": "D4A78446D19FA33C7B4377B51F192D366F2401D0AEEE41CF42EB4D20FD8E10B2",
           "size": 43884,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/85966aef-8515-43ec-a8d5-8d95fd7c9998/D4A78446D19FA33C7B4377B51F192D366F2401D0AEEE41CF42EB4D20FD8E10B2/AndroidSDKInstall.ps1",
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/D4A78446D19FA33C7B4377B51F192D366F2401D0AEEE41CF42EB4D20FD8E10B2/AndroidSDKInstall.ps1",
           "signer": {
             "$ref": "2"
           }
@@ -392,7 +392,7 @@
           "fileName": "AndroidSDKPrivateInstall.ps1",
           "sha256": "1B10F3E6D6796580A6DC0FA748BD0B273FFCDA56B3483EBC84024346F4C11A03",
           "size": 52558,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/85966aef-8515-43ec-a8d5-8d95fd7c9998/1B10F3E6D6796580A6DC0FA748BD0B273FFCDA56B3483EBC84024346F4C11A03/AndroidSDKPrivateInstall.ps1",
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/1B10F3E6D6796580A6DC0FA748BD0B273FFCDA56B3483EBC84024346F4C11A03/AndroidSDKPrivateInstall.ps1",
           "signer": {
             "$ref": "2"
           }
@@ -468,7 +468,7 @@
           "fileName": "AndroidSDKInstall.ps1",
           "sha256": "D4A78446D19FA33C7B4377B51F192D366F2401D0AEEE41CF42EB4D20FD8E10B2",
           "size": 43884,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/85966aef-8515-43ec-a8d5-8d95fd7c9998/D4A78446D19FA33C7B4377B51F192D366F2401D0AEEE41CF42EB4D20FD8E10B2/AndroidSDKInstall.ps1",
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/D4A78446D19FA33C7B4377B51F192D366F2401D0AEEE41CF42EB4D20FD8E10B2/AndroidSDKInstall.ps1",
           "signer": {
             "$ref": "2"
           }
@@ -517,7 +517,7 @@
           "fileName": "AndroidSDKPrivateInstall.ps1",
           "sha256": "4DB229E76804775504F9D05C6C9D1EB9F9D0285332FB71229E08AE090DC29FE8",
           "size": 53741,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/85966aef-8515-43ec-a8d5-8d95fd7c9998/4DB229E76804775504F9D05C6C9D1EB9F9D0285332FB71229E08AE090DC29FE8/AndroidSDKPrivateInstall.ps1",
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/4DB229E76804775504F9D05C6C9D1EB9F9D0285332FB71229E08AE090DC29FE8/AndroidSDKPrivateInstall.ps1",
           "signer": {
             "$ref": "7"
           }
@@ -593,7 +593,7 @@
           "fileName": "AndroidSDKPrivateInstall.ps1",
           "sha256": "1B10F3E6D6796580A6DC0FA748BD0B273FFCDA56B3483EBC84024346F4C11A03",
           "size": 52558,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/85966aef-8515-43ec-a8d5-8d95fd7c9998/1B10F3E6D6796580A6DC0FA748BD0B273FFCDA56B3483EBC84024346F4C11A03/AndroidSDKPrivateInstall.ps1",
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/1B10F3E6D6796580A6DC0FA748BD0B273FFCDA56B3483EBC84024346F4C11A03/AndroidSDKPrivateInstall.ps1",
           "signer": {
             "$ref": "2"
           }
@@ -669,7 +669,7 @@
           "fileName": "AndroidSDKPrivateInstall.ps1",
           "sha256": "1B10F3E6D6796580A6DC0FA748BD0B273FFCDA56B3483EBC84024346F4C11A03",
           "size": 52558,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/85966aef-8515-43ec-a8d5-8d95fd7c9998/1B10F3E6D6796580A6DC0FA748BD0B273FFCDA56B3483EBC84024346F4C11A03/AndroidSDKPrivateInstall.ps1",
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/1B10F3E6D6796580A6DC0FA748BD0B273FFCDA56B3483EBC84024346F4C11A03/AndroidSDKPrivateInstall.ps1",
           "signer": {
             "$ref": "2"
           }
@@ -821,7 +821,7 @@
           "fileName": "AndroidSDKPrivateInstall.ps1",
           "sha256": "4DB229E76804775504F9D05C6C9D1EB9F9D0285332FB71229E08AE090DC29FE8",
           "size": 53741,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/85966aef-8515-43ec-a8d5-8d95fd7c9998/4DB229E76804775504F9D05C6C9D1EB9F9D0285332FB71229E08AE090DC29FE8/AndroidSDKPrivateInstall.ps1",
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/4DB229E76804775504F9D05C6C9D1EB9F9D0285332FB71229E08AE090DC29FE8/AndroidSDKPrivateInstall.ps1",
           "signer": {
             "$ref": "7"
           }
@@ -1399,7 +1399,7 @@
           "fileName": "AndroidSDKPrivateInstall.ps1",
           "sha256": "1B10F3E6D6796580A6DC0FA748BD0B273FFCDA56B3483EBC84024346F4C11A03",
           "size": 52558,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/85966aef-8515-43ec-a8d5-8d95fd7c9998/1B10F3E6D6796580A6DC0FA748BD0B273FFCDA56B3483EBC84024346F4C11A03/AndroidSDKPrivateInstall.ps1",
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/1B10F3E6D6796580A6DC0FA748BD0B273FFCDA56B3483EBC84024346F4C11A03/AndroidSDKPrivateInstall.ps1",
           "signer": {
             "$ref": "2"
           }
@@ -1475,7 +1475,7 @@
           "fileName": "AndroidSDKPrivateInstall.ps1",
           "sha256": "1B10F3E6D6796580A6DC0FA748BD0B273FFCDA56B3483EBC84024346F4C11A03",
           "size": 52558,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/85966aef-8515-43ec-a8d5-8d95fd7c9998/1B10F3E6D6796580A6DC0FA748BD0B273FFCDA56B3483EBC84024346F4C11A03/AndroidSDKPrivateInstall.ps1",
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/1B10F3E6D6796580A6DC0FA748BD0B273FFCDA56B3483EBC84024346F4C11A03/AndroidSDKPrivateInstall.ps1",
           "signer": {
             "$ref": "2"
           }
@@ -1513,7 +1513,7 @@
           "fileName": "AndroidSDKInstall.ps1",
           "sha256": "D4A78446D19FA33C7B4377B51F192D366F2401D0AEEE41CF42EB4D20FD8E10B2",
           "size": 43884,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/85966aef-8515-43ec-a8d5-8d95fd7c9998/D4A78446D19FA33C7B4377B51F192D366F2401D0AEEE41CF42EB4D20FD8E10B2/AndroidSDKInstall.ps1",
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/D4A78446D19FA33C7B4377B51F192D366F2401D0AEEE41CF42EB4D20FD8E10B2/AndroidSDKInstall.ps1",
           "signer": {
             "$ref": "2"
           }
@@ -1583,7 +1583,7 @@
           "fileName": "AndroidSDKInstall.ps1",
           "sha256": "D4A78446D19FA33C7B4377B51F192D366F2401D0AEEE41CF42EB4D20FD8E10B2",
           "size": 43884,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/85966aef-8515-43ec-a8d5-8d95fd7c9998/D4A78446D19FA33C7B4377B51F192D366F2401D0AEEE41CF42EB4D20FD8E10B2/AndroidSDKInstall.ps1",
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/D4A78446D19FA33C7B4377B51F192D366F2401D0AEEE41CF42EB4D20FD8E10B2/AndroidSDKInstall.ps1",
           "signer": {
             "$ref": "2"
           }
@@ -1671,7 +1671,7 @@
           "fileName": "AndroidSDKPrivateInstall.ps1",
           "sha256": "1B10F3E6D6796580A6DC0FA748BD0B273FFCDA56B3483EBC84024346F4C11A03",
           "size": 52558,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/85966aef-8515-43ec-a8d5-8d95fd7c9998/1B10F3E6D6796580A6DC0FA748BD0B273FFCDA56B3483EBC84024346F4C11A03/AndroidSDKPrivateInstall.ps1",
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/1B10F3E6D6796580A6DC0FA748BD0B273FFCDA56B3483EBC84024346F4C11A03/AndroidSDKPrivateInstall.ps1",
           "signer": {
             "$ref": "2"
           }
@@ -10708,7 +10708,7 @@
           "fileName": "cordova-platforms-6.3.1.zip",
           "sha256": "FC7DB06D7C003706FB4C98CF41AC358808D7B4AE9A93C9CC4EE2FE59C503234F",
           "size": 7413963,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/85966aef-8515-43ec-a8d5-8d95fd7c9998/FC7DB06D7C003706FB4C98CF41AC358808D7B4AE9A93C9CC4EE2FE59C503234F/cordova-platforms-6.3.1.zip"
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/FC7DB06D7C003706FB4C98CF41AC358808D7B4AE9A93C9CC4EE2FE59C503234F/cordova-platforms-6.3.1.zip"
         }
       ],
       "relativePath": "[UserProfile].cordova\\lib\\npm_cache",
@@ -10725,7 +10725,7 @@
           "fileName": "Toolset-6.3.1.zip",
           "sha256": "CBFD33EDE63F933A4B86D040D1FEFF76690C904DDB738373A4847F44BE236755",
           "size": 29887560,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/85966aef-8515-43ec-a8d5-8d95fd7c9998/CBFD33EDE63F933A4B86D040D1FEFF76690C904DDB738373A4847F44BE236755/Toolset-6.3.1.zip"
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/CBFD33EDE63F933A4B86D040D1FEFF76690C904DDB738373A4847F44BE236755/Toolset-6.3.1.zip"
         }
       ],
       "relativePath": "[CommonApplicationData]Microsoft\\VisualStudio\\MDA\\[InstanceID]\\taco-toolset-6.3.1",
@@ -106608,7 +106608,7 @@
           "fileName": "VC_redist.x64.exe",
           "sha256": "7cf24eba2bd67ea6229b7dd131e06f4e92ebefc06e36fe401cdd227d7ed78264",
           "size": 15324768,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/e8d8b03a-7331-4e1f-8360-32ffc36de1ee/7CF24EBA2BD67EA6229B7DD131E06F4E92EBEFC06E36FE401CDD227D7ED78264/VC_redist.x64.exe",
+          "url": "https://download.visualstudio.microsoft.com/download/pr/5c0eb1ee-7aa0-4aca-8bdc-692a61657256/7CF24EBA2BD67EA6229B7DD131E06F4E92EBEFC06E36FE401CDD227D7ED78264/VC_redist.x64.exe",
           "signer": {
             "$ref": "3"
           }
@@ -106794,7 +106794,7 @@
           "fileName": "VC_redist.arm64.exe",
           "sha256": "6ff3556cc5601358e569694a1c0828e623633f4cebcd98e6cbc029f3357b2149",
           "size": 7373208,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/e8d8b03a-7331-4e1f-8360-32ffc36de1ee/6FF3556CC5601358E569694A1C0828E623633F4CEBCD98E6CBC029F3357B2149/VC_redist.arm64.exe",
+          "url": "https://download.visualstudio.microsoft.com/download/pr/5c0eb1ee-7aa0-4aca-8bdc-692a61657256/6FF3556CC5601358E569694A1C0828E623633F4CEBCD98E6CBC029F3357B2149/VC_redist.arm64.exe",
           "signer": {
             "$ref": "3"
           }
@@ -106849,7 +106849,7 @@
           "fileName": "VC_redist.x64.exe",
           "sha256": "7cf24eba2bd67ea6229b7dd131e06f4e92ebefc06e36fe401cdd227d7ed78264",
           "size": 15324768,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/e8d8b03a-7331-4e1f-8360-32ffc36de1ee/7CF24EBA2BD67EA6229B7DD131E06F4E92EBEFC06E36FE401CDD227D7ED78264/VC_redist.x64.exe",
+          "url": "https://download.visualstudio.microsoft.com/download/pr/5c0eb1ee-7aa0-4aca-8bdc-692a61657256/7CF24EBA2BD67EA6229B7DD131E06F4E92EBEFC06E36FE401CDD227D7ED78264/VC_redist.x64.exe",
           "signer": {
             "$ref": "3"
           }
@@ -113047,14 +113047,14 @@
     },
     {
       "id": "Microsoft.VisualStudio.Blend",
-      "version": "15.9.37202.19",
+      "version": "15.9.37327.18",
       "type": "Vsix",
       "payloads": [
         {
           "fileName": "payload.vsix",
-          "sha256": "d71280fb5cdaa4ecd53f072038bfc46a55147ca386438f1cbe6c946eda8154bf",
-          "size": 431787,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/85966aef-8515-43ec-a8d5-8d95fd7c9998/d71280fb5cdaa4ecd53f072038bfc46a55147ca386438f1cbe6c946eda8154bf/payload.vsix",
+          "sha256": "d202293a2f431ed397b92ea05b73b323d7fb3e6e08561e27f5824ec2c7beebc3",
+          "size": 431598,
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/d202293a2f431ed397b92ea05b73b323d7fb3e6e08561e27f5824ec2c7beebc3/payload.vsix",
           "signer": {
             "$ref": "1"
           }
@@ -113064,7 +113064,7 @@
         "ignoreChanges": true
       },
       "installSizes": {
-        "targetDrive": 1387550
+        "targetDrive": 1386710
       }
     },
     {
@@ -174112,14 +174112,14 @@
     },
     {
       "id": "Microsoft.VisualStudio.Devenv",
-      "version": "15.9.37202.19",
+      "version": "15.9.37327.18",
       "type": "Vsix",
       "payloads": [
         {
           "fileName": "payload.vsix",
-          "sha256": "757c4d7cbaa09060fab40e8f8ad10379949c639bcdf6e783b121941590cb19d8",
-          "size": 398402,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/85966aef-8515-43ec-a8d5-8d95fd7c9998/757c4d7cbaa09060fab40e8f8ad10379949c639bcdf6e783b121941590cb19d8/payload.vsix",
+          "sha256": "733ef88b7cb28652491a12e1480330098313e3d824cf3144eb9f5babbb9afd3f",
+          "size": 398243,
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/733ef88b7cb28652491a12e1480330098313e3d824cf3144eb9f5babbb9afd3f/payload.vsix",
           "signer": {
             "$ref": "1"
           }
@@ -174129,7 +174129,7 @@
         "ignoreChanges": true
       },
       "installSizes": {
-        "targetDrive": 977821
+        "targetDrive": 977141
       },
       "dependencies": {
         "Microsoft.VisualStudio.Devenv.Resources": "[15.0,16.0)"
@@ -188912,7 +188912,7 @@
     },
     {
       "id": "Microsoft.VisualStudio.Product.BuildTools",
-      "version": "15.9.37202.19",
+      "version": "15.9.37327.18",
       "type": "Product",
       "installParams": null,
       "launchParams": {
@@ -188923,7 +188923,7 @@
         "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MCA0MCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTQwIDQwSDBWMGg0MHY0MHoiIGlkPSJjYW52YXMiLz4NCiAgPHBhdGggY2xhc3M9ImJyYW5kLXZzaWRlIiBkPSJNMzAuMjIxLS4wMDJMMTMuODg3IDE2LjE2IDQuMDUyIDguNzQ2IDAgMTAuMTAyVjI5LjlsNC4wNTIgMS4zNTYgOS44MzUtNy40MTQgMTYuMzM0IDE2LjE2TDQwIDM1Ljg0MlY0LjE1OGwtOS43NzktNC4xNnpNNC4wNTIgMjUuODlWMTQuMTExTDEwLjAwNCAyMGwtNS45NTIgNS44OXpNMzAgMjguNDcyTDE4Ljk4MyAyMCAzMCAxMS41Mjh2MTYuOTQ0eiIvPg0KPC9zdmc+"
       },
       "defaultInstallDirectory": "[ProgramFilesFolder]Microsoft Visual Studio\\2017\\BuildTools",
-      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.79",
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.80",
       "thirdPartyNotices": "https://go.microsoft.com/fwlink/?LinkId=660708",
       "dependencies": {
         "Microsoft.VisualStudio.Workload.MSBuildTools": "[15.0,16.0)",
@@ -189189,7 +189189,7 @@
     },
     {
       "id": "Microsoft.VisualStudio.Product.Community",
-      "version": "15.9.37202.19",
+      "version": "15.9.37327.18",
       "type": "Product",
       "installParams": {
         "fileName": "[InstallDir]\\Common7\\IDE\\VSFinalizer.exe",
@@ -189223,7 +189223,7 @@
         "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTI0IDI0SDBWMGgyNHYyNHoiIGlkPSJjYW52YXMiLz4NCiAgPHBhdGggY2xhc3M9ImJyYW5kLXZzaWRlIiBkPSJNNi4xODcgMTEuNTQ2TDExLjY5OSAxN2wzLjMtMS40MDRWNC45MDRsLTMuMy0xLjQwNC01LjUxMiA1LjQ1NC0zLjMyLTIuNTAyTDEuNSA2LjkxdjYuNjgxbDEuMzY3LjQ1OCAzLjMyLTIuNTAzem01LjUxMi00LjE1NXY1LjcxOEw3LjkwNiAxMC4yNWwzLjc5My0yLjg1OXptLTguODMyLjg3MmwyLjAwOSAxLjk4Ny0yLjAwOSAxLjk4OFY4LjI2M3pNMjQgMi40OTV2MTkuMDExTDE4IDI0IDAgMTguNXYtLjU2M2wxOCAxLjU0N1YwbDYgMi40OTV6IiBpZD0iaWNvbkJnIi8+DQo8L3N2Zz4="
       },
       "defaultInstallDirectory": "[ProgramFilesFolder]Microsoft Visual Studio\\2017\\Community",
-      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.79",
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.80",
       "thirdPartyNotices": "https://go.microsoft.com/fwlink/?LinkId=660708",
       "recommendSelection": true,
       "supportsDownloadThenInstall": true,
@@ -189584,7 +189584,7 @@
     },
     {
       "id": "Microsoft.VisualStudio.Product.Enterprise",
-      "version": "15.9.37202.19",
+      "version": "15.9.37327.18",
       "type": "Product",
       "installParams": {
         "fileName": "[InstallDir]\\Common7\\IDE\\VSFinalizer.exe",
@@ -189618,7 +189618,7 @@
         "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTI0IDI0SDBWMGgyNHYyNHoiIGlkPSJjYW52YXMiLz4NCiAgPHBhdGggY2xhc3M9ImJyYW5kLXZzaWRlIiBkPSJNNi4xODcgMTEuNTQ2TDExLjY5OSAxN2wzLjMtMS40MDRWNC45MDRsLTMuMy0xLjQwNC01LjUxMiA1LjQ1NC0zLjMyLTIuNTAyTDEuNSA2LjkxdjYuNjgxbDEuMzY3LjQ1OCAzLjMyLTIuNTAzem01LjUxMi00LjE1NXY1LjcxOEw3LjkwNiAxMC4yNWwzLjc5My0yLjg1OXptLTguODMyLjg3MmwyLjAwOSAxLjk4Ny0yLjAwOSAxLjk4OFY4LjI2M3pNMjQgMi40OTV2MTkuMDExTDE4IDI0IDAgMTguNXYtLjU2M2wxOCAxLjU0N1YwbDYgMi40OTV6IiBpZD0iaWNvbkJnIi8+DQo8L3N2Zz4="
       },
       "defaultInstallDirectory": "[ProgramFilesFolder]Microsoft Visual Studio\\2017\\Enterprise",
-      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.79",
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.80",
       "thirdPartyNotices": "https://go.microsoft.com/fwlink/?LinkId=660708",
       "recommendSelection": true,
       "supportsDownloadThenInstall": true,
@@ -189987,7 +189987,7 @@
     },
     {
       "id": "Microsoft.VisualStudio.Product.FeedbackClient",
-      "version": "15.9.37202.19",
+      "version": "15.9.37327.18",
       "type": "Product",
       "installParams": null,
       "launchParams": {
@@ -189998,7 +189998,7 @@
         "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MCA0MCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTQwIDQwSDBWMGg0MHY0MHoiIGlkPSJjYW52YXMiLz4NCiAgPHBhdGggY2xhc3M9ImJyYW5kLXZzaWRlIiBkPSJNMzAuMjIxLS4wMDJMMTMuODg3IDE2LjE2IDQuMDUyIDguNzQ2IDAgMTAuMTAyVjI5LjlsNC4wNTIgMS4zNTYgOS44MzUtNy40MTQgMTYuMzM0IDE2LjE2TDQwIDM1Ljg0MlY0LjE1OGwtOS43NzktNC4xNnpNNC4wNTIgMjUuODlWMTQuMTExTDEwLjAwNCAyMGwtNS45NTIgNS44OXpNMzAgMjguNDcyTDE4Ljk4MyAyMCAzMCAxMS41Mjh2MTYuOTQ0eiIvPg0KPC9zdmc+"
       },
       "defaultInstallDirectory": "[ProgramFilesFolder]Microsoft Visual Studio\\2017\\FeedbackClient",
-      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.79",
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.80",
       "thirdPartyNotices": "https://go.microsoft.com/fwlink/?LinkId=660708",
       "dependencies": {
         "Microsoft.VisualStudio.Workload.FeedbackClient": "[15.0,16.0)"
@@ -190092,7 +190092,7 @@
     },
     {
       "id": "Microsoft.VisualStudio.Product.Professional",
-      "version": "15.9.37202.19",
+      "version": "15.9.37327.18",
       "type": "Product",
       "installParams": {
         "fileName": "[InstallDir]\\Common7\\IDE\\VSFinalizer.exe",
@@ -190126,7 +190126,7 @@
         "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTI0IDI0SDBWMGgyNHYyNHoiIGlkPSJjYW52YXMiLz4NCiAgPHBhdGggY2xhc3M9ImJyYW5kLXZzaWRlIiBkPSJNNi4xODcgMTEuNTQ2TDExLjY5OSAxN2wzLjMtMS40MDRWNC45MDRsLTMuMy0xLjQwNC01LjUxMiA1LjQ1NC0zLjMyLTIuNTAyTDEuNSA2LjkxdjYuNjgxbDEuMzY3LjQ1OCAzLjMyLTIuNTAzem01LjUxMi00LjE1NXY1LjcxOEw3LjkwNiAxMC4yNWwzLjc5My0yLjg1OXptLTguODMyLjg3MmwyLjAwOSAxLjk4Ny0yLjAwOSAxLjk4OFY4LjI2M3pNMjQgMi40OTV2MTkuMDExTDE4IDI0IDAgMTguNXYtLjU2M2wxOCAxLjU0N1YwbDYgMi40OTV6IiBpZD0iaWNvbkJnIi8+DQo8L3N2Zz4="
       },
       "defaultInstallDirectory": "[ProgramFilesFolder]Microsoft Visual Studio\\2017\\Professional",
-      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.79",
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.80",
       "thirdPartyNotices": "https://go.microsoft.com/fwlink/?LinkId=660708",
       "recommendSelection": true,
       "supportsDownloadThenInstall": true,
@@ -190487,7 +190487,7 @@
     },
     {
       "id": "Microsoft.VisualStudio.Product.SQL",
-      "version": "15.9.37202.19",
+      "version": "15.9.37327.18",
       "type": "Product",
       "installParams": {
         "fileName": "[InstallDir]\\Common7\\IDE\\VSFinalizer.exe",
@@ -190521,7 +190521,7 @@
         "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTI0IDI0SDBWMGgyNHYyNHoiIGlkPSJjYW52YXMiLz4NCiAgPHBhdGggY2xhc3M9ImJyYW5kLXZzaWRlIiBkPSJNNi4xODcgMTEuNTQ2TDExLjY5OSAxN2wzLjMtMS40MDRWNC45MDRsLTMuMy0xLjQwNC01LjUxMiA1LjQ1NC0zLjMyLTIuNTAyTDEuNSA2LjkxdjYuNjgxbDEuMzY3LjQ1OCAzLjMyLTIuNTAzem01LjUxMi00LjE1NXY1LjcxOEw3LjkwNiAxMC4yNWwzLjc5My0yLjg1OXptLTguODMyLjg3MmwyLjAwOSAxLjk4Ny0yLjAwOSAxLjk4OFY4LjI2M3pNMjQgMi40OTV2MTkuMDExTDE4IDI0IDAgMTguNXYtLjU2M2wxOCAxLjU0N1YwbDYgMi40OTV6IiBpZD0iaWNvbkJnIi8+DQo8L3N2Zz4="
       },
       "defaultInstallDirectory": "[ProgramFilesFolder]Microsoft Visual Studio\\2017\\SQL",
-      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.79",
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.80",
       "thirdPartyNotices": "https://go.microsoft.com/fwlink/?LinkId=660708",
       "dependencies": {
         "Microsoft.VisualStudio.Workload.SQL": "[15.0,16.0)"
@@ -190615,7 +190615,7 @@
     },
     {
       "id": "Microsoft.VisualStudio.Product.TeamExplorer",
-      "version": "15.9.37202.19",
+      "version": "15.9.37327.18",
       "type": "Product",
       "installParams": {
         "fileName": "[InstallDir]\\Common7\\IDE\\VSFinalizer.exe",
@@ -190649,7 +190649,7 @@
         "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTI0IDI0SDBWMGgyNHYyNHoiIGlkPSJjYW52YXMiLz4NCiAgPHBhdGggY2xhc3M9ImJyYW5kLXZzaWRlIiBkPSJNNi4xODcgMTEuNTQ2TDExLjY5OSAxN2wzLjMtMS40MDRWNC45MDRsLTMuMy0xLjQwNC01LjUxMiA1LjQ1NC0zLjMyLTIuNTAyTDEuNSA2LjkxdjYuNjgxbDEuMzY3LjQ1OCAzLjMyLTIuNTAzem01LjUxMi00LjE1NXY1LjcxOEw3LjkwNiAxMC4yNWwzLjc5My0yLjg1OXptLTguODMyLjg3MmwyLjAwOSAxLjk4Ny0yLjAwOSAxLjk4OFY4LjI2M3pNMjQgMi40OTV2MTkuMDExTDE4IDI0IDAgMTguNXYtLjU2M2wxOCAxLjU0N1YwbDYgMi40OTV6IiBpZD0iaWNvbkJnIi8+DQo8L3N2Zz4="
       },
       "defaultInstallDirectory": "[ProgramFilesFolder]Microsoft Visual Studio\\2017\\TeamExplorer",
-      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.79",
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.80",
       "thirdPartyNotices": "https://go.microsoft.com/fwlink/?LinkId=660708",
       "dependencies": {
         "Microsoft.VisualStudio.Branding.TeamExplorer": "[15.0,16.0)",
@@ -190744,7 +190744,7 @@
     },
     {
       "id": "Microsoft.VisualStudio.Product.TestAgent",
-      "version": "15.9.37202.19",
+      "version": "15.9.37327.18",
       "type": "Product",
       "installParams": {
         "fileName": "[InstallDir]\\Common7\\IDE\\TestToolsFinalizer.exe",
@@ -190766,7 +190766,7 @@
         "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MCA0MCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTQwIDQwSDBWMGg0MHY0MHoiIGlkPSJjYW52YXMiLz4NCiAgPHBhdGggY2xhc3M9ImJyYW5kLXZzaWRlIiBkPSJNMzAuMjIxLS4wMDJMMTMuODg3IDE2LjE2IDQuMDUyIDguNzQ2IDAgMTAuMTAyVjI5LjlsNC4wNTIgMS4zNTYgOS44MzUtNy40MTQgMTYuMzM0IDE2LjE2TDQwIDM1Ljg0MlY0LjE1OGwtOS43NzktNC4xNnpNNC4wNTIgMjUuODlWMTQuMTExTDEwLjAwNCAyMGwtNS45NTIgNS44OXpNMzAgMjguNDcyTDE4Ljk4MyAyMCAzMCAxMS41Mjh2MTYuOTQ0eiIvPg0KPC9zdmc+"
       },
       "defaultInstallDirectory": "[ProgramFilesFolder]Microsoft Visual Studio\\2017\\TestAgent",
-      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.79",
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.80",
       "thirdPartyNotices": "https://go.microsoft.com/fwlink/?LinkId=660708",
       "dependencies": {
         "Microsoft.VisualStudio.Workload.TestAgent": "[15.0,16.0)"
@@ -190860,7 +190860,7 @@
     },
     {
       "id": "Microsoft.VisualStudio.Product.TestController",
-      "version": "15.9.37202.19",
+      "version": "15.9.37327.18",
       "type": "Product",
       "installParams": {
         "fileName": "[InstallDir]\\Common7\\IDE\\TestToolsFinalizer.exe",
@@ -190882,7 +190882,7 @@
         "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MCA0MCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTQwIDQwSDBWMGg0MHY0MHoiIGlkPSJjYW52YXMiLz4NCiAgPHBhdGggY2xhc3M9ImJyYW5kLXZzaWRlIiBkPSJNMzAuMjIxLS4wMDJMMTMuODg3IDE2LjE2IDQuMDUyIDguNzQ2IDAgMTAuMTAyVjI5LjlsNC4wNTIgMS4zNTYgOS44MzUtNy40MTQgMTYuMzM0IDE2LjE2TDQwIDM1Ljg0MlY0LjE1OGwtOS43NzktNC4xNnpNNC4wNTIgMjUuODlWMTQuMTExTDEwLjAwNCAyMGwtNS45NTIgNS44OXpNMzAgMjguNDcyTDE4Ljk4MyAyMCAzMCAxMS41Mjh2MTYuOTQ0eiIvPg0KPC9zdmc+"
       },
       "defaultInstallDirectory": "[ProgramFilesFolder]Microsoft Visual Studio\\2017\\TestController",
-      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.79",
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.80",
       "thirdPartyNotices": "https://go.microsoft.com/fwlink/?LinkId=660708",
       "dependencies": {
         "Microsoft.VisualStudio.Workload.TestController": "[15.0,16.0)"
@@ -190976,7 +190976,7 @@
     },
     {
       "id": "Microsoft.VisualStudio.Product.TestProfessional",
-      "version": "15.9.37202.19",
+      "version": "15.9.37327.18",
       "type": "Product",
       "installParams": {
         "fileName": "[InstallDir]\\Common7\\IDE\\VSFinalizer.exe",
@@ -191010,7 +191010,7 @@
         "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MCA0MCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTQwIDQwSDBWMGg0MHY0MHoiIGlkPSJjYW52YXMiLz4NCiAgPHBhdGggY2xhc3M9ImJyYW5kLXZzaWRlIiBkPSJNMzAuMjIxLS4wMDJMMTMuODg3IDE2LjE2IDQuMDUyIDguNzQ2IDAgMTAuMTAyVjI5LjlsNC4wNTIgMS4zNTYgOS44MzUtNy40MTQgMTYuMzM0IDE2LjE2TDQwIDM1Ljg0MlY0LjE1OGwtOS43NzktNC4xNnpNNC4wNTIgMjUuODlWMTQuMTExTDEwLjAwNCAyMGwtNS45NTIgNS44OXpNMzAgMjguNDcyTDE4Ljk4MyAyMCAzMCAxMS41Mjh2MTYuOTQ0eiIvPg0KPC9zdmc+"
       },
       "defaultInstallDirectory": "[ProgramFilesFolder]Microsoft Visual Studio\\2017\\TestPro",
-      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.79",
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.80",
       "thirdPartyNotices": "https://go.microsoft.com/fwlink/?LinkId=660708",
       "dependencies": {
         "Microsoft.VisualStudio.Workload.TestProfessional": "[15.0,16.0)"
@@ -191104,7 +191104,7 @@
     },
     {
       "id": "Microsoft.VisualStudio.Product.WDExpress",
-      "version": "15.9.37202.19",
+      "version": "15.9.37327.18",
       "type": "Product",
       "installParams": {
         "fileName": "[InstallDir]\\Common7\\IDE\\VSFinalizer.exe",
@@ -191138,7 +191138,7 @@
         "base64": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+DQogIDxzdHlsZT4uaWNvbi1jYW52YXMtdHJhbnNwYXJlbnR7b3BhY2l0eTowO2ZpbGw6I2Y2ZjZmNn0uYnJhbmQtdnNpZGV7ZmlsbDojODY1ZmM1fTwvc3R5bGU+DQogIDxwYXRoIGNsYXNzPSJpY29uLWNhbnZhcy10cmFuc3BhcmVudCIgZD0iTTI0IDI0SDBWMGgyNHYyNHoiIGlkPSJjYW52YXMiLz4NCiAgPHBhdGggY2xhc3M9ImJyYW5kLXZzaWRlIiBkPSJNNi4xODcgMTEuNTQ2TDExLjY5OSAxN2wzLjMtMS40MDRWNC45MDRsLTMuMy0xLjQwNC01LjUxMiA1LjQ1NC0zLjMyLTIuNTAyTDEuNSA2LjkxdjYuNjgxbDEuMzY3LjQ1OCAzLjMyLTIuNTAzem01LjUxMi00LjE1NXY1LjcxOEw3LjkwNiAxMC4yNWwzLjc5My0yLjg1OXptLTguODMyLjg3MmwyLjAwOSAxLjk4Ny0yLjAwOSAxLjk4OFY4LjI2M3pNMjQgMi40OTV2MTkuMDExTDE4IDI0IDAgMTguNXYtLjU2M2wxOCAxLjU0N1YwbDYgMi40OTV6IiBpZD0iaWNvbkJnIi8+DQo8L3N2Zz4="
       },
       "defaultInstallDirectory": "[ProgramFilesFolder]Microsoft Visual Studio\\2017\\WDExpress",
-      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.79",
+      "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=660692#15.9.80",
       "thirdPartyNotices": "https://go.microsoft.com/fwlink/?LinkId=660708",
       "dependencies": {
         "Microsoft.VisualStudio.Branding.WDExpress": "[15.0,16.0)",
@@ -193213,14 +193213,14 @@
     },
     {
       "id": "Microsoft.VisualStudio.SLNX.VSIX",
-      "version": "15.9.2.41867",
+      "version": "15.9.3.3084",
       "type": "Vsix",
       "payloads": [
         {
           "fileName": "Microsoft.VisualStudio.SLNX.vsix",
-          "sha256": "872b682b7f464944422b16a64d5fb273278e0aec77146ba37b769b12695fe881",
-          "size": 3419615,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/99da3acb-5818-4bb4-942a-72265db72139/872b682b7f464944422b16a64d5fb273278e0aec77146ba37b769b12695fe881/Microsoft.VisualStudio.SLNX.vsix",
+          "sha256": "5d4115cafc36a294afc54593ff18b4e9fd5bf4471740817ec5edbd4d03825112",
+          "size": 3419933,
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/5d4115cafc36a294afc54593ff18b4e9fd5bf4471740817ec5edbd4d03825112/Microsoft.VisualStudio.SLNX.vsix",
           "signer": {
             "$ref": "1"
           }
@@ -193229,7 +193229,7 @@
       "vsixId": "Microsoft.VisualStudio.AnyCode",
       "extensionDir": "[installdir]\\Common7\\IDE\\CommonExtensions\\Microsoft\\OpenFolder",
       "installSizes": {
-        "targetDrive": 6737755
+        "targetDrive": 6731503
       }
     },
     {
@@ -227382,14 +227382,14 @@
     },
     {
       "id": "Microsoft.VisualStudio.WDExpress",
-      "version": "15.9.37202.19",
+      "version": "15.9.37327.18",
       "type": "Vsix",
       "payloads": [
         {
           "fileName": "payload.vsix",
-          "sha256": "ca2994d12d8d911327e1417da21710c16effc271f57830e244e68c2c2aebe4d2",
-          "size": 391360,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/85966aef-8515-43ec-a8d5-8d95fd7c9998/ca2994d12d8d911327e1417da21710c16effc271f57830e244e68c2c2aebe4d2/payload.vsix",
+          "sha256": "cc57bd877475be23a2cc10c356abad986ac79562bc952fcc665c3b83eaa24b7b",
+          "size": 391175,
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/cc57bd877475be23a2cc10c356abad986ac79562bc952fcc665c3b83eaa24b7b/payload.vsix",
           "signer": {
             "$ref": "1"
           }
@@ -227399,7 +227399,7 @@
         "ignoreChanges": true
       },
       "installSizes": {
-        "targetDrive": 1214098
+        "targetDrive": 1213482
       },
       "dependencies": {
         "Microsoft.VisualStudio.WDExpress.Resources": "[15.0,16.0)"
@@ -237015,14 +237015,14 @@
     },
     {
       "id": "Microsoft.VisualStudio.Windows.Tools.Executables",
-      "version": "15.9.37202.19",
+      "version": "15.9.37327.18",
       "type": "Vsix",
       "payloads": [
         {
           "fileName": "payload.vsix",
-          "sha256": "ce513345b2be22aafa8447aa50911814e5d0f6cfe7e06e72a4799d146fe8c4f7",
-          "size": 91142,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/85966aef-8515-43ec-a8d5-8d95fd7c9998/ce513345b2be22aafa8447aa50911814e5d0f6cfe7e06e72a4799d146fe8c4f7/payload.vsix",
+          "sha256": "961e90acd397a65322391a9aee25744dc13f3143a2324be49edef19a7b8e2c2d",
+          "size": 90932,
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/961e90acd397a65322391a9aee25744dc13f3143a2324be49edef19a7b8e2c2d/payload.vsix",
           "signer": {
             "$ref": "1"
           }
@@ -237032,7 +237032,7 @@
         "ignoreChanges": true
       },
       "installSizes": {
-        "targetDrive": 179306
+        "targetDrive": 178306
       }
     },
     {
@@ -249242,14 +249242,14 @@
     },
     {
       "id": "Microsoft.VisualStudio.XamlDesigner.Executables",
-      "version": "15.9.37202.19",
+      "version": "15.9.37327.18",
       "type": "Vsix",
       "payloads": [
         {
           "fileName": "payload.vsix",
-          "sha256": "4aaa17e0ec5c592270ccef8498b35fda328d9123893e7fd406ab6d5ff680b1d2",
-          "size": 129365,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/85966aef-8515-43ec-a8d5-8d95fd7c9998/4aaa17e0ec5c592270ccef8498b35fda328d9123893e7fd406ab6d5ff680b1d2/payload.vsix",
+          "sha256": "0792c4c594b9619668909c52568861e984bf9b2b0e6e8af37d6ca193a71c9fc7",
+          "size": 129228,
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/0792c4c594b9619668909c52568861e984bf9b2b0e6e8af37d6ca193a71c9fc7/payload.vsix",
           "signer": {
             "$ref": "1"
           }
@@ -249259,7 +249259,7 @@
         "ignoreChanges": true
       },
       "installSizes": {
-        "targetDrive": 345219
+        "targetDrive": 344483
       }
     },
     {
@@ -265449,23 +265449,23 @@
     },
     {
       "id": "TALayout",
-      "version": "15.9.37202.19",
+      "version": "15.9.37327.18",
       "type": "Exe",
       "payloads": [
         {
           "fileName": "vs_testcontroller_testagent.ps1",
-          "sha256": "8886d561cf3cdcba19509cabe426314232abb104c0420edbe8878283f61fbe12",
-          "size": 23424,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/9f9b8f57-28ae-49d7-9e95-b95c100d976c/8886d561cf3cdcba19509cabe426314232abb104c0420edbe8878283f61fbe12/vs_testcontroller_testagent.ps1",
+          "sha256": "7637fc3e0f8d14bd34deb88a8041300f177653347a84fb798703bb4af80093a5",
+          "size": 23156,
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/7637fc3e0f8d14bd34deb88a8041300f177653347a84fb798703bb4af80093a5/vs_testcontroller_testagent.ps1",
           "signer": {
             "$ref": "3"
           }
         },
         {
           "fileName": "vs_testcontroller_testagent.exe",
-          "sha256": "d8ad7bb5ec0571f71a6665a3eeda0d6f0c958abee039bfafd0fafbb62070bd39",
-          "size": 4421360,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/9f9b8f57-28ae-49d7-9e95-b95c100d976c/d8ad7bb5ec0571f71a6665a3eeda0d6f0c958abee039bfafd0fafbb62070bd39/vs_testcontroller_testagent.exe",
+          "sha256": "35b1829b839ef1d17b072c3e3da741ffc50b84db99091c87877da60030cbc097",
+          "size": 4420856,
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/35b1829b839ef1d17b072c3e3da741ffc50b84db99091c87877da60030cbc097/vs_testcontroller_testagent.exe",
           "signer": {
             "$ref": "3"
           }
@@ -265474,7 +265474,7 @@
           "fileName": "vs_installer.opc",
           "sha256": "0f0cc11f000593a064d419462a8467b529fed8075b21a605a40785baa3d2f611",
           "size": 22461354,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/85966aef-8515-43ec-a8d5-8d95fd7c9998/0F0CC11F000593A064D419462A8467B529FED8075B21A605A40785BAA3D2F611/vs_installer.opc",
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/0F0CC11F000593A064D419462A8467B529FED8075B21A605A40785BAA3D2F611/vs_installer.opc",
           "signer": {
             "$ref": "1"
           }
@@ -265482,23 +265482,23 @@
       ],
       "installParams": {
         "fileName": "[SystemFolder]\\WindowsPowerShell\\v1.0\\powershell.exe",
-        "parameters": "-NoLogo -NoProfile -ExecutionPolicy Bypass -InputFormat None -Command \"& \"\"\"[PackageDir]\\vs_testcontroller_testagent.ps1\"\"\" -WorkingPath \"\"\"[PackageDir]\"\"\" -TargetPath \"\"\"[installDir]\"\"\" -Operation Install -InstallChannelUri \"\"\"[installChannelUri]\"\"\" -ChannelUri \"\"\"[channelUri]\"\"\" -ChannelId \"\"\"[channelId]\"\"\" -InstallCatalogUri \"\"\"[catalogPath]\"\"\" -PackageVersion \"\"\"15.0.37202.19\"\"\" -LogFilePath \"\"\"[LogFile]\"\"\"\";exit $LASTEXITCODE"
+        "parameters": "-NoLogo -NoProfile -ExecutionPolicy Bypass -InputFormat None -Command \"& \"\"\"[PackageDir]\\vs_testcontroller_testagent.ps1\"\"\" -WorkingPath \"\"\"[PackageDir]\"\"\" -TargetPath \"\"\"[installDir]\"\"\" -Operation Install -InstallChannelUri \"\"\"[installChannelUri]\"\"\" -ChannelUri \"\"\"[channelUri]\"\"\" -ChannelId \"\"\"[channelId]\"\"\" -InstallCatalogUri \"\"\"[catalogPath]\"\"\" -PackageVersion \"\"\"15.0.37327.18\"\"\" -LogFilePath \"\"\"[LogFile]\"\"\"\";exit $LASTEXITCODE"
       },
       "repairParams": {
         "fileName": "[SystemFolder]\\WindowsPowerShell\\v1.0\\powershell.exe",
-        "parameters": "-NoLogo -NoProfile -ExecutionPolicy Bypass -InputFormat None -Command \"& \"\"\"[PackageDir]\\vs_testcontroller_testagent.ps1\"\"\" -WorkingPath \"\"\"[PackageDir]\"\"\" -TargetPath \"\"\"[installDir]\"\"\" -Operation Repair -InstallChannelUri \"\"\"[installChannelUri]\"\"\" -ChannelUri \"\"\"[channelUri]\"\"\" -ChannelId \"\"\"[channelId]\"\"\" -InstallCatalogUri \"\"\"[catalogPath]\"\"\" -PackageVersion \"\"\"15.0.37202.19\"\"\" -LogFilePath \"\"\"[LogFile]\"\"\"\";exit $LASTEXITCODE"
+        "parameters": "-NoLogo -NoProfile -ExecutionPolicy Bypass -InputFormat None -Command \"& \"\"\"[PackageDir]\\vs_testcontroller_testagent.ps1\"\"\" -WorkingPath \"\"\"[PackageDir]\"\"\" -TargetPath \"\"\"[installDir]\"\"\" -Operation Repair -InstallChannelUri \"\"\"[installChannelUri]\"\"\" -ChannelUri \"\"\"[channelUri]\"\"\" -ChannelId \"\"\"[channelId]\"\"\" -InstallCatalogUri \"\"\"[catalogPath]\"\"\" -PackageVersion \"\"\"15.0.37327.18\"\"\" -LogFilePath \"\"\"[LogFile]\"\"\"\";exit $LASTEXITCODE"
       },
       "uninstallParams": {
         "fileName": "[SystemFolder]\\WindowsPowerShell\\v1.0\\powershell.exe",
-        "parameters": "-NoLogo -NoProfile -ExecutionPolicy Bypass -InputFormat None -Command \"& \"\"\"[PackageDir]\\vs_testcontroller_testagent.ps1\"\"\" -WorkingPath \"\"\"[PackageDir]\"\"\" -TargetPath \"\"\"[installDir]\"\"\" -Operation Uninstall -InstallChannelUri \"\"\"[installChannelUri]\"\"\" -ChannelUri \"\"\"[channelUri]\"\"\" -ChannelId \"\"\"[channelId]\"\"\" -InstallCatalogUri \"\"\"[catalogPath]\"\"\" -PackageVersion \"\"\"15.0.37202.19\"\"\" -LogFilePath \"\"\"[LogFile]\"\"\"\";exit $LASTEXITCODE"
+        "parameters": "-NoLogo -NoProfile -ExecutionPolicy Bypass -InputFormat None -Command \"& \"\"\"[PackageDir]\\vs_testcontroller_testagent.ps1\"\"\" -WorkingPath \"\"\"[PackageDir]\"\"\" -TargetPath \"\"\"[installDir]\"\"\" -Operation Uninstall -InstallChannelUri \"\"\"[installChannelUri]\"\"\" -ChannelUri \"\"\"[channelUri]\"\"\" -ChannelId \"\"\"[channelId]\"\"\" -InstallCatalogUri \"\"\"[catalogPath]\"\"\" -PackageVersion \"\"\"15.0.37327.18\"\"\" -LogFilePath \"\"\"[LogFile]\"\"\"\";exit $LASTEXITCODE"
       },
       "layoutParams": {
         "fileName": "[SystemFolder]\\WindowsPowerShell\\v1.0\\powershell.exe",
-        "parameters": "-NoLogo -NoProfile -ExecutionPolicy Bypass -InputFormat None -Command \"& \"\"\"[PackageLayoutDir]\\vs_testcontroller_testagent.ps1\"\"\" -WorkingPath \"\"\"[PackageLayoutDir]\"\"\" -TargetPath \"\"\"[PackageLayoutDir]\"\"\" -Operation Layout -InstallChannelUri \"\"\"[installChannelUri]\"\"\" -ChannelUri \"\"\"[channelUri]\"\"\" -ChannelId \"\"\"[channelId]\"\"\" -InstallCatalogUri \"\"\"[catalogPath]\"\"\" -PackageVersion \"\"\"15.0.37202.19\"\"\"\";exit $LASTEXITCODE"
+        "parameters": "-NoLogo -NoProfile -ExecutionPolicy Bypass -InputFormat None -Command \"& \"\"\"[PackageLayoutDir]\\vs_testcontroller_testagent.ps1\"\"\" -WorkingPath \"\"\"[PackageLayoutDir]\"\"\" -TargetPath \"\"\"[PackageLayoutDir]\"\"\" -Operation Layout -InstallChannelUri \"\"\"[installChannelUri]\"\"\" -ChannelUri \"\"\"[channelUri]\"\"\" -ChannelId \"\"\"[channelId]\"\"\" -InstallCatalogUri \"\"\"[catalogPath]\"\"\" -PackageVersion \"\"\"15.0.37327.18\"\"\"\";exit $LASTEXITCODE"
       },
       "layoutInstallParams": {
         "fileName": "[SystemFolder]\\WindowsPowerShell\\v1.0\\powershell.exe",
-        "parameters": "-NoLogo -NoProfile -ExecutionPolicy Bypass -InputFormat None -Command \"& \"\"\"[PackageDir]\\vs_testcontroller_testagent.ps1\"\"\" -WorkingPath \"\"\"[PackageLayoutDir]\"\"\" -TargetPath \"\"\"[installDir]\"\"\" -Operation InstallFromLayout -InstallChannelUri \"\"\"[installChannelUri]\"\"\" -ChannelUri \"\"\"[channelUri]\"\"\" -ChannelId \"\"\"[channelId]\"\"\" -InstallCatalogUri \"\"\"[catalogPath]\"\"\" -PackageVersion \"\"\"15.0.37202.19\"\"\" -LogFilePath \"\"\"[LogFile]\"\"\"\";exit $LASTEXITCODE"
+        "parameters": "-NoLogo -NoProfile -ExecutionPolicy Bypass -InputFormat None -Command \"& \"\"\"[PackageDir]\\vs_testcontroller_testagent.ps1\"\"\" -WorkingPath \"\"\"[PackageLayoutDir]\"\"\" -TargetPath \"\"\"[installDir]\"\"\" -Operation InstallFromLayout -InstallChannelUri \"\"\"[installChannelUri]\"\"\" -ChannelUri \"\"\"[channelUri]\"\"\" -ChannelId \"\"\"[channelId]\"\"\" -InstallCatalogUri \"\"\"[catalogPath]\"\"\" -PackageVersion \"\"\"15.0.37327.18\"\"\" -LogFilePath \"\"\"[LogFile]\"\"\"\";exit $LASTEXITCODE"
       },
       "installSizes": {
         "systemDrive": 943718400
@@ -265510,7 +265510,7 @@
             "registryKey": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\VisualStudio\\15.0\\Setup\\testagentlayout\\[channelId]",
             "id": "TestAgentLayoutReg",
             "registryValue": "Version",
-            "registryData": "[15.0.37202.19]"
+            "registryData": "[15.0.37327.18]"
           }
         ]
       }
@@ -265844,9 +265844,9 @@
         },
         {
           "fileName": "WinSdkInstaller.exe",
-          "sha256": "c9d331ffa8ddee3bcaf0dbce1ebf14771e3ba7596d4e4b1c5848beee4e56859c",
+          "sha256": "16a9266232027893aa2b2224bef85d1ef1b6d9e615c1d8256a83e1b0a8a4f18c",
           "size": 22528,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/9f9b8f57-28ae-49d7-9e95-b95c100d976c/c9d331ffa8ddee3bcaf0dbce1ebf14771e3ba7596d4e4b1c5848beee4e56859c/WinSdkInstaller.exe",
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/16a9266232027893aa2b2224bef85d1ef1b6d9e615c1d8256a83e1b0a8a4f18c/WinSdkInstaller.exe",
           "signer": {
             "$ref": "3"
           }
@@ -268372,9 +268372,9 @@
         },
         {
           "fileName": "WinSdkInstaller.exe",
-          "sha256": "c9d331ffa8ddee3bcaf0dbce1ebf14771e3ba7596d4e4b1c5848beee4e56859c",
+          "sha256": "16a9266232027893aa2b2224bef85d1ef1b6d9e615c1d8256a83e1b0a8a4f18c",
           "size": 22528,
-          "url": "https://download.visualstudio.microsoft.com/download/pr/9f9b8f57-28ae-49d7-9e95-b95c100d976c/c9d331ffa8ddee3bcaf0dbce1ebf14771e3ba7596d4e4b1c5848beee4e56859c/WinSdkInstaller.exe",
+          "url": "https://download.visualstudio.microsoft.com/download/pr/b3c72f78-68f5-472e-89c3-c688635c15a4/16a9266232027893aa2b2224bef85d1ef1b6d9e615c1d8256a83e1b0a8a4f18c/WinSdkInstaller.exe",
           "signer": {
             "$ref": "3"
           }
@@ -268660,20 +268660,20 @@
     "signInfo": {
       "signatureMethod": "sha256RSA_cng",
       "digestMethod": "sha256",
-      "digestValue": "6fvicAqpSyGFbqt6xvEYorskh/c4Ce12uf5oHFkGvUI=",
+      "digestValue": "wdZ11Tpzx4SWOSqrWDlfwghbjIQb2j8p4cDn2yhRX1M=",
       "canonicalization": ""
     },
-    "signatureValue": "k2A0uKOQFNizRikMTvdG9A4ryayqIeyD28mz4Ds5JGr0hEuv6h6qbYUdycmEadKzOaVmLOKnV+IEbztZ0kmZNF6piVx1ck/Vs8A3/qtssvFQ44JsTdbSyjtxiBZNo+Wpx02vwslnFwUNLAF4NIJOgM0k4Pe78fe8s1yZSlznq83YCaaYw+/3HQhtKs+CGW6OZu7rNehCdtvBRDnS/I3b9hbxeIKxR/KxtIchdA6kEgXO/VcxFNfVGymG6zYRVtlyhjkJRvI8dYJzLYlKkfXd+vF9haJK9lutAPgO6lXZNTA7rFTFUiDgQb42fUplyJsSVrf0RlY/HV3Rvoz7QoiGug==",
+    "signatureValue": "JuLrfcnop7EbPDY6c8zTuswZK98CLw4zKr6R4nv+q9QQ3ahCf2SII5ocB3IM41sTNn0FuQUkJZLmmDSs2VBoaiTjBPGSkJJqD9q8gBGoWzD+NBFaxfBEcw3Xa8vj5K7KFWxYUI3FkBiorbcFArE7mJontEkUDeZGeGa9jJHHt0zpSaA2P6S3riX6/4i+f0/+qMG/VAZ2NP+Zj5uzCn+gjeQZYiyvlDOjdnH2CY/xvkiaPJM+eBiUScG2dL2WemOHhne4/wiTL8qgxsdA5o4nXw4Ougc9GI2h7iZht0Pu3RjP/RChUjsp7BPnK4x/CBJZG2yIfKuyT5b+CgyzwmFpFg==",
     "keyInfo": {
       "keyValue": {
         "rsaKeyValue": {
-          "modulus": "wEpIdXKb7lKn26sXpXuywkhxGplTQXxROLmNRZBrAHVBf7546RNXZwA/bzDqsuWTuPSC4T+I4j/z9j5/WqPuUw7SpnEPqWXc2xu7eN8kVyQt5170xkK6KHT4vVEkIvayPtIMLl0SgSCOy/pN5DJCi5ha7FlI84F1Qi2GumR+wQgCwHCVmU8Fj6Ik+B6akISXGCwe6X3rQFQngRFWQ/IrSkOkAOfy0EfvV+nZUo+FcbWuCZ6cb4Eq5I1ws/rZSeuwAWeedZcNt0VlNbsn4AnxBYQX4sj0dlko7JD5fWqeqq3/HzUNbBmLp9qeCXV8XlACn9YVWv900F47z04kVwpyTw==",
+          "modulus": "0L3sF8cfYGWRQumLNVgWsvASfJBgOCUJx+QjGn6jgEpU6SvR/KOWV017dHGlUEzTFD7eOOcF2A/nRbWilk8A59SOdqFEqwvbyYp9RrKrfs8iiS+Q4N3kF20DUetQ5jMttBi0yDt0hXnfUX4v6KYYAixhSw0d69Crx48DG/42FktHHpVf+C89uy3wHpJvL/ROSF2nol2wFGGSitPdJ+AlZdyQbWzfvQ7SPUjbv8o76M1udv7u0V/07aWvyg5abqJGfmXG75rXfbq/YBS72c4eNaPTLBP3JULXWhVhr7qOibmv57aYJHstxOf7wRXvjCTxuqYXZ7qOq+e2bnQrnYiNWw==",
           "exponent": "AQAB"
         }
       },
       "x509Data": [
-        "MIIF9DCCA9ygAwIBAgITMwAABIVemewOWS/N1wAAAAAEhTANBgkqhkiG9w0BAQsFADB+MQswCQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEQMA4GA1UEBxMHUmVkbW9uZDEeMBwGA1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMSgwJgYDVQQDEx9NaWNyb3NvZnQgQ29kZSBTaWduaW5nIFBDQSAyMDExMB4XDTI1MDYxOTE4MjEzN1oXDTI2MDYxNzE4MjEzN1owdDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEeMBwGA1UEAxMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwEpIdXKb7lKn26sXpXuywkhxGplTQXxROLmNRZBrAHVBf7546RNXZwA/bzDqsuWTuPSC4T+I4j/z9j5/WqPuUw7SpnEPqWXc2xu7eN8kVyQt5170xkK6KHT4vVEkIvayPtIMLl0SgSCOy/pN5DJCi5ha7FlI84F1Qi2GumR+wQgCwHCVmU8Fj6Ik+B6akISXGCwe6X3rQFQngRFWQ/IrSkOkAOfy0EfvV+nZUo+FcbWuCZ6cb4Eq5I1ws/rZSeuwAWeedZcNt0VlNbsn4AnxBYQX4sj0dlko7JD5fWqeqq3/HzUNbBmLp9qeCXV8XlACn9YVWv900F47z04kVwpyTwIDAQABo4IBczCCAW8wHwYDVR0lBBgwFgYKKwYBBAGCN0wIAQYIKwYBBQUHAwMwHQYDVR0OBBYEFLgmchogri2BNGlO4+UxamNOZJKNMEUGA1UdEQQ+MDykOjA4MR4wHAYDVQQLExVNaWNyb3NvZnQgQ29ycG9yYXRpb24xFjAUBgNVBAUTDTIzMDAxMis1MDUzNTkwHwYDVR0jBBgwFoAUSG5k5VAF04KqFzc3IrVtqMp1ApUwVAYDVR0fBE0wSzBJoEegRYZDaHR0cDovL3d3dy5taWNyb3NvZnQuY29tL3BraW9wcy9jcmwvTWljQ29kU2lnUENBMjAxMV8yMDExLTA3LTA4LmNybDBhBggrBgEFBQcBAQRVMFMwUQYIKwYBBQUHMAKGRWh0dHA6Ly93d3cubWljcm9zb2Z0LmNvbS9wa2lvcHMvY2VydHMvTWljQ29kU2lnUENBMjAxMV8yMDExLTA3LTA4LmNydDAMBgNVHRMBAf8EAjAAMA0GCSqGSIb3DQEBCwUAA4ICAQAo5qgKdgouLEx2XIvqpLRACrBZORzVRislkdqxRl7He3IIGdOB+VOEldHwC+nzhPXS77eCOxwRy4aRnROVIy8uDcS0xtmwwJHgFZsZndrillRisptWmqw8V379xgjeJkV/j5+HPqct0v+ipLeXkgwCCLK8ysNyodkltYQsF1/5Nb+G/jR9RY5fov8TybKVwhbmQeGguRS0+X4G0Sqp7FngHZ/A7K2EIU90Fy7ejb9/3TM7+xvwnaW3XKLpfBWJfrd3ZlzPkiApQt5dmntMDpTa0ONskBMnLj1OTqKi0/OY7Ge/uAmknHxSDZTu5e2O6/8Wrqh20j0Na96CAvnu9ebNhtwpWWt8vfWmMdpZ12HtbK3KyMfDQF01YosqV1Z/WRphJHzXHw4qhkMJJpec/Z5t6VogWevWnWgQWwBRI8iRuMtGu+m3pf+LAwlb2mcyzN0xW8VTvQUK42UbWyWW5At1wK6S6mUn8ed0rmHXXcT1/Kb3KhbhLvMHFHg9ObfcTWyeE7XQBAiZRItL7wcZZjObcxV8tqmXqjzFx0kGKj4GfY70nGejcM5xQ9Pt95G88oTks/1rhmwLuHB2RvICp5UFU+LgNg4nsfQzLNlh4qJDZJ2JS6FHll1tUKyS6ajvNky8ik2wTP6GRwHSHNJM6Ek66PW9/r459vNPQ9PkjjglWQ==",
-        "MIIHejCCBWKgAwIBAgIKYQ6Q0gAAAAAAAzANBgkqhkiG9w0BAQsFADCBiDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEyMDAGA1UEAxMpTWljcm9zb2Z0IFJvb3QgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IDIwMTEwHhcNMTEwNzA4MjA1OTA5WhcNMjYwNzA4MjEwOTA5WjB+MQswCQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEQMA4GA1UEBxMHUmVkbW9uZDEeMBwGA1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMSgwJgYDVQQDEx9NaWNyb3NvZnQgQ29kZSBTaWduaW5nIFBDQSAyMDExMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAq/D6chAcLq3YbqqCEE00uvK2WCGfQhsqa+laUKq4BjgaBEm6f8MMHt03a8YS2AvwOMKZBrDIOdUBFDFC04kNeWSHfpRgJGyvnkmc6Whe0t+bU7IKLMOv2akrrnoJr9eWWcpgGgXpZnboMlImEi/nqwhQz7NEt13YxC4Ddato88tt8zpcoRb0RrrgOGSsbmQ1eKagYw8t00CT+OPeBw3VXHmlSSnnDb6gE3e+lD3v++MrWhAfTVYoonpy4BI6t0le2O3tQ5GD2Xuye4Yb2T6xjF3oiU+EGvKhL1nkkDstrjNYxbc+/jLTswM9sbKvkjh+0p2ALPVOVpEhNSXDOW5kf1O6nA+tGSOEy/S6A4aN91/w0FK/jJSHvMAhdCVfGCi2zCcoOCWYOUo2z3yxkq4cI6epZuxhH2rhKEmdX4jiJV3TIUs+UsS1Vz8kA/DRelsv1SPjcF0PUUZ3s/gA4bysAoJf28AVs70b1FVL5zmhD+kjSbwYuER8ReTBw3J64HLnJN+/RpnF78IcV9uDjexNSTCnq47f7Fufr/zdsGbiwZeBe+3W7UvnSSmnEyimp31ngOaKYnhfsi+E11ecXL93KCjx7W3DKI8sj0A3T8HhhUSJxAlMxdSlQy90lfdu+HggWCwTXWCVmj5PM4TasIgX3p5O9JawvEagbJjS4NaIjAsCAwEAAaOCAe0wggHpMBAGCSsGAQQBgjcVAQQDAgEAMB0GA1UdDgQWBBRIbmTlUAXTgqoXNzcitW2oynUClTAZBgkrBgEEAYI3FAIEDB4KAFMAdQBiAEMAQTALBgNVHQ8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAfBgNVHSMEGDAWgBRyLToCMZBDuRQFTuHqp8cx0SOJNDBaBgNVHR8EUzBRME+gTaBLhklodHRwOi8vY3JsLm1pY3Jvc29mdC5jb20vcGtpL2NybC9wcm9kdWN0cy9NaWNSb29DZXJBdXQyMDExXzIwMTFfMDNfMjIuY3JsMF4GCCsGAQUFBwEBBFIwUDBOBggrBgEFBQcwAoZCaHR0cDovL3d3dy5taWNyb3NvZnQuY29tL3BraS9jZXJ0cy9NaWNSb29DZXJBdXQyMDExXzIwMTFfMDNfMjIuY3J0MIGfBgNVHSAEgZcwgZQwgZEGCSsGAQQBgjcuAzCBgzA/BggrBgEFBQcCARYzaHR0cDovL3d3dy5taWNyb3NvZnQuY29tL3BraW9wcy9kb2NzL3ByaW1hcnljcHMuaHRtMEAGCCsGAQUFBwICMDQeMiAdAEwAZQBnAGEAbABfAHAAbwBsAGkAYwB5AF8AcwB0AGEAdABlAG0AZQBuAHQALiAdMA0GCSqGSIb3DQEBCwUAA4ICAQBn8oalmOBUeRou09h0ZyKbC5YR4WOSmUKWfdJ5DJDBZV8uLD74w3LRbYP+vj/oCso7v0epo/Np22O/IjWll11lhJB9i0ZQVdgMknzSGksc8zxCi1LQsP1r4z4HLimb5j0bpdS1HXeUOeLpZMlEPXh6I/MTfaaQdION9MsmAkYqwooQu6SpBQyb7Wj6aC6VoCo/KmtYSWMfCWluWpiW5IP0wI/zRive/DvQvTXvbiWu5a8n7dDd8w6vmSiXmE0OPQvyCInWH8MyGOLwxS3OW560STkKxgrCxq2u5bLZ2xWIUUVYODJxJxp/sfQn+N4sOiBpmLJZiWhub6e3dMNABQamASooPoI/E01mC8CzTfXhj38cbxV9Rad25UAqZaPDXVJihsMdYzaXht/a8/jyFqGaJ+HNpZfQ7l1jQeNbB5yHPgZ3BtEGsXUfFL5hYbXw3MYbBL7fQccOKO7eZS/sl/ahXJbYANahRr1Z85elCUtIEJmAH9AAKcWxm6U/RXceNcbSoqKfenoi+kiVH6v7RyOA9Z74v2u3S5fi63V4GuzqN5l5GEv/1rMjaHXmr/r8i+sLgOppO6/8MO0ETI7f33VtY5E90Z1WTk+/gFcioXgRMiF670EKsT/7qMykXcGhiJtXcVZOSEXAQsmbdlsKgEhr/Xmfwb1tbWrJUnMTDXpQzQ==",
+        "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"
       ]
     },
@@ -268683,9 +268683,9 @@
         "MIIHcTCCBVmgAwIBAgITMwAAABXF52ueAptJmQAAAAAAFTANBgkqhkiG9w0BAQsFADCBiDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEyMDAGA1UEAxMpTWljcm9zb2Z0IFJvb3QgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IDIwMTAwHhcNMjEwOTMwMTgyMjI1WhcNMzAwOTMwMTgzMjI1WjB8MQswCQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEQMA4GA1UEBxMHUmVkbW9uZDEeMBwGA1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMSYwJAYDVQQDEx1NaWNyb3NvZnQgVGltZS1TdGFtcCBQQ0EgMjAxMDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAOThpkzntHIhC3miy9ckeb0O1YLT/e6cBwfSqWxOdcjKNVf2AX9sSuDivbk+F2Az/1xPx2b3lVNxWuJ+Slr+uDZnhUYjDLWNE893MsAQGOhgfWpSg0S3po5GawcU88V29YZQ3MFEyHFcUTE3oAo4bo3t1w/YJlN8OWECesSq/XJprx2rrPY2vjUmZNqYO7oaezOtgFt+jBAcnVL+tuhiJdxqD89d9P6OU8/W7IVWTe/dvI2k45GPsjksUZzpcGkNyjYtcI4xyDUoveO0hyTD4MmPfrVUj9z6BVWYbWg7mka97aSueik3rMvrg0XnRm7KMtXAhjBcTyziYrLNueKNiOSWrAFKu75xqRdbZ2De+JKRHh09/SDPc31BmkZ1zcRfNN0Sidb9pSB9fvzZnkXftnIv231fgLrbqn427DZM9ituqBJR6L8FA6PRc6ZNN3SUHDSCD/AQ8rdHGO2n6Jl8P0zbr17C89XYcz1DTsEzOUyOArxCaC4Q6oRRRuLRvWoYWmEBc8pnol7XKHYC4jMYctenIPDC+hIK12NvDMk2ZItboKaDIV1fMHSRlJTYuVD5C4lh8zYGNRiER9vcG9H9stQcxWv2XFJRXRLbJbqvUAV6bMURHXLvjflSxIUXk8A8FdsaN8cIFRg/eKtFtvUeh17aj54WcmnGrnu3tz5q4i6tAgMBAAGjggHdMIIB2TASBgkrBgEEAYI3FQEEBQIDAQABMCMGCSsGAQQBgjcVAgQWBBQqp1L+ZMSavoKRPEY1Kc8Q/y8E7jAdBgNVHQ4EFgQUn6cVXQBeYl2D9OXSZacbUzUZ6XIwXAYDVR0gBFUwUzBRBgwrBgEEAYI3TIN9AQEwQTA/BggrBgEFBQcCARYzaHR0cDovL3d3dy5taWNyb3NvZnQuY29tL3BraW9wcy9Eb2NzL1JlcG9zaXRvcnkuaHRtMBMGA1UdJQQMMAoGCCsGAQUFBwMIMBkGCSsGAQQBgjcUAgQMHgoAUwB1AGIAQwBBMAsGA1UdDwQEAwIBhjAPBgNVHRMBAf8EBTADAQH/MB8GA1UdIwQYMBaAFNX2VsuP6KJcYmjRPZSQW9fOmhjEMFYGA1UdHwRPME0wS6BJoEeGRWh0dHA6Ly9jcmwubWljcm9zb2Z0LmNvbS9wa2kvY3JsL3Byb2R1Y3RzL01pY1Jvb0NlckF1dF8yMDEwLTA2LTIzLmNybDBaBggrBgEFBQcBAQROMEwwSgYIKwYBBQUHMAKGPmh0dHA6Ly93d3cubWljcm9zb2Z0LmNvbS9wa2kvY2VydHMvTWljUm9vQ2VyQXV0XzIwMTAtMDYtMjMuY3J0MA0GCSqGSIb3DQEBCwUAA4ICAQCdVX38Kq3hLB9nATEkW+Geckv8qW/qXBS2Pk5HZHixBpOXPTEztTnXwnE2P9pkbHzQdTltuw8x5MKP+2zRoZQYIu7pZmc6U03dmLq2HnjYNi6cqYJWAAOwBb6J6Gngugnue99qb74py27YP0h1AdkY3m2CDPVtI1TkeFN1JFe53Z/zjj3G82jfZfakVqr3lbYoVSfQJL1AoL8ZthISEV09J+BAljis9/kpicO8F7BUhUKz/AyeixmJ5/ALaoHCgRlCGVJ1ijbCHcNhcy4sa3tuPywJeBTpkbKpW99Jo3QMvOyRgNI95ko+ZjtPu4b6MhrZlvSP9pEB9s7GdP32THJvEKt1MMU0sHrYUP4KWN1APMdUbZ1jdEgssU5HLcEUBHG/ZPkkvnNtyo4JvbMBV0lUZNlz138eW0QBjloZkWsNn6Qo3GcZKCS6OEuabvshVGtqRRFHqfG3rsjoiV5PndLQTHa1V1QJsWkBRH58oWFsc/4Ku+xBZj1p/cvBQUl+fpO+y/g75LcVv7TOPqUxUYS8vwLBgqJ7Fx0ViY1w/ue10CgaiQuPNtq6TPmb/wrpNPgkNWcr4A245oyZ1uEi6vAnQj0llOZ0dFtq0Z4+7X6gMTN9vMvpe784cETRkPHIqzqKOghif9lwY1NNje6CbaUFEMFxBmoQtB1VM1izoXBm8g==",
         "MIIF7TCCA9WgAwIBAgIQKMw6Jb+6RKxEmptYa0M5qjANBgkqhkiG9w0BAQsFADCBiDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEyMDAGA1UEAxMpTWljcm9zb2Z0IFJvb3QgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IDIwMTAwHhcNMTAwNjIzMjE1NzI0WhcNMzUwNjIzMjIwNDAxWjCBiDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEyMDAGA1UEAxMpTWljcm9zb2Z0IFJvb3QgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IDIwMTAwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQC5CJ4o5OTsBk5QaLNBxXvrrraOr4G6IkQfZTRpTL5wQBfyFnvief2G7Q059BuorZKQHss9do9a2bWREC48BY2KbSRU5x/tVq2DtFCcFaUXdIhZIPwIxYR202jUbyh4zly481CQRP/jY1++oZoslhUE1gf+HoQh4EIxEcQoNpTPUKRinsnWq3EAslsM5pbUCiSW9f/G1bcb18u3IWKvEtyhXTfjGvsaRpjAm8DnYx8qCJMCfh5qjvKfGInkIoWisYRXQP/1DthvnO3iRTEBzRfpf7CBReOqIUAmoXKqp088AQV+7oNYsV4GY5likXiCtw2TDCRqtBvbJ+xflQQ/k0ow9ZcYs6f5GaeTMx0ByNsiUlzXJclG+aL7h1lDvptisY0thkQaRqx4YX4wCfquicRBKiJmA5E5RZzHiwyoyg0v+1LqDPdjMyOd/rAfrWfWp1ADxgRwY7UssYZaQ7f7rvluKW4hIUEmBozJw+6wwoWTobmF2eYybEtMP9Zdo+W1nXfDnMBVt3QA47g4q4OXUOGaQiQdxsCjMNEaWshSNPdz8ccYHzOteuzLQWDzI5QgwkhFrFxRxi6AwuJ3Fb2Fh+02nZaR7gC1o3Dsn+ONgGiDdrqvXXBSIhbiZvu6s8XC9z4vd6bK3sGmxkhMwzdRI9Mn17hOcJbwoUR2r3jPmuFmEwIDAQABo1EwTzALBgNVHQ8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQU1fZWy4/oolxiaNE9lJBb186aGMQwEAYJKwYBBAGCNxUBBAMCAQAwDQYJKoZIhvcNAQELBQADggIBAKylloy/u66m9tdxh0MxVoj9HDJxWzW31PCR8q834hTx8wImBT4WFH8UurhP+4mysufUCcxtuVs7ZGVwZrfysVrfGgLz9VG4Z215879We+SEuSsem0CcJjT5RxiYadgc17bRv49hwmfEte9gQ44QGzZJ5CDKrafBsSdlCfjN9Vsq0IQz8+8f8vWcC1iTN6B1oN5y3mx1KmYi9YwGMFafQLkwqkB3FYLXi+zA07K9g8V3DB6urxlToE15cZ8PrzDOZ/nWLMwiQXoH8pdCGM5ZeRBV3m8Q5Ljag2ZAFgloI1uXLiaaArtXjMW4umliMoCJnqH9wJJ8eyszGYQqY8UAaGL6n0eNmXpFOqfp7e5pQrXzgZtHVhB7/HA2hBhz6u/5l02eMyPdJgu6Krc/RNyDJ/+9YVkrEbfKT9vFiwwcMa4y+Pi5Qvd/3GGadrFaBOERPWZFtxhxvskkhdbz1LpBNF0SLSW5jaYTSG1LsAd9mZMJYYF0VyaKq2nj5NnHiMwk2OxSJFwevJEU4pbe6wrant1fs1vb1ILsxiBQhyVAOvvH7s3+M+Vuw4QJVQMlOcDpNV1lMaj2v6AJzSnHszYyLtyV84PBWs+LjfbqsyH4pO0eMQ62TBGrYAukEiMiF6M2ZIKRBBLgq28ey1AFYbRA/1mGcdHVM2l8qXOKONdkDPFp"
       ],
-      "timestamp": "2026-04-02-07:40:55",
+      "timestamp": "2026-05-27-04:40:55",
       "counterSignatureMethod": "timeStamp",
-      "counterSignature": "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"
+      "counterSignature": "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"
     }
   }
 }
